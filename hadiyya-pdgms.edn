@@ -11,7 +11,6 @@
 	  :gender [:Common, :Fem, :Masc, :Polite]
 	  :interrogClass [:InterrogProHow, :InterrogProHowMany, :InterrogProWhat, :InterrogProWhere, :InterrogProWho]
 	  :number [:Plural, :Singular]
-	  :numgen [:Plural, :Singular]
 	  :person [:Person1, :Person2, :Person3]
 	  :polarity [:Affirmative, :Interrogative, :Negative]
 	  :pos [:Pronoun, :Pronoun, :Verb]
@@ -19,6 +18,12 @@
 	  :tam [:Imperative, :Imperfect, :Jussive, :PastPerfect, :PastProgressive, :PresenProgressive, :PresentPerfect, :SimplePerfect]
 	  :morphClass [:DervStem, :SubjMarkerTemplates]
 	  }
+:pclass {
+           :pngClass [:person :number :gender ]
+           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb ]
+           :inflClass [:conjClass  ]
+           :otherClass [ ]
+          }
 :morphemes {
   :DERVSTEM {:gloss "[x]", :lemma "[y]", }
   :PRODEM {:gloss "[x]", :lemma "[y]", }
@@ -298,19 +303,19 @@
 	    :morpheme :PRODEM,
 	    :pos :Pronoun,
 	    :proClass :Demonstrative}
-    :terms [[:deixis, :numgen, :token]  ;; schema
-	    [:Near, :Singular, "m"],
-	    [:Near, :Singular, "f"],
-	    [:Far, :Singular, "m"],
-	    [:Far, :Singular, "f"],
-	    [:Near, :Plural, "⊤"],
-	    [:Far, :Plural, "⊤"],
-	    [:Near, :Singular, "m"],
-	    [:Near, :Singular, "f"],
-	    [:Far, :Singular, "m"],
-	    [:Far, :Singular, "f"],
-	    [:Near, :Plural, "⊤"],
-	    [:Far, :Plural, "⊤"]]
+    :terms [[:deixis, :number, :gender, :token]  ;; schema
+	    [:Near, :Singular, :Masc, " "],
+	    [:Near, :Singular, :Fem, " "],
+	    [:Far, :Singular, :Masc, " "],
+	    [:Far, :Singular, :Fem, " "],
+	    [:Near, :Plural, :Common, " "],
+	    [:Far, :Plural, :Common, " "],
+	    [:Near, :Singular, :Masc, " "],
+	    [:Near, :Singular, :Fem, " "],
+	    [:Far, :Singular, :Masc, " "],
+	    [:Far, :Singular, :Fem, " "],
+	    [:Near, :Plural, :Common, " "],
+	    [:Far, :Plural, :Common, " "]]
     }
     {:label "hadiyya-VDervStem"
     :note "SimR1985 pp. 32-42. Note discussions of consonant assimilations for causative –s-

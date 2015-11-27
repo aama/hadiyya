@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/hadiyya/hadiyya-pdgms.edn
+#../aama-data/data/hadiyya//hadiyya-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -165,22 +165,6 @@ had:Interr aamas:lang aama:Hadiyya .
 had:Interr rdf:type had:Proclass .
 had:Interr rdfs:label "Interr" .
 
-#SCHEMATA: numgen
-had:numgen aamas:lang aama:Hadiyya .
-had:Numgen aamas:lang aama:Hadiyya .
-had:numgen rdfs:domain aamas:Term .
-had:Numgen rdfs:label "numgen exponents" .
-had:numgen rdfs:label "numgen" .
-had:numgen rdfs:range had:Numgen .
-had:Numgen rdfs:subClassOf had:MuExponent .
-had:numgen rdfs:subPropertyOf had:muProperty .
-had:Plural aamas:lang aama:Hadiyya .
-had:Plural rdf:type had:Numgen .
-had:Plural rdfs:label "Plural" .
-had:Singular aamas:lang aama:Hadiyya .
-had:Singular rdf:type had:Numgen .
-had:Singular rdfs:label "Singular" .
-
 #SCHEMATA: case
 had:case aamas:lang aama:Hadiyya .
 had:Case aamas:lang aama:Hadiyya .
@@ -309,6 +293,30 @@ had:Near rdfs:label "Near" .
 
 #PCLASSES:
 
+had:person aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+had:number aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+had:gender aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+had:case aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:deixis aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:derivedStem aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:interrogClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:polarity aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:pos aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:proClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:tamb aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+had:conjClass aamas:pclass aamas:inflClass .
+aamas:inflClass rdfs:label "inflClass" .
 
 #MORPHEMES:
 
@@ -359,7 +367,7 @@ had:hadiyya-VAffImprtv-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:IDe872f92b-6f3f-44b7-b7a9-98690fe7debb a aamas:Term ;
+aama:ID9a704c9f-2c94-45a6-a87b-07e3354670e5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImprtv-mass ;
 	had:gender had:Common ;
@@ -372,7 +380,7 @@ aama:IDe872f92b-6f3f-44b7-b7a9-98690fe7debb a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID40c6ae91-e185-4572-b6e1-0c1923b7ba6b a aamas:Term ;
+aama:ID65c8ced6-f35e-4fea-9e3e-60208caa148b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImprtv-mass ;
 	had:gender had:Common ;
@@ -393,7 +401,7 @@ had:hadiyya-VAffJussive-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:IDcdf30b3d-2f03-455e-823b-a427c3fbb7a0 a aamas:Term ;
+aama:ID1b2fb7fd-8ae4-4e3c-80a2-e1e46c61387e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -406,7 +414,7 @@ aama:IDcdf30b3d-2f03-455e-823b-a427c3fbb7a0 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID9c43fb06-1b89-4f22-9133-7f23b447843f a aamas:Term ;
+aama:ID22987a42-a435-4b4b-aacf-fdecc8f9ad9e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -419,7 +427,7 @@ aama:ID9c43fb06-1b89-4f22-9133-7f23b447843f a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID0c3f9943-38b4-4d91-985a-cdcf85da4234 a aamas:Term ;
+aama:ID92e11dce-372f-4e57-a71e-50f48ececffe a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -432,7 +440,7 @@ aama:ID0c3f9943-38b4-4d91-985a-cdcf85da4234 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID39d81e4c-38fd-4e14-b779-3305f3a1066b a aamas:Term ;
+aama:ID8dd349e9-2c21-4eac-872f-1bf9acb56ff1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -445,7 +453,7 @@ aama:ID39d81e4c-38fd-4e14-b779-3305f3a1066b a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID35b9a94d-43b2-4cf4-b220-04445497ab31 a aamas:Term ;
+aama:IDc3ad35cb-4f8e-4451-935f-25e482d36d18 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -458,7 +466,7 @@ aama:ID35b9a94d-43b2-4cf4-b220-04445497ab31 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDde2159ab-a6b7-4b55-8334-900fce54d1d9 a aamas:Term ;
+aama:IDc2148040-1059-4937-a7ba-4d7f52dd9b10 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -471,7 +479,7 @@ aama:IDde2159ab-a6b7-4b55-8334-900fce54d1d9 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDf1d911d5-ceb2-41c5-9f45-7e0eca582d1c a aamas:Term ;
+aama:IDf0f6c349-9a63-466d-8e5e-ffa8a1f5d4a5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -484,7 +492,7 @@ aama:IDf1d911d5-ceb2-41c5-9f45-7e0eca582d1c a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID61bdf8c8-ea92-454b-ad1e-9d5fde6a2d21 a aamas:Term ;
+aama:ID6e5c146c-3c1f-440e-b62c-0822837d8166 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -505,7 +513,7 @@ had:hadiyya-VAffSimplePerf-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID9935d668-a61e-4960-8a30-844d8eb75c8a a aamas:Term ;
+aama:ID6e76f30e-472c-4758-9a5d-26d21325e0c3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -518,7 +526,7 @@ aama:ID9935d668-a61e-4960-8a30-844d8eb75c8a a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID176c8999-b38a-49a5-97c8-3c17f2740266 a aamas:Term ;
+aama:ID695d1cf5-eb54-4c2c-9006-d6357b9a8efd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -531,7 +539,7 @@ aama:ID176c8999-b38a-49a5-97c8-3c17f2740266 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDaebfc2b4-5794-4a38-8e86-db33bca7bcd0 a aamas:Term ;
+aama:ID1e5c07a1-c2e3-4d9c-9ab0-ebfbd42f9bca a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -544,7 +552,7 @@ aama:IDaebfc2b4-5794-4a38-8e86-db33bca7bcd0 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID92b37fe6-612b-4517-b606-7b581c3e70e0 a aamas:Term ;
+aama:ID0a2ab3db-ada6-4ce6-a229-b8867446fb15 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -557,7 +565,7 @@ aama:ID92b37fe6-612b-4517-b606-7b581c3e70e0 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID280be19b-1471-4ad2-a18d-14a6ec516948 a aamas:Term ;
+aama:ID535558e9-6001-45d6-a52e-6c73d44b449b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -570,7 +578,7 @@ aama:ID280be19b-1471-4ad2-a18d-14a6ec516948 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID9b866877-27fa-4eab-9905-d749a940a08e a aamas:Term ;
+aama:IDaa1abd85-9f9c-4d7d-8033-62d1fb1f024b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -583,7 +591,7 @@ aama:ID9b866877-27fa-4eab-9905-d749a940a08e a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDe0856a1d-2365-4680-815d-be8ad48966e0 a aamas:Term ;
+aama:IDc7502b8c-9397-4194-bcfd-607625edb970 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -596,7 +604,7 @@ aama:IDe0856a1d-2365-4680-815d-be8ad48966e0 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID64c673b4-e3d6-41ab-8f08-8b3dceafa97e a aamas:Term ;
+aama:IDf5f94dd0-d3a5-4518-973f-34fdc69c70cf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -609,7 +617,7 @@ aama:ID64c673b4-e3d6-41ab-8f08-8b3dceafa97e a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID20fbd521-e7ae-426f-b21f-828d30743d68 a aamas:Term ;
+aama:ID1dcb3e6f-d560-4c4e-8657-59a7268b5103 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -622,7 +630,7 @@ aama:ID20fbd521-e7ae-426f-b21f-828d30743d68 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDc4c3a591-9205-4f47-a022-eccd10e03c92 a aamas:Term ;
+aama:IDcd538b5e-1ce8-40c1-a7c3-d701e878dafc a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -643,7 +651,7 @@ had:hadiyya-VAffPastPerf-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID1fc74e5f-ac18-4464-9e73-ef9c303f8cde a aamas:Term ;
+aama:IDb4326f0b-1a06-401b-a4d6-3ac54416bc4b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -656,7 +664,7 @@ aama:ID1fc74e5f-ac18-4464-9e73-ef9c303f8cde a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID58e5c3c8-03bf-477d-9e4d-2163683fc742 a aamas:Term ;
+aama:IDba831d51-e56a-4ac1-bba9-183889296c4e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -669,7 +677,7 @@ aama:ID58e5c3c8-03bf-477d-9e4d-2163683fc742 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID0fa4f389-8e3c-4b64-8a61-22a956e7fa80 a aamas:Term ;
+aama:ID7ab92567-a848-4d93-99fd-831d49a36c5a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -682,7 +690,7 @@ aama:ID0fa4f389-8e3c-4b64-8a61-22a956e7fa80 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID7e4b662a-b86a-41fa-a957-abb9ade0e18f a aamas:Term ;
+aama:ID9f97c744-998c-45e3-9313-98d24622e66e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -695,7 +703,7 @@ aama:ID7e4b662a-b86a-41fa-a957-abb9ade0e18f a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDbb974718-7189-4eaf-a58b-85a91dcbe38e a aamas:Term ;
+aama:ID25bcc8c3-d7db-4569-b7ec-0d5464a19fec a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -708,7 +716,7 @@ aama:IDbb974718-7189-4eaf-a58b-85a91dcbe38e a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID1a1c57ad-5b24-476d-84ee-cb8b1641c87c a aamas:Term ;
+aama:IDeb32281d-71ce-43e8-adbc-92c105ca1563 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -721,7 +729,7 @@ aama:ID1a1c57ad-5b24-476d-84ee-cb8b1641c87c a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDcb2c6ca6-ab1e-482d-bb67-8fa19e5814b8 a aamas:Term ;
+aama:ID7c849f29-8225-4a18-9f4d-3a70cf9d13f1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -734,7 +742,7 @@ aama:IDcb2c6ca6-ab1e-482d-bb67-8fa19e5814b8 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID71a727a4-fbf3-4b64-acdc-75dcf4c60a0b a aamas:Term ;
+aama:IDdac1536e-7186-4cde-8029-e3969ec2b79b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -747,7 +755,7 @@ aama:ID71a727a4-fbf3-4b64-acdc-75dcf4c60a0b a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDc146c2a2-91d8-4a52-a892-f3255092a8aa a aamas:Term ;
+aama:ID84c02bc6-2c2b-47aa-bcde-9e9bf4194424 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -760,7 +768,7 @@ aama:IDc146c2a2-91d8-4a52-a892-f3255092a8aa a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDe501165c-96e0-421b-8efd-37c795c97918 a aamas:Term ;
+aama:ID1b49be3b-6015-4d7b-9652-608a18e44b7c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -781,7 +789,7 @@ had:hadiyya-VAffPastProg-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID326bde75-836a-4701-9ae4-1c311461364c a aamas:Term ;
+aama:IDd19e5950-2726-4228-a7b7-1e4cb7304d62 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -794,7 +802,7 @@ aama:ID326bde75-836a-4701-9ae4-1c311461364c a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID1076aa7e-c5fb-44bb-8704-f75539f76b98 a aamas:Term ;
+aama:ID99fedb2e-7971-41d6-bc59-5b33788a37a3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -807,7 +815,7 @@ aama:ID1076aa7e-c5fb-44bb-8704-f75539f76b98 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDa9330712-db39-49ce-8bbe-8562578aac5b a aamas:Term ;
+aama:ID5437d5b0-d488-499d-96c5-544ba7c51119 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -820,7 +828,7 @@ aama:IDa9330712-db39-49ce-8bbe-8562578aac5b a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDb92c8990-8776-4233-8cdf-5481506da789 a aamas:Term ;
+aama:ID48cdd910-6ef5-4e17-8e7b-89b9ccb89578 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -833,7 +841,7 @@ aama:IDb92c8990-8776-4233-8cdf-5481506da789 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID0897603e-04db-4e9b-90a7-70001db13fc9 a aamas:Term ;
+aama:IDaec5226f-6380-4034-8b61-3a279b9b4325 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -846,7 +854,7 @@ aama:ID0897603e-04db-4e9b-90a7-70001db13fc9 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID981534b7-7fdc-45e2-a476-d64dc6e6cf10 a aamas:Term ;
+aama:IDc800884f-59d5-485e-9b2a-f81b486c5649 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -859,7 +867,7 @@ aama:ID981534b7-7fdc-45e2-a476-d64dc6e6cf10 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID6b6a96bd-3967-4bb7-90ca-d3f0c0205873 a aamas:Term ;
+aama:ID97e73593-57f0-4348-a7d7-37e7731c5679 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -872,7 +880,7 @@ aama:ID6b6a96bd-3967-4bb7-90ca-d3f0c0205873 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDdefea84f-1dd7-46ac-bb97-97ec6c045f78 a aamas:Term ;
+aama:ID21cfba21-0c9b-4596-bd64-dbe0705c0108 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -885,7 +893,7 @@ aama:IDdefea84f-1dd7-46ac-bb97-97ec6c045f78 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID94f98a69-c264-417c-87fd-64915e404177 a aamas:Term ;
+aama:ID8523815b-8c5a-4b04-9870-e60d7dc0c995 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -898,7 +906,7 @@ aama:ID94f98a69-c264-417c-87fd-64915e404177 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID463e7b18-9f8c-4859-bd18-2bf9e19dbd0a a aamas:Term ;
+aama:ID15199c8a-d1db-4323-a689-a2092e8a2151 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -919,7 +927,7 @@ had:hadiyya-VNegJussive-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID4b518a09-9d0a-4cc4-8ce5-b1c54da886d1 a aamas:Term ;
+aama:ID75d942aa-ac91-4c60-aff9-ecf46d0c3825 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -932,7 +940,7 @@ aama:ID4b518a09-9d0a-4cc4-8ce5-b1c54da886d1 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID098e4540-2ee6-456f-8a37-f8b307681e24 a aamas:Term ;
+aama:ID0f9b2cb9-53c9-4a3b-9aac-d238b2ae7d66 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -945,7 +953,7 @@ aama:ID098e4540-2ee6-456f-8a37-f8b307681e24 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID43b11b20-136a-4721-9c25-e95ca37b0ce0 a aamas:Term ;
+aama:IDb3ec200f-13e5-439c-ab48-db5f52f40d2b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -958,7 +966,7 @@ aama:ID43b11b20-136a-4721-9c25-e95ca37b0ce0 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDc025c5cb-32b1-4223-9e99-c2ce99c488d1 a aamas:Term ;
+aama:IDba140f68-979b-47af-9455-07a608611452 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -971,7 +979,7 @@ aama:IDc025c5cb-32b1-4223-9e99-c2ce99c488d1 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID3e9a058b-7f67-42f8-800c-303d8cd93a19 a aamas:Term ;
+aama:ID27324bcd-c5db-46e4-b685-fead8aef5459 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -984,7 +992,7 @@ aama:ID3e9a058b-7f67-42f8-800c-303d8cd93a19 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDa871bff3-96a2-4af5-a0f6-dea854cbf643 a aamas:Term ;
+aama:ID108961c2-2913-4f63-958e-7f0f9e74ff0c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -997,7 +1005,7 @@ aama:IDa871bff3-96a2-4af5-a0f6-dea854cbf643 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID2052fe50-08f8-42d3-8882-281007aea513 a aamas:Term ;
+aama:IDdd2c95f0-5a4e-4947-b2a2-42e5b0842fc5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1010,7 +1018,7 @@ aama:ID2052fe50-08f8-42d3-8882-281007aea513 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDc920d718-aada-4c49-894e-0401ccf41388 a aamas:Term ;
+aama:ID6a7b548e-d1c3-4fbd-94e8-2b427180bc6a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1031,7 +1039,7 @@ had:hadiyya-VNegImprtv-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID34167137-f8d7-491b-a3b1-8a7ad59a15dd a aamas:Term ;
+aama:ID38b62ee1-99f6-48e2-899d-6b5ae77e283f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImprtv-mass ;
 	had:gender had:Common ;
@@ -1044,7 +1052,7 @@ aama:ID34167137-f8d7-491b-a3b1-8a7ad59a15dd a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID783352e7-a17c-4f07-9614-daa3100bb421 a aamas:Term ;
+aama:IDb07a8f4f-91d6-4c71-8b00-9f4cb56ae961 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImprtv-mass ;
 	had:gender had:Common ;
@@ -1065,7 +1073,7 @@ had:hadiyya-VAffPresPerf-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID7bcbd202-a3bb-4a09-9bac-27891e1caa55 a aamas:Term ;
+aama:ID65a08798-b5d9-4081-b849-1d374ed43752 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1078,7 +1086,7 @@ aama:ID7bcbd202-a3bb-4a09-9bac-27891e1caa55 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID12b68cb0-b8c6-4b9b-a37a-9cb2e4c16076 a aamas:Term ;
+aama:ID550cf3b9-0621-43a6-bac5-3dd8f8421e6a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1091,7 +1099,7 @@ aama:ID12b68cb0-b8c6-4b9b-a37a-9cb2e4c16076 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID20d53efb-f038-426a-ad79-223dc48a0df4 a aamas:Term ;
+aama:ID15e7f47c-7257-4a24-b921-86a6642903a6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1104,7 +1112,7 @@ aama:ID20d53efb-f038-426a-ad79-223dc48a0df4 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDf5bf39ce-39f4-4442-ae64-718ed524e2d5 a aamas:Term ;
+aama:ID6b0ca458-491e-45f2-899f-6d464e41c18a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1117,7 +1125,7 @@ aama:IDf5bf39ce-39f4-4442-ae64-718ed524e2d5 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDaf4b2bdc-74a7-4407-a2c2-58eef40ad411 a aamas:Term ;
+aama:IDa4c18f06-aebb-4e3d-b7e7-37066715001c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1130,7 +1138,7 @@ aama:IDaf4b2bdc-74a7-4407-a2c2-58eef40ad411 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:IDe2566445-912a-4f5c-a299-3949603fa17e a aamas:Term ;
+aama:ID5d36ba61-5475-4459-8729-f1278fca7393 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1143,7 +1151,7 @@ aama:IDe2566445-912a-4f5c-a299-3949603fa17e a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDc748e6d3-3a79-4d00-9c23-8e05ad4ca152 a aamas:Term ;
+aama:IDd5fef203-ce72-42d3-80df-063a65743320 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1156,7 +1164,7 @@ aama:IDc748e6d3-3a79-4d00-9c23-8e05ad4ca152 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID2414d4ac-4a86-42fa-9303-3576816e5e59 a aamas:Term ;
+aama:ID11e20d99-b04b-4595-9eeb-a31974f5e7a2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1169,7 +1177,7 @@ aama:ID2414d4ac-4a86-42fa-9303-3576816e5e59 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDb3bff929-068d-40d1-8b5a-f932bfec8155 a aamas:Term ;
+aama:ID8ebde009-321f-4ec2-833a-31ca759084c6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1182,7 +1190,7 @@ aama:IDb3bff929-068d-40d1-8b5a-f932bfec8155 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDa6885763-acdf-4542-bb52-23bfb51b70a3 a aamas:Term ;
+aama:IDe0b89f63-ab49-4453-8286-69858e12b727 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1203,7 +1211,7 @@ had:hadiyya-VAffPresProg-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID524535b5-8ff3-485f-8368-2f6f65f1f3a2 a aamas:Term ;
+aama:ID803d6a0a-8445-420c-9dcf-100c7c994e39 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1216,7 +1224,7 @@ aama:ID524535b5-8ff3-485f-8368-2f6f65f1f3a2 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID4f25e452-3f9b-4a7e-8bf0-779f3d675d4e a aamas:Term ;
+aama:ID560d4d0c-9981-44a0-9f82-8f15eaf0595b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1229,7 +1237,7 @@ aama:ID4f25e452-3f9b-4a7e-8bf0-779f3d675d4e a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDae024472-866a-42ab-bfdd-918d97b233f4 a aamas:Term ;
+aama:ID2bd2e515-2016-43cd-8e4a-2b1e3b85da51 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1242,7 +1250,7 @@ aama:IDae024472-866a-42ab-bfdd-918d97b233f4 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDde48ed95-6949-4eaf-b7b3-ba27fb7b48a6 a aamas:Term ;
+aama:ID93ef9e52-80db-4201-ad9a-6114802c8cd9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1255,7 +1263,7 @@ aama:IDde48ed95-6949-4eaf-b7b3-ba27fb7b48a6 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDbbddf145-6e37-482d-86dc-7bd83ed88b99 a aamas:Term ;
+aama:IDa88dfff6-d6dd-4984-86fd-e055f1213003 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1268,7 +1276,7 @@ aama:IDbbddf145-6e37-482d-86dc-7bd83ed88b99 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID4c1a1bb7-d055-4b56-878b-7c02f6e4a030 a aamas:Term ;
+aama:IDbe695bce-d9e8-4062-b3e2-1509d3761840 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1281,7 +1289,7 @@ aama:ID4c1a1bb7-d055-4b56-878b-7c02f6e4a030 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDc7639d75-df42-4321-bf16-b63116c204d1 a aamas:Term ;
+aama:ID7b9851a4-49ef-4008-a216-6744327b47da a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1294,7 +1302,7 @@ aama:IDc7639d75-df42-4321-bf16-b63116c204d1 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID13982d91-e9bf-4ae9-b4fe-92843a861037 a aamas:Term ;
+aama:ID4a8e5cde-bee8-4ef1-a0bc-f27ddd957b60 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1307,7 +1315,7 @@ aama:ID13982d91-e9bf-4ae9-b4fe-92843a861037 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDa079a86a-955a-4da4-8782-e38e96dc9b30 a aamas:Term ;
+aama:ID065de8dd-e550-4112-bd46-335b71274928 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1320,7 +1328,7 @@ aama:IDa079a86a-955a-4da4-8782-e38e96dc9b30 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID05580ffb-07d2-4d1e-9878-75dd5000297f a aamas:Term ;
+aama:ID55df4709-120e-460a-8cf8-9dc09ab984c3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1341,7 +1349,7 @@ had:hadiyya-VInterrPresPerf-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID5446bbcb-e781-481a-b8be-c453d0ba9f54 a aamas:Term ;
+aama:IDb6fad973-0bdd-4f8b-9577-0963b3b3e3ed a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1354,7 +1362,7 @@ aama:ID5446bbcb-e781-481a-b8be-c453d0ba9f54 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID1935c7e7-b8d8-4d56-9213-8056435d1e05 a aamas:Term ;
+aama:IDebdb0ecd-7879-4c03-b8bc-7c3cd32d8d1f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1367,7 +1375,7 @@ aama:ID1935c7e7-b8d8-4d56-9213-8056435d1e05 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID6f85eb3a-e800-4c5b-abd5-3b376e930031 a aamas:Term ;
+aama:IDb287bc93-0c46-4fc1-9bde-2ecada266c72 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1380,7 +1388,7 @@ aama:ID6f85eb3a-e800-4c5b-abd5-3b376e930031 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID969c5c88-e716-4ed3-8519-dd0801a46b3c a aamas:Term ;
+aama:ID4282b937-7624-4c00-ba57-5aa5e4fa0b3b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1393,7 +1401,7 @@ aama:ID969c5c88-e716-4ed3-8519-dd0801a46b3c a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDeec2e78f-5669-4bad-8456-dd408f230d44 a aamas:Term ;
+aama:IDe0c98afc-9cfd-481f-b9c4-1d8d45668541 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1406,7 +1414,7 @@ aama:IDeec2e78f-5669-4bad-8456-dd408f230d44 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID720fd0e4-e339-418d-a915-2943c2305a2b a aamas:Term ;
+aama:ID40ddddd9-5789-4124-8220-366397f69da2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1419,7 +1427,7 @@ aama:ID720fd0e4-e339-418d-a915-2943c2305a2b a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID777ec223-023d-4eb2-abc6-1d63087647d7 a aamas:Term ;
+aama:ID27642b37-6cfb-499e-839a-c578e740d93b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1432,7 +1440,7 @@ aama:ID777ec223-023d-4eb2-abc6-1d63087647d7 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDd0ec7c55-385e-4c49-a5e7-82db5d5e63e4 a aamas:Term ;
+aama:ID2ee6a6e4-b8d9-47b4-a6ad-41b0dac79b03 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1445,7 +1453,7 @@ aama:IDd0ec7c55-385e-4c49-a5e7-82db5d5e63e4 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID9a3b23f2-80ea-413f-9a1c-a6f414476587 a aamas:Term ;
+aama:IDff167ba5-b834-4096-a9f6-c6bd2b17550c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1458,7 +1466,7 @@ aama:ID9a3b23f2-80ea-413f-9a1c-a6f414476587 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID99d53eec-e3ff-4492-8704-03d2c2ebc3ce a aamas:Term ;
+aama:IDc2df6290-764f-4310-809a-a59ff1d27779 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1479,7 +1487,7 @@ had:hadiyya-VNegSimplePerf-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID0e03a140-340e-4cdf-b8e5-46b12118a4aa a aamas:Term ;
+aama:ID7d492f3e-1848-4f45-bc0e-5d24b70b63e4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1492,7 +1500,7 @@ aama:ID0e03a140-340e-4cdf-b8e5-46b12118a4aa a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID43eeec2e-2382-4bf2-b963-b96d60c61eea a aamas:Term ;
+aama:ID21b9afc1-36e6-4021-a143-e7d2edfac80f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1505,7 +1513,7 @@ aama:ID43eeec2e-2382-4bf2-b963-b96d60c61eea a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDade8093a-ca88-4612-953f-8ba7a6acb45f a aamas:Term ;
+aama:IDc4413151-c6e5-4132-8fea-df5414dbd62d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1518,7 +1526,7 @@ aama:IDade8093a-ca88-4612-953f-8ba7a6acb45f a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID745f39d0-0efd-43d2-91bf-56963476aa4e a aamas:Term ;
+aama:IDc1d288e2-7eeb-4b2f-b643-b2548860beea a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1531,7 +1539,7 @@ aama:ID745f39d0-0efd-43d2-91bf-56963476aa4e a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID1d7a3bab-91e6-41f2-a032-99c5c7333a86 a aamas:Term ;
+aama:ID2916f417-193e-462a-8fc8-752a4f6937d7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1544,7 +1552,7 @@ aama:ID1d7a3bab-91e6-41f2-a032-99c5c7333a86 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID51df63ba-42a1-4688-a647-0dd186b27aa5 a aamas:Term ;
+aama:IDb9ef2940-eec2-4289-a62c-64bb422bca83 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1557,7 +1565,7 @@ aama:ID51df63ba-42a1-4688-a647-0dd186b27aa5 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID6afbc6d0-3bd4-43e7-bcd5-29f7f1c2a993 a aamas:Term ;
+aama:ID4af25a61-c98b-44a2-bbde-6b7d57917915 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1570,7 +1578,7 @@ aama:ID6afbc6d0-3bd4-43e7-bcd5-29f7f1c2a993 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID0fb074ea-334d-444f-b8f9-b5f358cf1d08 a aamas:Term ;
+aama:ID89e9fdeb-2f04-46d0-90e8-b953c3253d78 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1583,7 +1591,7 @@ aama:ID0fb074ea-334d-444f-b8f9-b5f358cf1d08 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:IDe601c833-61d0-41f7-b980-2e8292b86ced a aamas:Term ;
+aama:IDa4d03215-2cd9-4306-9a93-44a273f4e1ff a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1596,7 +1604,7 @@ aama:IDe601c833-61d0-41f7-b980-2e8292b86ced a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID29720272-08af-4bf7-8bcc-8e9396935bac a aamas:Term ;
+aama:IDbf03598b-d259-48e0-9213-f8b0d79b205d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1617,7 +1625,7 @@ had:hadiyya-VAffImperfect-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:ID93d1fe72-a8c1-4937-96fe-5be189c71664 a aamas:Term ;
+aama:IDe5ba2a2f-4e21-45d6-aa21-1b74bc85370e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1630,7 +1638,7 @@ aama:ID93d1fe72-a8c1-4937-96fe-5be189c71664 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID6b436627-f2e0-44dc-9a8d-0efc440cbb90 a aamas:Term ;
+aama:ID332c98c3-99bf-496e-a1aa-b68a9a8b842f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1643,7 +1651,7 @@ aama:ID6b436627-f2e0-44dc-9a8d-0efc440cbb90 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID744c5764-b659-426c-981c-92854ca17ae1 a aamas:Term ;
+aama:ID34268052-ef55-4c07-906a-2d08e9f6dd52 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1656,7 +1664,7 @@ aama:ID744c5764-b659-426c-981c-92854ca17ae1 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID891427c9-cd56-4b9b-a759-a3da63f78174 a aamas:Term ;
+aama:IDe6f87411-ed7f-444d-8438-c032721b8618 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1669,7 +1677,7 @@ aama:ID891427c9-cd56-4b9b-a759-a3da63f78174 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID973e36f6-9933-49af-9829-6771eac4527e a aamas:Term ;
+aama:ID92ba9f1d-76b4-41d8-a996-a9c87324725a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1682,7 +1690,7 @@ aama:ID973e36f6-9933-49af-9829-6771eac4527e a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID5be3e57a-0948-4b5e-a2ac-7d259d0a8ad0 a aamas:Term ;
+aama:IDbe69710e-b637-4ef6-80d0-0d0dd9c139d2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1695,7 +1703,7 @@ aama:ID5be3e57a-0948-4b5e-a2ac-7d259d0a8ad0 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID9652bc20-465e-4c4e-ade1-e05306d2345a a aamas:Term ;
+aama:ID18933e13-084a-471a-a347-d0f6ee1c2f96 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1708,7 +1716,7 @@ aama:ID9652bc20-465e-4c4e-ade1-e05306d2345a a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID4ec13711-5136-4c05-8156-22cf43404c9b a aamas:Term ;
+aama:ID273e1e36-2422-4c08-82eb-2ca7dc3ed77b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1721,7 +1729,7 @@ aama:ID4ec13711-5136-4c05-8156-22cf43404c9b a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID590e74ba-14cf-4664-818d-acab6872eafe a aamas:Term ;
+aama:IDb2855d81-3595-409a-a170-8fe7eabc59df a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1734,7 +1742,7 @@ aama:ID590e74ba-14cf-4664-818d-acab6872eafe a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID476c2ccb-27c0-4077-961a-2ac4c953a10a a aamas:Term ;
+aama:ID989b96b0-0602-4bfe-85a8-daf9093ec0e7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1755,7 +1763,7 @@ had:hadiyya-VNegImperfect-mass a aamas:Termcluster ;
             assimilations in section #4%%pp. 24-32." 
 	.
 
-aama:IDa31bafeb-2ca8-4e2c-bd3c-7645c23e9348 a aamas:Term ;
+aama:ID7b8d505c-7017-48ea-a70e-10d3d160d308 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1768,7 +1776,7 @@ aama:IDa31bafeb-2ca8-4e2c-bd3c-7645c23e9348 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDcbbb6531-8d53-4b82-97d4-bca91796dc28 a aamas:Term ;
+aama:ID5c514b50-3d40-41c1-b684-3f3ba0a5a55b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1781,7 +1789,7 @@ aama:IDcbbb6531-8d53-4b82-97d4-bca91796dc28 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:ID0c91c20e-98f4-4312-81f5-6dc39be99eb5 a aamas:Term ;
+aama:ID9d26473c-234e-447b-811b-a3212ca729cf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1794,7 +1802,7 @@ aama:ID0c91c20e-98f4-4312-81f5-6dc39be99eb5 a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID3683d66a-6a54-465f-9095-20e0b56fed98 a aamas:Term ;
+aama:IDc69fca12-c42d-44ef-98a6-69fce4243061 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1807,7 +1815,7 @@ aama:ID3683d66a-6a54-465f-9095-20e0b56fed98 a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:ID86f32a4d-082d-4653-8afa-abf8d0f99401 a aamas:Term ;
+aama:ID224683d2-5989-45de-8ba4-251da16c84f9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1820,7 +1828,7 @@ aama:ID86f32a4d-082d-4653-8afa-abf8d0f99401 a aamas:Term ;
 	had:gender had:Polite ;
 	.
 
-aama:ID2fee0faa-398b-41ca-ac08-4a71f17c2f9d a aamas:Term ;
+aama:IDb6dff20e-cdf9-4980-b489-ed23191d6859 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1833,7 +1841,7 @@ aama:ID2fee0faa-398b-41ca-ac08-4a71f17c2f9d a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDd92300c2-31eb-430a-a2fc-cd2876ccb466 a aamas:Term ;
+aama:ID521e835c-761e-4687-a29e-025923811a11 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1846,7 +1854,7 @@ aama:IDd92300c2-31eb-430a-a2fc-cd2876ccb466 a aamas:Term ;
 	had:gender had:Common ;
 	.
 
-aama:IDf6cc4106-a406-4309-850c-003bac295dac a aamas:Term ;
+aama:ID5b028511-c10c-4d8b-9fbb-143735563f86 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1859,7 +1867,7 @@ aama:IDf6cc4106-a406-4309-850c-003bac295dac a aamas:Term ;
 	had:gender had:Masc ;
 	.
 
-aama:ID13ba0959-fb57-4c04-acc5-a131342b72df a aamas:Term ;
+aama:IDd914e9ad-9e5d-4a3e-9073-6be5f0e6d6e8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1872,7 +1880,7 @@ aama:ID13ba0959-fb57-4c04-acc5-a131342b72df a aamas:Term ;
 	had:gender had:Fem ;
 	.
 
-aama:IDa02236ca-ba35-4186-966e-814fa93d6c96 a aamas:Term ;
+aama:ID7dbbf543-e256-4219-986d-9b9732acfe66 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	aamas:lexeme aama:Hadiyya-mass ;
@@ -1892,7 +1900,7 @@ had:hadiyya-PInd a aamas:MuTermcluster ;
 	rdfs:comment "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 116%%118." 
 	.
 
-aama:IDca74b363-7ff7-4d14-be50-605ec5a98fdf a aamas:Muterm ;
+aama:ID2126dd22-db7d-479d-be14-a937f81abf5e a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1904,7 +1912,7 @@ aama:IDca74b363-7ff7-4d14-be50-605ec5a98fdf a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:IDaaff5ba4-806e-49d7-a2bf-bc45086a62fb a aamas:Muterm ;
+aama:IDd785c177-8e46-43fd-b524-da9dffa2bd85 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1916,7 +1924,7 @@ aama:IDaaff5ba4-806e-49d7-a2bf-bc45086a62fb a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:ID4e0ffaa1-df50-49b4-bff1-3e64422bca4d a aamas:Muterm ;
+aama:IDb66e32e6-ba98-4dd8-ac6a-f6efd02ff0b1 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1928,7 +1936,7 @@ aama:ID4e0ffaa1-df50-49b4-bff1-3e64422bca4d a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:ID5afcb81c-949a-4ce1-b279-1610660e6ac8 a aamas:Muterm ;
+aama:IDb97f10ec-fdb9-4a4b-a03f-b2c011dedac3 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1940,7 +1948,7 @@ aama:ID5afcb81c-949a-4ce1-b279-1610660e6ac8 a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:ID1b0961ef-3d05-44ea-af00-5cb7ef060d84 a aamas:Muterm ;
+aama:ID685cf3f7-cb93-46dc-b297-2ee9adc96d5d a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1952,7 +1960,7 @@ aama:ID1b0961ef-3d05-44ea-af00-5cb7ef060d84 a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:IDbdca54f0-7e62-41e1-8436-d832c36b4274 a aamas:Muterm ;
+aama:IDd34b1379-da9a-45b4-bc5e-fa911c253673 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1964,7 +1972,7 @@ aama:IDbdca54f0-7e62-41e1-8436-d832c36b4274 a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:ID9838471d-37ea-4a69-8e0d-82a80d564cb4 a aamas:Muterm ;
+aama:ID157b8543-ff37-4233-bb36-29d3760d42f1 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1976,7 +1984,7 @@ aama:ID9838471d-37ea-4a69-8e0d-82a80d564cb4 a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:IDc7b626b1-0ba9-4d38-9362-af02af08ba7c a aamas:Muterm ;
+aama:ID414d1c79-552e-41c2-baa2-a44174dad8b5 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -1988,7 +1996,7 @@ aama:IDc7b626b1-0ba9-4d38-9362-af02af08ba7c a aamas:Muterm ;
 	had:case had:Nominative ;
 	.
 
-aama:ID58b24f16-ab61-4889-8d30-aab1a87f3afc a aamas:Muterm ;
+aama:ID56cc9a0c-4c5e-42d1-bf9f-ea09dc57270a a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2000,7 +2008,7 @@ aama:ID58b24f16-ab61-4889-8d30-aab1a87f3afc a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:ID88402246-c8b8-4035-be3a-b4e1c959c397 a aamas:Muterm ;
+aama:ID90fb3191-8403-4770-ba25-83198d161ce1 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2012,7 +2020,7 @@ aama:ID88402246-c8b8-4035-be3a-b4e1c959c397 a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:ID116c0018-e3f7-4349-af1f-4c9d455f343e a aamas:Muterm ;
+aama:ID3c9ac38e-4a4e-46c4-9719-7ccd850cd4a3 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2024,7 +2032,7 @@ aama:ID116c0018-e3f7-4349-af1f-4c9d455f343e a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:ID1ef7f123-7249-4b64-aedc-294c636d9e02 a aamas:Muterm ;
+aama:IDf38a3ef9-c893-4f02-ad04-7b77a48788c6 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2036,7 +2044,7 @@ aama:ID1ef7f123-7249-4b64-aedc-294c636d9e02 a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:IDfc947fb7-1595-42d9-a80c-d2b1816b0ac3 a aamas:Muterm ;
+aama:ID4a73cc2f-e881-4f5e-817c-a74aefe48be9 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2048,7 +2056,7 @@ aama:IDfc947fb7-1595-42d9-a80c-d2b1816b0ac3 a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:ID315960e9-9c7c-4076-9056-c77bcdbbde51 a aamas:Muterm ;
+aama:ID85f8dac2-48e7-469b-b937-cbf4baa05285 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2060,7 +2068,7 @@ aama:ID315960e9-9c7c-4076-9056-c77bcdbbde51 a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:ID5c86a596-e343-4ae9-be71-e189b7ae55c8 a aamas:Muterm ;
+aama:ID3bc5dbbf-cf95-481a-8492-159cf56b97b8 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2072,7 +2080,7 @@ aama:ID5c86a596-e343-4ae9-be71-e189b7ae55c8 a aamas:Muterm ;
 	had:case had:Accusative ;
 	.
 
-aama:IDee68992b-ad5d-4c84-a2ae-885b016f3a32 a aamas:Muterm ;
+aama:ID3b767678-82cf-4ab6-bdbb-17b74998ab45 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2084,7 +2092,7 @@ aama:IDee68992b-ad5d-4c84-a2ae-885b016f3a32 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:IDa50e6d94-d12f-4f19-a3a3-48aba17f5bca a aamas:Muterm ;
+aama:ID656526ef-de12-48b0-b2ff-5946be986113 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2096,7 +2104,7 @@ aama:IDa50e6d94-d12f-4f19-a3a3-48aba17f5bca a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:ID53c2a0d6-c7a1-491e-9af5-8c1e5c11e891 a aamas:Muterm ;
+aama:ID04d22e6b-82f9-4266-83c8-74578013fcd2 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2108,7 +2116,7 @@ aama:ID53c2a0d6-c7a1-491e-9af5-8c1e5c11e891 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:ID4822caf4-ef22-46dc-9db7-0624812417b4 a aamas:Muterm ;
+aama:IDea4dba70-ac5b-42ef-99bb-2449707bc245 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2120,7 +2128,7 @@ aama:ID4822caf4-ef22-46dc-9db7-0624812417b4 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:IDfecc5581-d7f7-43fc-9671-839c351ea1a9 a aamas:Muterm ;
+aama:IDd790daba-4363-455b-9319-33a0c6b9e78f a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2132,7 +2140,7 @@ aama:IDfecc5581-d7f7-43fc-9671-839c351ea1a9 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:ID0c3ebf74-4806-4a54-b9ab-ed10e1f7d5e1 a aamas:Muterm ;
+aama:IDa8cf8b37-61d0-4f16-91c3-4f3984bd4e79 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2144,7 +2152,7 @@ aama:ID0c3ebf74-4806-4a54-b9ab-ed10e1f7d5e1 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:ID2574d7c6-ae4b-4c20-8d9e-c2a67c81be93 a aamas:Muterm ;
+aama:ID0d171555-f9c7-45ab-b8af-85a336ae1909 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2156,7 +2164,7 @@ aama:ID2574d7c6-ae4b-4c20-8d9e-c2a67c81be93 a aamas:Muterm ;
 	had:case had:Possessive ;
 	.
 
-aama:ID4505b177-59b0-46c7-b5a9-328260d258b8 a aamas:Muterm ;
+aama:IDfb5a07da-c2ab-4160-90dc-ff12fed49f84 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PInd ;
 	aamas:morpheme aama:Hadiyya-PROIND ;
 	had:pos had:Pronoun ;
@@ -2176,7 +2184,7 @@ had:hadiyya-VDervStem a aamas:MuTermcluster ;
             pp. 33-36%%for benefactive pp. 37-39." 
 	.
 
-aama:ID7254f91f-fd9d-45fc-b03d-d350a09c7700 a aamas:Muterm ;
+aama:IDc5ce4d33-808c-44c7-8987-aab599d07d3f a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2186,7 +2194,7 @@ aama:ID7254f91f-fd9d-45fc-b03d-d350a09c7700 a aamas:Muterm ;
 	had:derivedStem had:Causative1 ;
 	.
 
-aama:IDbea0e9de-9363-4f87-98d1-2bf1747bb954 a aamas:Muterm ;
+aama:ID089d2669-a84d-47ae-abbf-551d00aab677 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2196,7 +2204,7 @@ aama:IDbea0e9de-9363-4f87-98d1-2bf1747bb954 a aamas:Muterm ;
 	had:derivedStem had:Causative2 ;
 	.
 
-aama:ID84c3e6d8-d24d-4564-80f5-c580b4dcd5f2 a aamas:Muterm ;
+aama:IDb654ec93-f523-4e5e-81c8-ef2dba0b89cb a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2206,7 +2214,7 @@ aama:ID84c3e6d8-d24d-4564-80f5-c580b4dcd5f2 a aamas:Muterm ;
 	had:derivedStem had:Causative3 ;
 	.
 
-aama:IDb9c5d80a-c139-4463-aaeb-4a2855e330ef a aamas:Muterm ;
+aama:ID8abcee7a-6ef6-4160-91c1-725be75f0af3 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2216,7 +2224,7 @@ aama:IDb9c5d80a-c139-4463-aaeb-4a2855e330ef a aamas:Muterm ;
 	had:derivedStem had:CausativeDenominal ;
 	.
 
-aama:IDee3945f1-89d2-4eb4-b45b-8801e75f669c a aamas:Muterm ;
+aama:IDe83c0a1a-3f46-45e3-9536-96fabcd6a6ef a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2226,7 +2234,7 @@ aama:IDee3945f1-89d2-4eb4-b45b-8801e75f669c a aamas:Muterm ;
 	had:derivedStem had:Benefactive ;
 	.
 
-aama:ID2574b433-1588-4d19-a0df-f664f3f13057 a aamas:Muterm ;
+aama:IDc24baf5a-6cfb-4ab6-a148-7b0ed72025c6 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2236,7 +2244,7 @@ aama:ID2574b433-1588-4d19-a0df-f664f3f13057 a aamas:Muterm ;
 	had:derivedStem had:Passive ;
 	.
 
-aama:ID25d961bc-3b65-47a1-b2ba-9ca88f8de896 a aamas:Muterm ;
+aama:ID64bd13c8-19fd-4747-b4fe-add895cc4d38 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2246,7 +2254,7 @@ aama:ID25d961bc-3b65-47a1-b2ba-9ca88f8de896 a aamas:Muterm ;
 	had:derivedStem had:CausativeBenefactive ;
 	.
 
-aama:ID5b0f25ea-9f96-4c93-9cf4-f75ca58ad995 a aamas:Muterm ;
+aama:ID85c5ac89-56e9-4cb1-9fd9-9bd82e6d00f8 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2256,7 +2264,7 @@ aama:ID5b0f25ea-9f96-4c93-9cf4-f75ca58ad995 a aamas:Muterm ;
 	had:derivedStem had:BenefactiveCausative ;
 	.
 
-aama:ID5591b26d-2582-4d96-a771-74460cc52ac6 a aamas:Muterm ;
+aama:IDb2c690ee-9f55-4dc0-ad7e-4875c35d5fec a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2266,7 +2274,7 @@ aama:ID5591b26d-2582-4d96-a771-74460cc52ac6 a aamas:Muterm ;
 	had:derivedStem had:CausativePassive ;
 	.
 
-aama:IDc19b0037-ed64-452b-aa97-4177a680efcd a aamas:Muterm ;
+aama:IDafff57ee-39a2-414c-b97d-c57a0faecbf5 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2276,7 +2284,7 @@ aama:IDc19b0037-ed64-452b-aa97-4177a680efcd a aamas:Muterm ;
 	had:derivedStem had:PassiveCausative ;
 	.
 
-aama:ID7616cf01-00fa-46b9-bf49-3c0e78fc420b a aamas:Muterm ;
+aama:ID2af59e90-60cd-4c08-aa12-a7e738752fe5 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2286,7 +2294,7 @@ aama:ID7616cf01-00fa-46b9-bf49-3c0e78fc420b a aamas:Muterm ;
 	had:derivedStem had:BenefactivePassive ;
 	.
 
-aama:ID4016b505-8319-4db2-97dc-51bb549ce3c4 a aamas:Muterm ;
+aama:IDfa50dc39-efa7-445c-bd59-b545a9ddd844 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2296,7 +2304,7 @@ aama:ID4016b505-8319-4db2-97dc-51bb549ce3c4 a aamas:Muterm ;
 	had:derivedStem had:PassiveBenefactive ;
 	.
 
-aama:IDbb50e426-b890-4e2b-858b-bf6ae2859603 a aamas:Muterm ;
+aama:ID53906834-f3b0-405f-a95e-c1a582a4fb28 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VDervStem ;
 	aamas:morpheme aama:Hadiyya-DERVSTEM ;
 	had:pos had:Verb ;
@@ -2313,135 +2321,147 @@ had:hadiyya-PDemonstrative a aamas:MuTermcluster ;
 	rdfs:comment "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 117." 
 	.
 
-aama:ID45483858-0d37-43af-9156-343ec6645ea7 a aamas:Muterm ;
+aama:ID410db39b-cfff-4ec6-b2a5-bfca3cdd15ea a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "m" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Masc ;
+	had:number had:Singular ;
 	had:deixis had:Near ;
 	.
 
-aama:IDc00f8323-4673-44cd-896a-cc0560ead98b a aamas:Muterm ;
+aama:ID8628ca86-a9e2-4101-8b4c-3ed4acd3d7b0 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "f" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Fem ;
+	had:number had:Singular ;
 	had:deixis had:Near ;
 	.
 
-aama:ID2d1c564f-4e55-4e13-bfb1-d2a4674d1c06 a aamas:Muterm ;
+aama:ID87ff0a48-deff-4acb-8f90-e88d6c359875 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "m" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Masc ;
+	had:number had:Singular ;
 	had:deixis had:Far ;
 	.
 
-aama:IDac2e5801-c0b5-4a99-a2b8-1d8b7567feba a aamas:Muterm ;
+aama:ID726a5287-1beb-453f-9316-1d6521feaecf a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "f" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Fem ;
+	had:number had:Singular ;
 	had:deixis had:Far ;
 	.
 
-aama:ID38013a54-4415-46f9-8477-413924f7cc28 a aamas:Muterm ;
+aama:ID0ec525ec-8ad2-4417-8f70-8bb6ee5d1f76 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "⊤" ;
-	had:numgen had:Plural ;
+	had:token " " ;
+	had:gender had:Common ;
+	had:number had:Plural ;
 	had:deixis had:Near ;
 	.
 
-aama:ID9cec5df5-d3a3-40c6-a4ce-3cb47a3f2d80 a aamas:Muterm ;
+aama:ID12d14be6-8dce-4d30-9166-b27c22447f84 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "⊤" ;
-	had:numgen had:Plural ;
+	had:token " " ;
+	had:gender had:Common ;
+	had:number had:Plural ;
 	had:deixis had:Far ;
 	.
 
-aama:ID1b513bd4-86df-4335-b1c8-359af6ee76e9 a aamas:Muterm ;
+aama:IDe7153bb0-a660-4761-9731-b7d582e25cb0 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "m" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Masc ;
+	had:number had:Singular ;
 	had:deixis had:Near ;
 	.
 
-aama:ID3ad92eb3-de93-4464-a272-b112c244b03e a aamas:Muterm ;
+aama:IDccae6bb8-1b88-466d-95a0-0fcba49ce5cb a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "f" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Fem ;
+	had:number had:Singular ;
 	had:deixis had:Near ;
 	.
 
-aama:IDace1518d-05eb-4eb7-8593-ad0085324784 a aamas:Muterm ;
+aama:IDabdaf2c7-0780-4f1e-a368-598525ad7cb5 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "m" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Masc ;
+	had:number had:Singular ;
 	had:deixis had:Far ;
 	.
 
-aama:ID8fd4614b-8d27-42f4-9728-b1a5992c64e8 a aamas:Muterm ;
+aama:IDace59ce1-cf7b-49f4-b16a-6c5b05793880 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "f" ;
-	had:numgen had:Singular ;
+	had:token " " ;
+	had:gender had:Fem ;
+	had:number had:Singular ;
 	had:deixis had:Far ;
 	.
 
-aama:ID78d5eb30-96d9-43ea-ad1a-cb58936caa3a a aamas:Muterm ;
+aama:ID42fcf43d-8946-4c86-af22-bbe3178fa257 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "⊤" ;
-	had:numgen had:Plural ;
+	had:token " " ;
+	had:gender had:Common ;
+	had:number had:Plural ;
 	had:deixis had:Near ;
 	.
 
-aama:ID54153fad-661a-4aee-892b-3ef76b4134db a aamas:Muterm ;
+aama:IDb154f119-b301-4554-981e-9f838e463c32 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
 	aamas:morpheme aama:Hadiyya-PRODEM ;
 	had:pos had:Pronoun ;
 	had:proClass had:Demonstrative ;
-	had:token "⊤" ;
-	had:numgen had:Plural ;
+	had:token " " ;
+	had:gender had:Common ;
+	had:number had:Plural ;
 	had:deixis had:Far ;
 	.
 
@@ -2452,7 +2472,7 @@ had:hadiyya-ProInterrog a aamas:MuTermcluster ;
 	rdfs:comment "HudsonG1976 p. 259." 
 	.
 
-aama:ID235137e7-d190-4232-b749-d0b2ebb7bfe9 a aamas:Muterm ;
+aama:IDb033f758-6229-47a1-992f-943f0094d179 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-ProInterrog ;
 	aamas:morpheme aama:Hadiyya-PROINTERROG ;
 	had:pos had:Pronoun ;
@@ -2461,7 +2481,7 @@ aama:ID235137e7-d190-4232-b749-d0b2ebb7bfe9 a aamas:Muterm ;
 	had:interrogClass had:InterrogProWho ;
 	.
 
-aama:IDc5aac711-aa5b-43bf-84dd-b9883ca22b9c a aamas:Muterm ;
+aama:ID17f07db2-21a4-46f6-bd95-20709efe8e58 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-ProInterrog ;
 	aamas:morpheme aama:Hadiyya-PROINTERROG ;
 	had:pos had:Pronoun ;
@@ -2470,7 +2490,7 @@ aama:IDc5aac711-aa5b-43bf-84dd-b9883ca22b9c a aamas:Muterm ;
 	had:interrogClass had:InterrogProWhat ;
 	.
 
-aama:ID191f0513-a6d7-44db-a5b7-7c49a8332070 a aamas:Muterm ;
+aama:IDe954dd41-080b-4b2f-b7bf-4640936477bd a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-ProInterrog ;
 	aamas:morpheme aama:Hadiyya-PROINTERROG ;
 	had:pos had:Pronoun ;
@@ -2479,7 +2499,7 @@ aama:ID191f0513-a6d7-44db-a5b7-7c49a8332070 a aamas:Muterm ;
 	had:interrogClass had:InterrogProWhere ;
 	.
 
-aama:IDfed6f59e-0932-4166-9efa-a4b9b6b18e0e a aamas:Muterm ;
+aama:IDb3aa85e9-2081-4c23-9b3b-3eddcf225b71 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-ProInterrog ;
 	aamas:morpheme aama:Hadiyya-PROINTERROG ;
 	had:pos had:Pronoun ;
@@ -2488,7 +2508,7 @@ aama:IDfed6f59e-0932-4166-9efa-a4b9b6b18e0e a aamas:Muterm ;
 	had:interrogClass had:InterrogProHow ;
 	.
 
-aama:ID80ba5532-05da-4786-88f6-4b123b167622 a aamas:Muterm ;
+aama:ID12846fc5-995e-40bf-9749-84755e5ca63b a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-ProInterrog ;
 	aamas:morpheme aama:Hadiyya-PROINTERROG ;
 	had:pos had:Pronoun ;
@@ -2504,7 +2524,7 @@ had:hadiyya-VSubjMarkerTemplates a aamas:MuTermcluster ;
 	rdfs:comment "SimR1985 pp. 17-19. The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf%%-aa- presPerf%%-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p. 19." 
 	.
 
-aama:ID15c567db-9ad1-4d0c-b988-3604e593393f a aamas:Muterm ;
+aama:ID09b02a67-9c67-4de3-b2cd-6a65811d21fe a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2516,7 +2536,7 @@ aama:ID15c567db-9ad1-4d0c-b988-3604e593393f a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:IDd260934a-cebb-4c96-a167-a783e2a4dbc5 a aamas:Muterm ;
+aama:IDb56629e7-9d79-40e5-a539-5656ac56c73c a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2528,7 +2548,7 @@ aama:IDd260934a-cebb-4c96-a167-a783e2a4dbc5 a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:ID224a90a2-1825-4770-93ef-32d855a04e6e a aamas:Muterm ;
+aama:ID059e7e13-99fc-4745-afc2-0d61da4761ef a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2540,7 +2560,7 @@ aama:ID224a90a2-1825-4770-93ef-32d855a04e6e a aamas:Muterm ;
 	had:gender had:Masc ;
 	.
 
-aama:ID5ae02cf2-5cf8-4e38-b56d-b05d2a356e27 a aamas:Muterm ;
+aama:ID8af16d3e-fc8a-4ecf-ae30-246399271673 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2552,7 +2572,7 @@ aama:ID5ae02cf2-5cf8-4e38-b56d-b05d2a356e27 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID979108e2-2cd3-4b06-b6b9-fcb13544f918 a aamas:Muterm ;
+aama:ID9d757ea7-a062-4436-a1b8-e85a43a06aaf a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2564,7 +2584,7 @@ aama:ID979108e2-2cd3-4b06-b6b9-fcb13544f918 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID2fa3da1b-d632-4bdf-b50b-05206a477bd7 a aamas:Muterm ;
+aama:IDba32502d-7f63-4d12-9ba4-c0771ab85c74 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2576,7 +2596,7 @@ aama:ID2fa3da1b-d632-4bdf-b50b-05206a477bd7 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID6b0b6d05-b8e2-4601-8734-6f590d7ab33e a aamas:Muterm ;
+aama:ID6e44e527-97d1-43ab-b207-7738f9749726 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2588,7 +2608,7 @@ aama:ID6b0b6d05-b8e2-4601-8734-6f590d7ab33e a aamas:Muterm ;
 	had:gender had:Polite ;
 	.
 
-aama:IDaf00a488-fb6d-4d87-92c0-0f27734b0f0a a aamas:Muterm ;
+aama:IDea57e847-a737-4d18-b5b5-3ce8a99bc2e3 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2600,7 +2620,7 @@ aama:IDaf00a488-fb6d-4d87-92c0-0f27734b0f0a a aamas:Muterm ;
 	had:gender had:Polite ;
 	.
 
-aama:ID5d32883a-aac7-4be0-82d9-b400194dc82a a aamas:Muterm ;
+aama:IDa45654c9-d590-4ccf-bbfe-a91984d59e59 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2612,7 +2632,7 @@ aama:ID5d32883a-aac7-4be0-82d9-b400194dc82a a aamas:Muterm ;
 	had:gender had:Polite ;
 	.
 
-aama:IDdf865122-6e88-40f5-a433-e6e7198baa5e a aamas:Muterm ;
+aama:IDe73c2daf-c759-4b35-bf68-74af03014f14 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2624,7 +2644,7 @@ aama:IDdf865122-6e88-40f5-a433-e6e7198baa5e a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:IDa69e08e9-c272-4c62-9a8f-2e01883d746a a aamas:Muterm ;
+aama:ID32a63b40-f853-45e6-ad52-2da24037330c a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2636,7 +2656,7 @@ aama:IDa69e08e9-c272-4c62-9a8f-2e01883d746a a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:IDf8899b88-a0b8-411e-8421-8051ce36692d a aamas:Muterm ;
+aama:IDaf3d2786-72f1-4d71-98b5-a9f06cca12d3 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2648,7 +2668,7 @@ aama:IDf8899b88-a0b8-411e-8421-8051ce36692d a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:IDaf47c716-63a9-4b8c-ab99-ffa798773cb5 a aamas:Muterm ;
+aama:IDb2192da4-ca0a-4da9-b971-4065e59b87ed a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2660,7 +2680,7 @@ aama:IDaf47c716-63a9-4b8c-ab99-ffa798773cb5 a aamas:Muterm ;
 	had:gender had:Common ;
 	.
 
-aama:IDa4b451ab-8ddb-4c83-b851-bbda0a552d18 a aamas:Muterm ;
+aama:ID91561f88-36ee-4529-b416-93bcf85a9f0d a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2672,7 +2692,7 @@ aama:IDa4b451ab-8ddb-4c83-b851-bbda0a552d18 a aamas:Muterm ;
 	had:gender had:Masc ;
 	.
 
-aama:IDf94f2638-c6b0-4a06-8361-38d0c4c76894 a aamas:Muterm ;
+aama:ID0eaf3430-04b4-4b53-be75-22b1bac41e51 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2684,7 +2704,7 @@ aama:IDf94f2638-c6b0-4a06-8361-38d0c4c76894 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID372b3939-f639-4343-9e81-ff6c140dca12 a aamas:Muterm ;
+aama:ID8fa1de3c-5442-4af7-8175-4926ecf551da a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2696,7 +2716,7 @@ aama:ID372b3939-f639-4343-9e81-ff6c140dca12 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID23c22f00-fd15-4b90-abdd-e895ed100673 a aamas:Muterm ;
+aama:ID749241b2-f07b-4e2d-a1da-d35657195139 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2708,7 +2728,7 @@ aama:ID23c22f00-fd15-4b90-abdd-e895ed100673 a aamas:Muterm ;
 	had:gender had:Fem ;
 	.
 
-aama:ID4d18d114-804c-467b-ac83-1c8fe1ed704e a aamas:Muterm ;
+aama:ID292d3d01-aeb9-49c7-af24-3be439500b3e a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2720,7 +2740,7 @@ aama:ID4d18d114-804c-467b-ac83-1c8fe1ed704e a aamas:Muterm ;
 	had:gender had:Polite ;
 	.
 
-aama:ID5aaa122d-dbd6-418e-ad3d-5ed64cd5e416 a aamas:Muterm ;
+aama:ID1a72a884-f33e-4fcf-9908-adf9dda02e72 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
@@ -2732,7 +2752,7 @@ aama:ID5aaa122d-dbd6-418e-ad3d-5ed64cd5e416 a aamas:Muterm ;
 	had:gender had:Polite ;
 	.
 
-aama:ID2dd8135a-5c66-4ce1-8a40-4cded384dc58 a aamas:Muterm ;
+aama:ID1d9f060b-5758-4dd6-a64c-0d6a02ed5120 a aamas:Muterm ;
 	aamas:lang aama:Hadiyya ;	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	aamas:morpheme aama:Hadiyya-SUBJMARKERTEMPLATES ;
 	had:pos had:Verb ;
