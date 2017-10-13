@@ -5,19 +5,18 @@
 :datasource "SimR1985"
 :geodemoURL "http://www.ethnologue.com/language/hdy"
 :geodemoTXT "Varieties and subdialects of Hadiyya are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: Gurage, Kambaata, and Hadiyya zones, between Omo and Billate rivers, Hosaina town area; Oromia region: east Shewa zone'."
-:schemata{:gender [:Common :Fem :Masc :Polite],
-          :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhere :InterrogProWho],
-          :polarity [:Affirmative :Interrogative :Negative],
-          :case [:Accusative :Nominative :Possessive],
-          :pdgmType [:DervStem :Finite :NA :SubjMarkerTemplates]
-          :pos [:Pronoun :Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:Benefactive :BenefactiveCausative :BenefactivePassive :Causative1 :Causative2 :Causative3 :CausativeBenefactive :CausativeBenefactivePassive :CausativeDenominal :CausativePassive :Passive :PassiveBenefactive :PassiveCausative],
-          :morphClass [:DervStem :SubjMarkerTemplates],
-          :proClass [:Demonstrative :Independent :Interr],
-          :tam [:Imperative :Imperfect :Jussive :PastPerfect :PastProgressive :PresenProgressive :PresentPerfect :SimplePerfect],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near]}
+ :schemata {:derivedStem [:Benefactive  :BenefactiveCausative :BenefactivePassive :Causative1 :Causative2 :Causative3 :CausativeBenefactive :CausativeBenefactivePassive :CausativeDenominal :CausativePassive :Passive :PassiveBenefactive :PassiveCausative],
+            :case [:Nominative :Possessive :Accusative],
+            :deixis [:Far :Near],
+            :gender [:Common :Fem :Masc :Polite],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Interrogative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interr],
+            :tam [:Imperative :Imperfect :Jussive :PastPerfect :PastProgressive :PresenProgressive :PresentPerfect :SimplePerfect]
+            :pdgmType [:Finite :PRO :DervStem :SubjMarkerTemplates]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
@@ -32,9 +31,7 @@
     {:label "hadiyya-VSubjMarkerTemplates"
     :note "SimR1985 pp. 17-19. The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p. 19."
     :pdgmType :SubjMarkerTemplates
-    :common {:morpheme :SUBJMARKERTEMPLATES,
-             :pos :Verb,
-             :morphClass :SubjMarkerTemplates}
+    :common {:pos :Verb}
     :terms [[:number :person :gender :token :token-note-template],
             [:Singular :Person1 :Common "-V . . . -o . . . _NULL . . . -mm" "-V + -o + _NULL + -mm"],
             [:Singular :Person2 :Common "-V . . . -o . . . -t . . . -tt" "-V + -o + -t + -tt"],
@@ -59,9 +56,8 @@
     }
     {:label "hadiyya-ProInterrog"
     :note "HudsonG1976 p. 259."
-    :pdgmType :NA
-    :common {:morpheme :PROINTERROG,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Interr}
     :terms [[:interrogClass :token],
             [:InterrogProHow "hinka"],
@@ -262,9 +258,8 @@
     }
     {:label "hadiyya-PInd"
     :note "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 116,118."
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Accusative :Singular :Person1 :Common "e(e)s"],
@@ -293,9 +288,8 @@
     }
     {:label "hadiyya-PDemonstrative"
     :note "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 117."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:case :Nominative,
-             :morpheme :PRODEM,
              :pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:deixis :number :gender :token],
@@ -356,9 +350,7 @@
     :note "SimR1985 pp. 32-42. Note discussions of consonant assimilations for causative –s-
             pp. 33-36,for benefactive pp. 37-39."
     :pdgmType :DervStem
-    :common {:morpheme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+    :common {:pos :Verb}
     :terms [[:derivedStem :token :token-note],
             [:Benefactive "-akk- ~ --" "-akk-:root final CC"],
             [:BenefactiveCausative "--s" "e.g. amanisukko he caused to believe from aman--s-ukko"],
