@@ -64,7 +64,7 @@
                 {:label "hadiyya-VAffPresProg-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -84,7 +84,7 @@
                 {:label "hadiyya-VInterrPresPerf-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Interrogative,
                           :pos :Verb,
@@ -104,7 +104,7 @@
                 {:label "hadiyya-VNegJussive-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Negative,
                           :pos :Verb,
@@ -122,7 +122,7 @@
                 {:label "hadiyya-VAffPastPerf-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -142,7 +142,7 @@
                 {:label "hadiyya-VNegSimplePerf-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Negative,
                           :pos :Verb,
@@ -162,7 +162,7 @@
                 {:label "hadiyya-VAffPresPerf-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -182,7 +182,7 @@
                 {:label "hadiyya-VAffSimplePerf-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -202,7 +202,7 @@
                 {:label "hadiyya-VAffJussive-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -220,7 +220,7 @@
                 {:label "hadiyya-VAffImperfect-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -240,7 +240,7 @@
                 {:label "hadiyya-VNegImprtv-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :mass,
                           :person :Person2,
@@ -302,7 +302,7 @@
                 {:label "hadiyya-VNegImperfect-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Negative,
                           :pos :Verb,
@@ -322,7 +322,7 @@
                 {:label "hadiyya-VAffPastProg-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :mass,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -362,7 +362,7 @@
                 {:label "hadiyya-VAffImprtv-mass"
                  :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
             assimilations in section #4,pp. 24-32."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :mass,
                           :person :Person2,
