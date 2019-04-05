@@ -2,33 +2,33 @@
  :lang :hadiyya
  :subfamily "Highland East Cushitic"
  :sgpref "had"
- :datasource "SimR1985"
+ :datasource "SimR1985, HudsonG1976; abbrev. S85, HG76"
  :geodemoURL "http://www.ethnologue.com/language/hdy"
  :geodemoTXT "Varieties and subdialects of Hadiyya are spoken in the 'Southern Nations, Nationalities, and Peoples’ region: Gurage, Kambaata, and Hadiyya zones, between Omo and Billate rivers, Hosaina town area; Oromia region: east Shewa zone'."
  :schemata { :case [:Accusative :Nominative :Possessive],
- :deixis [:Far :Near],
- :derivedStem [:Benefactive :BenefactiveCausative :BenefactivePassive :Causative1 :Causative2 :Causative3 :CausativeBenefactive :CausativeBenefactivePassive :CausativeDenominal :CausativePassive :Passive :PassiveBenefactive :PassiveCausative],
- :gender [:Common :Fem :Masc :Polite],
- :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhere :InterrogProWho],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Interrogative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Demonstrative :Independent :Interr],
- :tam [:Imperative :Imperfect :Jussive :PastPerfect :PastProgressive :PresenProgressive :PresentPerfect :SimplePerfect],
- :vmorphClass [:DervStem :SubjMarkerTemplates :Finite]
- }
+            :deixis [:Far :Near],
+            :derivedStem [:Benefactive :BenefactiveCausative :BenefactivePassive :Causative1 :Causative2 :Causative3 :CausativeBenefactive :CausativeBenefactivePassive :CausativeDenominal :CausativePassive :Passive :PassiveBenefactive :PassiveCausative],
+            :gender [:Common :Fem :Masc :Polite],
+            :interrogClass [:InterrogProHow :InterrogProHowMany :InterrogProWhat :InterrogProWhere :InterrogProWho],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Interrogative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Demonstrative :Independent :Interr],
+            :tam [:Imperative :Imperfect :Jussive :PastPerfect :PastProgressive :PresenProgressive :PresentPerfect :SimplePerfect],
+            :vmorphClass [:DervStem :SubjMarkerTemplates :Finite]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :deixis :derivedStem :interrogClass :polarity :pos :proClass :tamb],
           :inflClass [],
           :otherClass []}
  :lexemes {
-:mass   {:pos :Verb, :lemma "mass-", :gloss "take", },
-}
+           :mass   {:pos :Verb, :lemma "mass-", :gloss "take", },
+           }
  :termclusters [
                 {:label "hadiyya-VSubjMarkerTemplates"
-                 :note "SimR1985 pp. 17-19. The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p. 19."
+                 :note "S85pp.17-19 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19."
                  :common {             :pos :Verb,
                           :vmorphClass :SubjMarkerTemplates}
                  :terms [[:number :person :gender :token :token-note-template],
@@ -54,7 +54,7 @@
                          [:Plural :Person3 :Fem "_NULL . . . -o . . . -t . . . -ookk" "_NULL + -o + -t + -ookk"]]
                  }
                 {:label "hadiyya-ProInterrog"
-                 :note "HudsonG1976 p. 259."
+                 :note "HG76p.259"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interr}
                  :terms [[:interrogClass :token],
@@ -65,8 +65,7 @@
                          [:InterrogProWho "ayye"]]
                  }
                 {:label "hadiyya-VAffPresProg-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -85,8 +84,7 @@
                          [:Plural :Person3 :Fem "massítamulla"]]
                  }
                 {:label "hadiyya-VInterrPresPerf-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Interrogative,
@@ -105,8 +103,7 @@
                          [:Plural :Person3 :Fem "massito’ohonnihe"]]
                  }
                 {:label "hadiyya-VNegJussive-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Negative,
@@ -123,8 +120,7 @@
                          [:Plural :Person3 :Fem "massitoone"]]
                  }
                 {:label "hadiyya-VAffPastPerf-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -143,8 +139,7 @@
                          [:Plural :Person3 :Fem "massanta’a he’lo’o"]]
                  }
                 {:label "hadiyya-VNegSimplePerf-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Negative,
@@ -163,8 +158,7 @@
                          [:Plural :Person3 :Fem "massito’oyyo"]]
                  }
                 {:label "hadiyya-VAffPresPerf-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -183,8 +177,7 @@
                          [:Plural :Person3 :Fem "massito’óokko"]]
                  }
                 {:label "hadiyya-VAffSimplePerf-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -203,8 +196,7 @@
                          [:Plural :Person3 :Fem "massíto’o"]]
                  }
                 {:label "hadiyya-VAffJussive-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -221,8 +213,7 @@
                          [:Plural :Person3 :Fem "massítona"]]
                  }
                 {:label "hadiyya-VAffImperfect-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -241,8 +232,7 @@
                          [:Plural :Person3 :Fem "massítamo"]]
                  }
                 {:label "hadiyya-VNegImprtv-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :mass,
@@ -255,7 +245,7 @@
                          [:Plural "massitakkotte"]]
                  }
                 {:label "hadiyya-PInd"
-                 :note "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 116,118."
+                 :note "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.116,118."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -284,7 +274,7 @@
                          [:Possessive :Plural :Person3 :Masc "ittu ~ issu-"]]
                  }
                 {:label "hadiyya-PDemonstrative"
-                 :note "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 117."
+                 :note "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.117."
                  :common {:case :Nominative,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
@@ -303,8 +293,7 @@
                          [:Near :Plural :Common " "]]
                  }
                 {:label "hadiyya-VNegImperfect-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Negative,
@@ -323,8 +312,7 @@
                          [:Plural :Person3 :Fem "?"]]
                  }
                 {:label "hadiyya-VAffPastProg-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :lexeme :mass,
                           :polarity :Affirmative,
@@ -343,8 +331,7 @@
                          [:Plural :Person3 :Fem "mannantam he’lo’o"]]
                  }
                 {:label "hadiyya-VDervStem"
-                 :note "SimR1985 pp. 32-42. Note discussions of consonant assimilations for causative –s-
-            pp. 33-36,for benefactive pp. 37-39."
+                 :note "S85pp.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36,for benefactive pp.37-39."
                  :common {             :pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derivedStem :token :token-note],
@@ -363,8 +350,7 @@
                          [:PassiveCausative "-am-s-" ""]]
                  }
                 {:label "hadiyya-VAffImprtv-mass"
-                 :note "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4,pp. 24-32."
+                 :note "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :mass,
@@ -376,6 +362,6 @@
                          [:Singular "másse"],
                          [:Plural "mássehe"]]
                  }]
-                }
- 
- 
+ }
+
+

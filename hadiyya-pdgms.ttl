@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/hadiyya//hadiyya-pdgms.edn
+#../aama-data/data/hadiyya/hadiyya-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,7 +15,7 @@ aama:Hadiyya a aamas:Language .
 aama:Hadiyya rdfs:label "Hadiyya" .
 aama:Hadiyya aamas:subfamily "Highland East Cushitic" .
 aama:Hadiyya aamas:lpref "had" .
-aama:Hadiyya aamas:dataSource "SimR1985" .
+aama:Hadiyya aamas:dataSource "SimR1985, HudsonG1976; abbrev. S85, HG76" .
 aama:Hadiyya aamas:dataSourceNotes "" .
 aama:Hadiyya aamas:geodemoURL "http://www.ethnologue.com/language/hdy" .
 aama:Hadiyya aamas:geodemoTXT "Varieties and subdialects of Hadiyya are spoken in the 'Southern Nations%% Nationalities%% and Peoples’ region: Gurage%% Kambaata%% and Hadiyya zones%% between Omo and Billate rivers%% Hosaina town area; Oromia region: east Shewa zone'." .
@@ -348,10 +348,10 @@ aama:Hadiyya-mass a aamas:Lexeme ;
 had:hadiyya-VSubjMarkerTemplates a aamas:Termcluster ;
 	rdfs:label "hadiyya-VSubjMarkerTemplates" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 17-19. The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf%%-aa- presPerf%%-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p. 19." 
+	rdfs:comment "S85pp.17-19 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf%%-aa- presPerf%%-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19." 
 	.
 
-aama:ID8f24c8c8-e8d0-4040-891d-e1ae50a85b12 a aamas:Term ;
+aama:ID18bdbe67-4871-4ba1-b668-5c36adc30caf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -363,7 +363,7 @@ aama:ID8f24c8c8-e8d0-4040-891d-e1ae50a85b12 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDc28b4dea-7c14-4954-8c8e-bcf8ec2d206c a aamas:Term ;
+aama:IDa96c3f2e-e37a-41a1-a4ef-b474f7d9f8da a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -375,7 +375,7 @@ aama:IDc28b4dea-7c14-4954-8c8e-bcf8ec2d206c a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID3860839b-bdc5-4626-98e3-7215de8eb09d a aamas:Term ;
+aama:ID0e8017b0-75a8-4fda-9d7a-f6707c4eef9d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -387,7 +387,7 @@ aama:ID3860839b-bdc5-4626-98e3-7215de8eb09d a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID43c81608-ff91-40eb-878b-aed53a513e28 a aamas:Term ;
+aama:ID6542bf0e-4f89-4584-ace9-ddb92a2e6c89 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -399,7 +399,7 @@ aama:ID43c81608-ff91-40eb-878b-aed53a513e28 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDcefd2710-2eea-4e52-a99d-c3acf3ac1224 a aamas:Term ;
+aama:ID3ef4e62a-13a3-4a87-9485-d5dc239716a5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -411,7 +411,7 @@ aama:IDcefd2710-2eea-4e52-a99d-c3acf3ac1224 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID897a562a-a920-47ca-8d2b-5f1a5e99e0f4 a aamas:Term ;
+aama:IDd4e4bd7d-2ffa-4bcf-b6a9-d19e7fd9366b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -423,7 +423,7 @@ aama:ID897a562a-a920-47ca-8d2b-5f1a5e99e0f4 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID703aea88-ac85-4061-b53c-7232c44389c4 a aamas:Term ;
+aama:ID58a3141a-41a8-40ae-ab9c-d52a5e85e4f5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -435,7 +435,7 @@ aama:ID703aea88-ac85-4061-b53c-7232c44389c4 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID3a70e926-b87e-4cd4-b0da-e54273877207 a aamas:Term ;
+aama:IDb58fd881-333a-4782-a3ea-9eac274d4f8c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -447,7 +447,7 @@ aama:ID3a70e926-b87e-4cd4-b0da-e54273877207 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDdaf9eeb8-19ee-458b-88fb-dd68213f64be a aamas:Term ;
+aama:ID689c21fe-1161-4b80-942c-b18b5362b126 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -459,7 +459,7 @@ aama:IDdaf9eeb8-19ee-458b-88fb-dd68213f64be a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID91538e09-d760-43f1-8a0d-7b7c37a900ae a aamas:Term ;
+aama:ID6d664a59-6186-4539-a176-ee41bfa5231a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -471,7 +471,7 @@ aama:ID91538e09-d760-43f1-8a0d-7b7c37a900ae a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID65a2f482-c93a-4155-8c1c-ac594faec9ed a aamas:Term ;
+aama:ID51bfa4c1-c31b-4846-91b7-87f79d01f7f4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -483,7 +483,7 @@ aama:ID65a2f482-c93a-4155-8c1c-ac594faec9ed a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID44f1ecdb-7964-41cd-99d5-1b6f8994b9db a aamas:Term ;
+aama:ID599bed87-54d3-4fca-9866-b92347a73916 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -495,7 +495,7 @@ aama:ID44f1ecdb-7964-41cd-99d5-1b6f8994b9db a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDe6cba006-4cee-4243-83db-342399e55129 a aamas:Term ;
+aama:IDa14c0b5c-6baf-4c11-a939-55a26cbb4501 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -507,7 +507,7 @@ aama:IDe6cba006-4cee-4243-83db-342399e55129 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID5c239ae1-8bb3-4fcd-81b8-5a6ea0847ca9 a aamas:Term ;
+aama:ID644fef2e-a096-4322-bbad-ff9ef276ffdf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -519,7 +519,7 @@ aama:ID5c239ae1-8bb3-4fcd-81b8-5a6ea0847ca9 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID7e56734d-c716-4509-90f0-bcbdfa5a07db a aamas:Term ;
+aama:ID3562778e-569e-43f9-9754-41554b66725e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -531,7 +531,7 @@ aama:ID7e56734d-c716-4509-90f0-bcbdfa5a07db a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID7e4245df-5100-4569-9e2e-d70e90cefe24 a aamas:Term ;
+aama:IDa5d456d2-b6de-41bc-81c7-22664840f5e3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -543,7 +543,7 @@ aama:ID7e4245df-5100-4569-9e2e-d70e90cefe24 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID96f793b5-72de-42c1-ba39-cdcaaf2f7ad9 a aamas:Term ;
+aama:IDc84f122c-5b9e-4274-9c8b-3d8e5d619f47 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -555,7 +555,7 @@ aama:ID96f793b5-72de-42c1-ba39-cdcaaf2f7ad9 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDcc9ac76c-403b-40c9-89b6-0432c879dc40 a aamas:Term ;
+aama:ID47aea382-5d1a-496e-a5cc-f357a47aa49c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -567,7 +567,7 @@ aama:IDcc9ac76c-403b-40c9-89b6-0432c879dc40 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID43b99374-fd72-4787-9aaa-a3332ef7b28a a aamas:Term ;
+aama:ID17d13d99-2357-4ccc-89b5-abd9fc2ca82b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -579,7 +579,7 @@ aama:ID43b99374-fd72-4787-9aaa-a3332ef7b28a a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID4b60e358-621d-4d62-9047-87e21eeb5581 a aamas:Term ;
+aama:ID9cabf885-86a7-486d-bbd4-ea469522d84c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VSubjMarkerTemplates ;
 	had:pos had:Verb ;
@@ -596,10 +596,10 @@ aama:ID4b60e358-621d-4d62-9047-87e21eeb5581 a aamas:Term ;
 had:hadiyya-ProInterrog a aamas:Termcluster ;
 	rdfs:label "hadiyya-ProInterrog" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HudsonG1976 p. 259." 
+	rdfs:comment "HG76p.259" 
 	.
 
-aama:ID89ad36cd-bcc0-48ab-a88b-923507987a9c a aamas:Term ;
+aama:IDf34e8a6e-3b0e-4ca1-81d6-b4b449777267 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-ProInterrog ;
 	had:pos had:Pronoun ;
@@ -609,7 +609,7 @@ aama:ID89ad36cd-bcc0-48ab-a88b-923507987a9c a aamas:Term ;
 	had:interrogClass had:InterrogProHow ;
 	.
 
-aama:ID931b6062-88e9-4266-adb9-a465a806627d a aamas:Term ;
+aama:IDc090b939-21d9-4b79-a9c9-87099982622e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-ProInterrog ;
 	had:pos had:Pronoun ;
@@ -619,7 +619,7 @@ aama:ID931b6062-88e9-4266-adb9-a465a806627d a aamas:Term ;
 	had:interrogClass had:InterrogProHowMany ;
 	.
 
-aama:IDf49f53c8-d531-4b36-a6bd-e75bb183b57b a aamas:Term ;
+aama:ID5615bfcb-2eda-4ffb-b8a7-c3f49bada3b9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-ProInterrog ;
 	had:pos had:Pronoun ;
@@ -629,7 +629,7 @@ aama:IDf49f53c8-d531-4b36-a6bd-e75bb183b57b a aamas:Term ;
 	had:interrogClass had:InterrogProWhat ;
 	.
 
-aama:IDe65e6fc6-43bc-49c7-9a6a-c62299240fac a aamas:Term ;
+aama:IDaef2b01f-e5d4-40d3-8391-0341f84e0f91 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-ProInterrog ;
 	had:pos had:Pronoun ;
@@ -639,7 +639,7 @@ aama:IDe65e6fc6-43bc-49c7-9a6a-c62299240fac a aamas:Term ;
 	had:interrogClass had:InterrogProWhere ;
 	.
 
-aama:IDd4d12209-8997-424d-a38f-ceb5cbfe5158 a aamas:Term ;
+aama:IDf9759427-2602-4626-b0e0-92e9600f28e9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-ProInterrog ;
 	had:pos had:Pronoun ;
@@ -654,11 +654,10 @@ aama:IDd4d12209-8997-424d-a38f-ceb5cbfe5158 a aamas:Term ;
 had:hadiyya-VAffPresProg-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffPresProg-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDb260e7d4-450c-4b4e-ac9f-080a854ed2d0 a aamas:Term ;
+aama:ID742abbb8-7ebb-463c-9c42-e7416505aaad a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -672,7 +671,7 @@ aama:IDb260e7d4-450c-4b4e-ac9f-080a854ed2d0 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID5a0a6149-d46d-4738-bf81-06f4a100a29c a aamas:Term ;
+aama:IDdba854f3-31ad-489c-acce-e170422d7eb4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -686,7 +685,7 @@ aama:ID5a0a6149-d46d-4738-bf81-06f4a100a29c a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDd3db74e0-afdb-44a4-98d5-5a0deb22fdf4 a aamas:Term ;
+aama:ID56e29861-bbd4-48dc-ab17-53f370aa64cf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -700,7 +699,7 @@ aama:IDd3db74e0-afdb-44a4-98d5-5a0deb22fdf4 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID11a18824-5345-49bc-a74c-6866d9e7ef7e a aamas:Term ;
+aama:ID6760355d-d3ea-4d3e-aeb4-85e131cedfab a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -714,7 +713,7 @@ aama:ID11a18824-5345-49bc-a74c-6866d9e7ef7e a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDb17627a4-c593-44ff-881b-db2383967c5a a aamas:Term ;
+aama:ID55304c73-ccab-49cb-aab3-3c4c0d3226e8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -728,7 +727,7 @@ aama:IDb17627a4-c593-44ff-881b-db2383967c5a a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID57253a3e-4e7f-4183-be63-001d9f8ad31a a aamas:Term ;
+aama:ID7a0afd08-82c1-444d-94ee-b2f54ca87477 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -742,7 +741,7 @@ aama:ID57253a3e-4e7f-4183-be63-001d9f8ad31a a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID70aad75d-e856-4a03-8fe5-8c33a2bc2647 a aamas:Term ;
+aama:IDaeec69ac-775e-4729-810d-c5346f5e88b5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -756,7 +755,7 @@ aama:ID70aad75d-e856-4a03-8fe5-8c33a2bc2647 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID76510d25-ead8-4fc4-8c99-347a57d291f0 a aamas:Term ;
+aama:ID49c8e5c1-5597-4c2e-9bfb-3ee54401f718 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -770,7 +769,7 @@ aama:ID76510d25-ead8-4fc4-8c99-347a57d291f0 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID0b9812fd-9324-418e-9e7b-a637ac15d193 a aamas:Term ;
+aama:ID2547989b-7920-4f27-955f-f3e956a99223 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -784,7 +783,7 @@ aama:ID0b9812fd-9324-418e-9e7b-a637ac15d193 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID4fcee94c-adaf-4456-9b0f-63026b3d8f01 a aamas:Term ;
+aama:ID2d020ab9-9f73-4552-a662-403f52b607f2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -803,11 +802,10 @@ aama:ID4fcee94c-adaf-4456-9b0f-63026b3d8f01 a aamas:Term ;
 had:hadiyya-VInterrPresPerf-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VInterrPresPerf-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID1f3ad89f-8288-4e45-b088-766807a23f6c a aamas:Term ;
+aama:IDa5f5bebf-e715-4ac9-815b-90dd7a48b46e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -821,7 +819,7 @@ aama:ID1f3ad89f-8288-4e45-b088-766807a23f6c a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID5eea434d-9166-4808-91bb-9cf3520dbaf5 a aamas:Term ;
+aama:ID611bfa8a-8371-4cdc-ae84-60935ecbdcc4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -835,7 +833,7 @@ aama:ID5eea434d-9166-4808-91bb-9cf3520dbaf5 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID2f94df50-9443-4495-a744-ea3f7a159f1a a aamas:Term ;
+aama:IDa27fcfd5-6364-4fd9-ac84-4658b9865703 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -849,7 +847,7 @@ aama:ID2f94df50-9443-4495-a744-ea3f7a159f1a a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID325d7a2a-6da3-449d-8826-6a9170b6d44b a aamas:Term ;
+aama:ID84157794-b67e-4fcb-b9b9-d72094dd1d84 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -863,7 +861,7 @@ aama:ID325d7a2a-6da3-449d-8826-6a9170b6d44b a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDc486c58c-e314-45ca-80ba-4ae65a48f2a2 a aamas:Term ;
+aama:ID61590ff7-eca1-420a-aded-a01bc3c99312 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -877,7 +875,7 @@ aama:IDc486c58c-e314-45ca-80ba-4ae65a48f2a2 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID1d665dbc-1879-45dc-8646-f03a574e4ade a aamas:Term ;
+aama:IDbbb944f6-34e8-4f2e-891c-83420c03fdbb a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -891,7 +889,7 @@ aama:ID1d665dbc-1879-45dc-8646-f03a574e4ade a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDd987d0d3-9e89-4d65-935b-3299f4cb4ab1 a aamas:Term ;
+aama:IDa118c853-788a-464d-a21e-ca433855faa8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -905,7 +903,7 @@ aama:IDd987d0d3-9e89-4d65-935b-3299f4cb4ab1 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID8bb396bd-ee65-45f3-ad6f-5438edeed0ba a aamas:Term ;
+aama:IDd3ed298d-4a08-43ba-a40d-90f986fd2c49 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -919,7 +917,7 @@ aama:ID8bb396bd-ee65-45f3-ad6f-5438edeed0ba a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID8380149b-25c2-474f-a9af-d0e828bc218f a aamas:Term ;
+aama:ID117e86b9-2fde-463b-8909-e3e078666e5d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -933,7 +931,7 @@ aama:ID8380149b-25c2-474f-a9af-d0e828bc218f a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDdc6e6594-ef5d-4432-a15b-77b7967e9b7b a aamas:Term ;
+aama:ID9b7e1a75-f690-4f40-acba-49831384cb51 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VInterrPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -952,11 +950,10 @@ aama:IDdc6e6594-ef5d-4432-a15b-77b7967e9b7b a aamas:Term ;
 had:hadiyya-VNegJussive-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VNegJussive-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDca6bf743-a7c4-4425-b055-4bc01f702679 a aamas:Term ;
+aama:ID886838b7-789e-4dac-b97d-91e1f64393bd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -970,7 +967,7 @@ aama:IDca6bf743-a7c4-4425-b055-4bc01f702679 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID6c7e4fc0-2e7d-401e-afa1-60b821a6c4a2 a aamas:Term ;
+aama:ID9c58ac3a-e66d-4c4f-a776-f71bba18052b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -984,7 +981,7 @@ aama:ID6c7e4fc0-2e7d-401e-afa1-60b821a6c4a2 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID11c5f8c7-2f4c-4f65-ac90-11e26472b057 a aamas:Term ;
+aama:IDfa600fdd-28ee-426e-b118-a462a3dcfdbf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -998,7 +995,7 @@ aama:ID11c5f8c7-2f4c-4f65-ac90-11e26472b057 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID4822e5b3-1c58-42fc-ad70-f1674ec40139 a aamas:Term ;
+aama:IDf0a20c22-ab5a-4c74-8828-f779c5e76f24 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1012,7 +1009,7 @@ aama:ID4822e5b3-1c58-42fc-ad70-f1674ec40139 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID7834cd66-f553-40c5-ae1c-64b3eb731d22 a aamas:Term ;
+aama:ID8918efba-72df-4789-a3e9-fd0cb1dc2a44 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1026,7 +1023,7 @@ aama:ID7834cd66-f553-40c5-ae1c-64b3eb731d22 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID89110e9f-66dc-4697-b8f0-6529deaa5817 a aamas:Term ;
+aama:IDf9766418-15b6-4d69-b9fd-6d41c35c1921 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1040,7 +1037,7 @@ aama:ID89110e9f-66dc-4697-b8f0-6529deaa5817 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID8d5ccfdc-ec74-4e33-82dc-320b0ce927b7 a aamas:Term ;
+aama:IDf5c94192-4932-40b4-b06d-ddd81089a483 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1054,7 +1051,7 @@ aama:ID8d5ccfdc-ec74-4e33-82dc-320b0ce927b7 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID53478b62-91d7-4af3-9fb7-ebd299f3936b a aamas:Term ;
+aama:IDfafa3712-4c8e-447d-ba03-a5f44d3d9a37 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1073,11 +1070,10 @@ aama:ID53478b62-91d7-4af3-9fb7-ebd299f3936b a aamas:Term ;
 had:hadiyya-VAffPastPerf-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffPastPerf-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDa869c409-ac44-4b31-bcd5-fbc72ec7dd09 a aamas:Term ;
+aama:ID04715a97-2df1-4ee4-97f6-1ce616b1bc5f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1091,7 +1087,7 @@ aama:IDa869c409-ac44-4b31-bcd5-fbc72ec7dd09 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDad5dab2a-cf49-4b4b-9c95-abc01e7ab896 a aamas:Term ;
+aama:IDc4efe9e3-f67d-4661-9965-6025502d4f8f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1105,7 +1101,7 @@ aama:IDad5dab2a-cf49-4b4b-9c95-abc01e7ab896 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID199e95a7-5cc7-478b-a2b3-c0098218cc1a a aamas:Term ;
+aama:IDa0fa1d32-8934-45bf-aa03-cc8ba3fe7648 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1119,7 +1115,7 @@ aama:ID199e95a7-5cc7-478b-a2b3-c0098218cc1a a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID7cec908f-3636-4dc4-9dd1-e4263098a187 a aamas:Term ;
+aama:ID2a9b6df3-8a9a-46e9-b2e5-6134d371ad0c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1133,7 +1129,7 @@ aama:ID7cec908f-3636-4dc4-9dd1-e4263098a187 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDf637d03c-82e9-433d-a860-782b94b256f9 a aamas:Term ;
+aama:IDc568b330-5a56-44b2-a256-39eb0403331d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1147,7 +1143,7 @@ aama:IDf637d03c-82e9-433d-a860-782b94b256f9 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID282dcb33-6632-4b3c-8cc4-c8e6efa3782f a aamas:Term ;
+aama:IDa0813a05-dfbb-4032-829a-70d880378eda a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1161,7 +1157,7 @@ aama:ID282dcb33-6632-4b3c-8cc4-c8e6efa3782f a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDedf7dc6c-b96f-45ef-ad7b-f7a6c2c43214 a aamas:Term ;
+aama:ID3bad6bdf-5f7b-434d-88c9-dd7911e92fc5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1175,7 +1171,7 @@ aama:IDedf7dc6c-b96f-45ef-ad7b-f7a6c2c43214 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID6d417e86-1246-491e-b3a9-4180afd64e94 a aamas:Term ;
+aama:IDe9bb41c2-d27a-4282-afa2-bdd7ea35fe78 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1189,7 +1185,7 @@ aama:ID6d417e86-1246-491e-b3a9-4180afd64e94 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDf4ed5c6e-8141-4a37-976f-1d90ca2267a6 a aamas:Term ;
+aama:ID7e18fe65-aaf5-44b3-9223-df3b3309dcc0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1203,7 +1199,7 @@ aama:IDf4ed5c6e-8141-4a37-976f-1d90ca2267a6 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID1f2c10e9-ea12-4f53-9c8b-56fa1996127e a aamas:Term ;
+aama:IDda904aec-30dc-4730-8f0c-783452ca09f4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1222,11 +1218,10 @@ aama:ID1f2c10e9-ea12-4f53-9c8b-56fa1996127e a aamas:Term ;
 had:hadiyya-VNegSimplePerf-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VNegSimplePerf-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID3056fd3c-6910-4d82-adda-75ab8f560436 a aamas:Term ;
+aama:IDe9f88b3d-8e80-4ae9-95fb-21262faec63c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1240,7 +1235,7 @@ aama:ID3056fd3c-6910-4d82-adda-75ab8f560436 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID299ea37d-fc9c-4c37-b82f-2d2266f4bc66 a aamas:Term ;
+aama:ID9c1cce77-9052-493d-94f9-223b77812b64 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1254,7 +1249,7 @@ aama:ID299ea37d-fc9c-4c37-b82f-2d2266f4bc66 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID38a9145a-b24f-4617-b1cb-2e8f2a054992 a aamas:Term ;
+aama:ID21688a1a-1f16-4e97-a025-16b25bb0f1d3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1268,7 +1263,7 @@ aama:ID38a9145a-b24f-4617-b1cb-2e8f2a054992 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID6c008e77-a3f9-47a1-abe1-6fb4afc21610 a aamas:Term ;
+aama:ID121a87c5-4270-4896-9c8a-26c25dfee5bf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1282,7 +1277,7 @@ aama:ID6c008e77-a3f9-47a1-abe1-6fb4afc21610 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDf45fe5ef-876d-406b-8428-ee5976d39bc2 a aamas:Term ;
+aama:IDdbbdbdef-158b-4d4e-8724-f4053cda7510 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1296,7 +1291,7 @@ aama:IDf45fe5ef-876d-406b-8428-ee5976d39bc2 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID0842d065-e7d8-4f77-8034-2a9d7ef41ffb a aamas:Term ;
+aama:ID12502690-d863-4669-8528-40018805a280 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1310,7 +1305,7 @@ aama:ID0842d065-e7d8-4f77-8034-2a9d7ef41ffb a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID18f9018e-3886-4eb8-be57-8fe89bbac431 a aamas:Term ;
+aama:ID34d28093-63cf-4495-accd-085db28c64d1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1324,7 +1319,7 @@ aama:ID18f9018e-3886-4eb8-be57-8fe89bbac431 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDb003b2c8-0c33-4f3f-8781-1e429d074381 a aamas:Term ;
+aama:ID0a3593b8-2de3-4910-8635-2638f1137cc2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1338,7 +1333,7 @@ aama:IDb003b2c8-0c33-4f3f-8781-1e429d074381 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID370193a5-8d2f-44e6-b588-f5d6265148cb a aamas:Term ;
+aama:ID5df22754-1cec-4f44-8e69-d599f534cf06 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1352,7 +1347,7 @@ aama:ID370193a5-8d2f-44e6-b588-f5d6265148cb a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID35d1b450-7167-4a5d-8b63-d9a54c613f91 a aamas:Term ;
+aama:ID49fbf520-c348-4484-b06c-6b389731501c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1371,11 +1366,10 @@ aama:ID35d1b450-7167-4a5d-8b63-d9a54c613f91 a aamas:Term ;
 had:hadiyya-VAffPresPerf-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffPresPerf-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID1f12c215-9592-4b0d-89f4-ba7a39a06d18 a aamas:Term ;
+aama:ID8431c242-57b3-4daf-8e27-fb6ce0c27356 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1389,7 +1383,7 @@ aama:ID1f12c215-9592-4b0d-89f4-ba7a39a06d18 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID0d4277a0-f75f-48af-8a46-b34146b6a5e3 a aamas:Term ;
+aama:ID4cadcb5d-8fff-4ebf-94f2-d34afcd4a0b7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1403,7 +1397,7 @@ aama:ID0d4277a0-f75f-48af-8a46-b34146b6a5e3 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDf9240f88-bff1-47c9-bcfb-bd53dbf07635 a aamas:Term ;
+aama:ID8651ce29-1cce-4a08-b9e0-f53095032d13 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1417,7 +1411,7 @@ aama:IDf9240f88-bff1-47c9-bcfb-bd53dbf07635 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDc0d9f581-d701-458f-a4f0-863deff79b08 a aamas:Term ;
+aama:IDfdf26bf6-a9d2-4a65-bfa4-ebdc156381d9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1431,7 +1425,7 @@ aama:IDc0d9f581-d701-458f-a4f0-863deff79b08 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDab9b162e-2ac9-4977-932b-6d0710ec9f18 a aamas:Term ;
+aama:ID003585f6-decc-4340-b86f-7555be602359 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1445,7 +1439,7 @@ aama:IDab9b162e-2ac9-4977-932b-6d0710ec9f18 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDb97307b7-d5fe-4584-9c6a-230afbc2d8fa a aamas:Term ;
+aama:ID6d50a35a-cee4-4bc4-91e2-9f9806390253 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1459,7 +1453,7 @@ aama:IDb97307b7-d5fe-4584-9c6a-230afbc2d8fa a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDf259e883-c5b5-4b8a-8c53-0dc7510bb07e a aamas:Term ;
+aama:IDba00510c-93c8-4d9a-a181-da030938d8f0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1473,7 +1467,7 @@ aama:IDf259e883-c5b5-4b8a-8c53-0dc7510bb07e a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID64b425bb-b61a-41c8-9946-41699df679bf a aamas:Term ;
+aama:ID7c3a981a-fcde-4db1-a80a-d32642e235ee a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1487,7 +1481,7 @@ aama:ID64b425bb-b61a-41c8-9946-41699df679bf a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID072679f8-790a-4ca5-b3ae-ea8b88c6ccae a aamas:Term ;
+aama:ID678de073-71ca-46bd-9747-ab730e377ec4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1501,7 +1495,7 @@ aama:ID072679f8-790a-4ca5-b3ae-ea8b88c6ccae a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDd558bf47-2203-4405-82a2-838c7ef5af79 a aamas:Term ;
+aama:ID04f4ceb5-d862-4f0d-b55b-3355830b8eb5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPresPerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1520,11 +1514,10 @@ aama:IDd558bf47-2203-4405-82a2-838c7ef5af79 a aamas:Term ;
 had:hadiyya-VAffSimplePerf-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffSimplePerf-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDf28428e5-3dc9-4c43-b08f-0efc2a7f8f76 a aamas:Term ;
+aama:IDe25fdcdd-fd30-4a3f-b4fd-cd820de86bfa a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1538,7 +1531,7 @@ aama:IDf28428e5-3dc9-4c43-b08f-0efc2a7f8f76 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID46c4d9e9-c181-4706-af47-2d708f17307b a aamas:Term ;
+aama:IDa6869d81-6e23-40a2-8a7d-004897b1bf9c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1552,7 +1545,7 @@ aama:ID46c4d9e9-c181-4706-af47-2d708f17307b a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID39347bf1-b0fe-4ef4-ba8b-cc1381106fad a aamas:Term ;
+aama:IDe12bb912-3fb8-4e12-a321-baf92ec4cc21 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1566,7 +1559,7 @@ aama:ID39347bf1-b0fe-4ef4-ba8b-cc1381106fad a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID7dbb3f34-80a8-4781-8f08-5885248ff795 a aamas:Term ;
+aama:ID777a643e-df9d-45a9-9f78-842471dd6e2f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1580,7 +1573,7 @@ aama:ID7dbb3f34-80a8-4781-8f08-5885248ff795 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID12181a5f-65cd-4d66-89fd-ea042b975ac2 a aamas:Term ;
+aama:IDbf455279-342b-4109-8b51-7a75782a014e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1594,7 +1587,7 @@ aama:ID12181a5f-65cd-4d66-89fd-ea042b975ac2 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID718f1fa2-dee6-41e5-b13d-5de212c4ecca a aamas:Term ;
+aama:IDa1b8d8ba-8f36-40dc-aeff-ee656177fb2d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1608,7 +1601,7 @@ aama:ID718f1fa2-dee6-41e5-b13d-5de212c4ecca a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDe51132f3-6db8-484b-8de4-bdb3f5fe774e a aamas:Term ;
+aama:ID06b200eb-8f51-4324-a3a9-322e8f034653 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1622,7 +1615,7 @@ aama:IDe51132f3-6db8-484b-8de4-bdb3f5fe774e a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID2318d3a9-0dbd-4f62-8ef0-031f6f5fd088 a aamas:Term ;
+aama:ID16276360-b167-4acc-88bf-f0bb38a6a9a7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1636,7 +1629,7 @@ aama:ID2318d3a9-0dbd-4f62-8ef0-031f6f5fd088 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID3978438d-ff94-4607-88fb-00ff51fdcc53 a aamas:Term ;
+aama:ID1fe25c2c-8f60-460c-afae-baa94037f2b2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1650,7 +1643,7 @@ aama:ID3978438d-ff94-4607-88fb-00ff51fdcc53 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID54e13f60-0865-45b6-aca7-5075ce12ab68 a aamas:Term ;
+aama:ID1ade5e10-a52b-4e69-9d86-f7ca7d3c72a7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffSimplePerf-mass ;
 	had:vmorphClass had:Finite ;
@@ -1669,11 +1662,10 @@ aama:ID54e13f60-0865-45b6-aca7-5075ce12ab68 a aamas:Term ;
 had:hadiyya-VAffJussive-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffJussive-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDfcc9425e-e331-472f-b6d3-9b6bb12166a8 a aamas:Term ;
+aama:IDd0b68f18-e911-44f4-8852-0629e7872508 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1687,7 +1679,7 @@ aama:IDfcc9425e-e331-472f-b6d3-9b6bb12166a8 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID741945f1-b6f0-416f-9c27-1ca220de9317 a aamas:Term ;
+aama:ID39b234fd-f409-4c1f-a58d-04d0f8228a90 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1701,7 +1693,7 @@ aama:ID741945f1-b6f0-416f-9c27-1ca220de9317 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDa0c2d93a-f515-412f-85c6-bc639262d777 a aamas:Term ;
+aama:IDd9d8d9ae-d5fe-4b35-aa42-9cbb0333fbaf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1715,7 +1707,7 @@ aama:IDa0c2d93a-f515-412f-85c6-bc639262d777 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDffe3e391-65aa-4b4b-a860-e0b682a16fd5 a aamas:Term ;
+aama:ID0003c341-b3fd-4eac-9d64-02866c62929a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1729,7 +1721,7 @@ aama:IDffe3e391-65aa-4b4b-a860-e0b682a16fd5 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID3b6ce4a0-e05f-40b6-9db4-52800553f43f a aamas:Term ;
+aama:ID13e724e9-9a2e-41c5-bfbd-dc40f92d0235 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1743,7 +1735,7 @@ aama:ID3b6ce4a0-e05f-40b6-9db4-52800553f43f a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDd5f15bc1-e1c5-4436-af7b-2aec870fcd6c a aamas:Term ;
+aama:ID47be1ac3-212c-46d2-95b0-3d72566e8bf6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1757,7 +1749,7 @@ aama:IDd5f15bc1-e1c5-4436-af7b-2aec870fcd6c a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDfe4b9161-988b-408b-80d3-8c4dbef3b925 a aamas:Term ;
+aama:IDa92a17c5-6abc-4e95-a3cc-350c4f914595 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1771,7 +1763,7 @@ aama:IDfe4b9161-988b-408b-80d3-8c4dbef3b925 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDf725295b-405a-4b53-bf81-751f811b5e8e a aamas:Term ;
+aama:ID5b47eda3-b550-426e-8783-96068dfc8256 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffJussive-mass ;
 	had:vmorphClass had:Finite ;
@@ -1790,11 +1782,10 @@ aama:IDf725295b-405a-4b53-bf81-751f811b5e8e a aamas:Term ;
 had:hadiyya-VAffImperfect-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffImperfect-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID5604d541-4d4f-4448-99ac-1066798edfa0 a aamas:Term ;
+aama:IDdd39f8ef-a7f9-4d4e-9bd5-1f86bb666f3d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1808,7 +1799,7 @@ aama:ID5604d541-4d4f-4448-99ac-1066798edfa0 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID30ee72d5-e416-4c64-bc2c-b09c22b5011e a aamas:Term ;
+aama:IDcfeca330-f791-4fc1-8546-8d1a50696112 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1822,7 +1813,7 @@ aama:ID30ee72d5-e416-4c64-bc2c-b09c22b5011e a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDfef94465-7460-4b03-aee7-3777918a65c1 a aamas:Term ;
+aama:ID69af0d3f-2d34-45e7-88c8-b65b3f145aee a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1836,7 +1827,7 @@ aama:IDfef94465-7460-4b03-aee7-3777918a65c1 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID2de5a047-369f-4803-bd8a-0a5fe5886613 a aamas:Term ;
+aama:ID4d406a8f-d10f-4928-b41d-18916dcc9dd1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1850,7 +1841,7 @@ aama:ID2de5a047-369f-4803-bd8a-0a5fe5886613 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDd5ee407a-89fa-45a8-af6d-22c536c47d0b a aamas:Term ;
+aama:IDbe0e0d3b-75e4-4ad0-9c4f-18a4b9b56d8d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1864,7 +1855,7 @@ aama:IDd5ee407a-89fa-45a8-af6d-22c536c47d0b a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID1796bf2e-f208-43c2-97d2-a461147ca4ce a aamas:Term ;
+aama:ID9a0c4ab7-df5e-4d80-9c40-6803f49c7e0e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1878,7 +1869,7 @@ aama:ID1796bf2e-f208-43c2-97d2-a461147ca4ce a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID419e3063-047f-49b0-b4ef-6bbb7803f74c a aamas:Term ;
+aama:IDef656366-7e0b-4f5b-bc66-8b4c6770bdb5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1892,7 +1883,7 @@ aama:ID419e3063-047f-49b0-b4ef-6bbb7803f74c a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID7524c135-b6e1-42d9-aec4-b4c626cc8517 a aamas:Term ;
+aama:ID01b44298-d579-4f71-9f75-ab45f0ba13af a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1906,7 +1897,7 @@ aama:ID7524c135-b6e1-42d9-aec4-b4c626cc8517 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDceebe6d3-56dc-4fbb-84ef-21c9a0c0ca7d a aamas:Term ;
+aama:IDdc35128d-72e2-498b-86a3-e7832cd42217 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1920,7 +1911,7 @@ aama:IDceebe6d3-56dc-4fbb-84ef-21c9a0c0ca7d a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID8ff1af68-9e60-413a-81c8-bc78bc75c044 a aamas:Term ;
+aama:IDdc0a4f2f-b5eb-457a-87a8-7ae7113f550f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -1939,11 +1930,10 @@ aama:ID8ff1af68-9e60-413a-81c8-bc78bc75c044 a aamas:Term ;
 had:hadiyya-VNegImprtv-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VNegImprtv-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDda82bf7f-f9fd-4ff9-9f6e-98702bd72e5b a aamas:Term ;
+aama:IDaa0c28b5-9d0b-49a7-ac9c-61e68a6bc383 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImprtv-mass ;
 	had:vmorphClass had:Finite ;
@@ -1957,7 +1947,7 @@ aama:IDda82bf7f-f9fd-4ff9-9f6e-98702bd72e5b a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDc3cbaed7-524d-4948-ba87-e392f9c8545d a aamas:Term ;
+aama:ID06edeae1-b641-44a8-a337-e7053dae38cd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImprtv-mass ;
 	had:vmorphClass had:Finite ;
@@ -1976,10 +1966,10 @@ aama:IDc3cbaed7-524d-4948-ba87-e392f9c8545d a aamas:Term ;
 had:hadiyya-PInd a aamas:Termcluster ;
 	rdfs:label "hadiyya-PInd" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HudsonG1976 pp. 256-259. Cf. Korhonen-etal1986 p. 116%%118." 
+	rdfs:comment "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.116%%118." 
 	.
 
-aama:ID3b31cfba-a923-4f66-85f4-babf0b5802c6 a aamas:Term ;
+aama:ID64b4b0d7-7e8d-4904-a14e-6003fb9caeb5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -1992,7 +1982,7 @@ aama:ID3b31cfba-a923-4f66-85f4-babf0b5802c6 a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:ID033cbd0c-71bc-41cc-ae13-68121875b8a9 a aamas:Term ;
+aama:ID765d7894-cc62-4ad1-ac1d-34d5fc84c76c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2005,7 +1995,7 @@ aama:ID033cbd0c-71bc-41cc-ae13-68121875b8a9 a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:IDcedfd2c2-96c8-4565-8401-283ecbcab105 a aamas:Term ;
+aama:ID0a7daf0e-eb55-4c37-a03b-43eb4f7eac26 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2018,7 +2008,7 @@ aama:IDcedfd2c2-96c8-4565-8401-283ecbcab105 a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:ID073bc310-6d88-433d-a383-7a90bf0c3268 a aamas:Term ;
+aama:IDde663270-c5bd-4dd7-8911-7b34f7ceabc4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2031,7 +2021,7 @@ aama:ID073bc310-6d88-433d-a383-7a90bf0c3268 a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:IDb37977a8-bae7-4867-a3fb-59a54a101e0b a aamas:Term ;
+aama:ID703469c8-2bb6-4832-ac96-19847bc73a24 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2044,7 +2034,7 @@ aama:IDb37977a8-bae7-4867-a3fb-59a54a101e0b a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:IDf228ef35-71c1-4402-8332-2f870ec00a9b a aamas:Term ;
+aama:IDfebb3b50-4faf-4bc5-9596-f86784353a02 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2057,7 +2047,7 @@ aama:IDf228ef35-71c1-4402-8332-2f870ec00a9b a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:ID7767a48a-4977-4c3b-8c41-fa8a10c2b705 a aamas:Term ;
+aama:IDbf01982c-6b92-4683-b2b4-724c63aff24a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2070,7 +2060,7 @@ aama:ID7767a48a-4977-4c3b-8c41-fa8a10c2b705 a aamas:Term ;
 	had:case had:Accusative ;
 	.
 
-aama:ID61c19f07-051f-41b8-ba10-f129dfd737a5 a aamas:Term ;
+aama:ID195677e2-3b0a-4e8f-8290-877183a4395b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2083,7 +2073,7 @@ aama:ID61c19f07-051f-41b8-ba10-f129dfd737a5 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:IDd276d615-b80f-42c5-87ca-7b080f69c6e0 a aamas:Term ;
+aama:IDab4ff409-d95f-422d-ac08-51a72c86af1c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2096,7 +2086,7 @@ aama:IDd276d615-b80f-42c5-87ca-7b080f69c6e0 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID3ce6b35d-331b-4334-9f28-5e8d8d178b16 a aamas:Term ;
+aama:IDa7060a80-b2d8-494d-90dc-0e8f0e64a27a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2109,7 +2099,7 @@ aama:ID3ce6b35d-331b-4334-9f28-5e8d8d178b16 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID0c542766-9642-4b5e-99d6-67520c0e79cd a aamas:Term ;
+aama:IDb88e1c80-2fb8-4337-8fb9-27e933c94b48 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2122,7 +2112,7 @@ aama:ID0c542766-9642-4b5e-99d6-67520c0e79cd a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID9e785dc3-0c2b-472e-9771-94380e593f47 a aamas:Term ;
+aama:ID836db21a-6812-4224-b223-c8caf70de228 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2135,7 +2125,7 @@ aama:ID9e785dc3-0c2b-472e-9771-94380e593f47 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:IDbe6038be-665f-4845-96d4-202de7dcaf50 a aamas:Term ;
+aama:IDf2241f96-6514-4334-80f9-096630d0e241 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2148,7 +2138,7 @@ aama:IDbe6038be-665f-4845-96d4-202de7dcaf50 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID233fbb71-8c49-48fc-89d2-7af99b17dae4 a aamas:Term ;
+aama:IDd75063e1-5b1a-4b41-966d-ab227d1e5e85 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2161,7 +2151,7 @@ aama:ID233fbb71-8c49-48fc-89d2-7af99b17dae4 a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID8de7d1bc-b256-491d-9e21-453deee2393f a aamas:Term ;
+aama:IDf7fff9e7-7781-41e7-9f7c-328e0508cac1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2174,7 +2164,7 @@ aama:ID8de7d1bc-b256-491d-9e21-453deee2393f a aamas:Term ;
 	had:case had:Nominative ;
 	.
 
-aama:ID98004b3f-2ea6-447a-9ceb-3aac59a3e67c a aamas:Term ;
+aama:ID026c5be6-518a-4e44-b1dd-a2dab5564533 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2187,7 +2177,7 @@ aama:ID98004b3f-2ea6-447a-9ceb-3aac59a3e67c a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID9923671e-5d36-4315-aa53-148ced39891c a aamas:Term ;
+aama:IDe9a5e7a7-88e3-4957-a42e-e273a1269cfe a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2200,7 +2190,7 @@ aama:ID9923671e-5d36-4315-aa53-148ced39891c a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID70febd8e-eaa4-4a42-b933-ee02f6cd2b3f a aamas:Term ;
+aama:ID6b706f66-0a1c-43f4-bc4a-83f39281384a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2213,7 +2203,7 @@ aama:ID70febd8e-eaa4-4a42-b933-ee02f6cd2b3f a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID31e97d47-a065-4d5e-a9b7-4d4465282d54 a aamas:Term ;
+aama:ID345d860f-0ea3-4b97-99fd-1639a8b5e723 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2226,7 +2216,7 @@ aama:ID31e97d47-a065-4d5e-a9b7-4d4465282d54 a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID557743a5-abe7-44d1-bc7c-c04a779805b6 a aamas:Term ;
+aama:ID27eeb239-80e6-4000-86d1-80b03a1c712c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2239,7 +2229,7 @@ aama:ID557743a5-abe7-44d1-bc7c-c04a779805b6 a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID218284ad-2b5b-430c-8a6e-37907163e927 a aamas:Term ;
+aama:IDd824fb70-cb20-4bd4-834d-cbfb7cd1e7bb a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2252,7 +2242,7 @@ aama:ID218284ad-2b5b-430c-8a6e-37907163e927 a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID0cbabc4d-8f61-449d-aec8-42494a67a11c a aamas:Term ;
+aama:ID8bb7d1df-6f52-4ac0-9dc3-bcdac9c126dc a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2265,7 +2255,7 @@ aama:ID0cbabc4d-8f61-449d-aec8-42494a67a11c a aamas:Term ;
 	had:case had:Possessive ;
 	.
 
-aama:ID63fced2f-e9fc-4489-919e-2f6c394fb1f0 a aamas:Term ;
+aama:IDc5687359-8ab9-4683-b6c5-c5890d9f4bd3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PInd ;
 	had:pos had:Pronoun ;
@@ -2283,10 +2273,10 @@ aama:ID63fced2f-e9fc-4489-919e-2f6c394fb1f0 a aamas:Term ;
 had:hadiyya-PDemonstrative a aamas:Termcluster ;
 	rdfs:label "hadiyya-PDemonstrative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HudsonG1976 pp. 255-256. Cf. Korhonen-etal1986 p. 117." 
+	rdfs:comment "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.117." 
 	.
 
-aama:IDf2c86fd4-1db5-4298-b958-017fbd380ca0 a aamas:Term ;
+aama:ID2f6447e7-9eb7-462d-9b6e-3857b4f2be28 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2299,7 +2289,7 @@ aama:IDf2c86fd4-1db5-4298-b958-017fbd380ca0 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID2b1e26e6-a27f-4d1d-a798-d297f7151c51 a aamas:Term ;
+aama:ID323e1008-d816-4af1-9c86-5771329f61f9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2312,7 +2302,7 @@ aama:ID2b1e26e6-a27f-4d1d-a798-d297f7151c51 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID8ad3e9ea-7e21-464b-879d-cc3b64078818 a aamas:Term ;
+aama:IDd37f9666-d20f-4661-8f32-64d5c8f7ec3b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2325,7 +2315,7 @@ aama:ID8ad3e9ea-7e21-464b-879d-cc3b64078818 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID6fcc8b9d-a757-40f1-bc5d-e04a2c0913e7 a aamas:Term ;
+aama:ID4f3b6360-b005-4c19-a910-2e8ab3ae79cf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2338,7 +2328,7 @@ aama:ID6fcc8b9d-a757-40f1-bc5d-e04a2c0913e7 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID29f66e05-4e35-47b0-a6d6-e0145e69a0d4 a aamas:Term ;
+aama:ID387f6984-3de7-44a5-8e33-e477a7236706 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2351,7 +2341,7 @@ aama:ID29f66e05-4e35-47b0-a6d6-e0145e69a0d4 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID5565d20e-76d2-4a0f-b514-6fd4955a48d7 a aamas:Term ;
+aama:ID9d30a4a3-5796-4eca-b8a1-5bcd18be3c65 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2364,7 +2354,7 @@ aama:ID5565d20e-76d2-4a0f-b514-6fd4955a48d7 a aamas:Term ;
 	had:deixis had:Far ;
 	.
 
-aama:ID63bc9642-3599-4d86-80e7-046a27425503 a aamas:Term ;
+aama:ID2f611cb5-929a-4d53-ba57-4a35969cbda2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2377,7 +2367,7 @@ aama:ID63bc9642-3599-4d86-80e7-046a27425503 a aamas:Term ;
 	had:deixis had:Near ;
 	.
 
-aama:IDd95fafc6-71f3-43e0-a122-9361b888e252 a aamas:Term ;
+aama:ID37f98557-2ccc-432b-b7dc-2b4340e0792a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2390,7 +2380,7 @@ aama:IDd95fafc6-71f3-43e0-a122-9361b888e252 a aamas:Term ;
 	had:deixis had:Near ;
 	.
 
-aama:ID3b22b8d6-1852-4820-80e8-ca4593b25680 a aamas:Term ;
+aama:IDa94edbda-42f3-49e4-b4f6-c08af39f721c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2403,7 +2393,7 @@ aama:ID3b22b8d6-1852-4820-80e8-ca4593b25680 a aamas:Term ;
 	had:deixis had:Near ;
 	.
 
-aama:IDf5f4bfb1-e37f-456b-8093-d9dc3ac5632d a aamas:Term ;
+aama:IDf0fbbd2e-40a9-44ee-941b-7e7c7fc3d264 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2416,7 +2406,7 @@ aama:IDf5f4bfb1-e37f-456b-8093-d9dc3ac5632d a aamas:Term ;
 	had:deixis had:Near ;
 	.
 
-aama:ID1b8efbc4-34f0-4af2-bca4-75e1c7e0af0e a aamas:Term ;
+aama:ID2b60b19b-db7a-4baf-aa54-1eadd21c1d88 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2429,7 +2419,7 @@ aama:ID1b8efbc4-34f0-4af2-bca4-75e1c7e0af0e a aamas:Term ;
 	had:deixis had:Near ;
 	.
 
-aama:IDf3f9566b-9bc8-416c-b4e6-b61f3702678e a aamas:Term ;
+aama:ID53585f0c-6b5b-4afb-b86d-378d1d595e58 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-PDemonstrative ;
 	had:case had:Nominative ;
@@ -2447,11 +2437,10 @@ aama:IDf3f9566b-9bc8-416c-b4e6-b61f3702678e a aamas:Term ;
 had:hadiyya-VNegImperfect-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VNegImperfect-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID09152f77-430a-40c0-9135-2ff53f89c534 a aamas:Term ;
+aama:IDf765a664-8e88-42dd-ab58-25c047aff7fd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2465,7 +2454,7 @@ aama:ID09152f77-430a-40c0-9135-2ff53f89c534 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID00d369b2-ccf9-4ea2-8eff-1cb8e1d7dd8e a aamas:Term ;
+aama:ID710af498-6554-411d-a208-e4f2e77c74df a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2479,7 +2468,7 @@ aama:ID00d369b2-ccf9-4ea2-8eff-1cb8e1d7dd8e a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID91fcb4b8-f339-4b6a-ac1b-f78362ed0ace a aamas:Term ;
+aama:ID6d078a68-f86a-43c1-9a00-e6cfb305543c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2493,7 +2482,7 @@ aama:ID91fcb4b8-f339-4b6a-ac1b-f78362ed0ace a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDa437df15-b00a-44ba-bda7-7735f1f4f262 a aamas:Term ;
+aama:IDd6d44d98-94b5-4996-88e7-42c881175637 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2507,7 +2496,7 @@ aama:IDa437df15-b00a-44ba-bda7-7735f1f4f262 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID3ccfa794-4e3f-41eb-bf9f-babdcb61854b a aamas:Term ;
+aama:ID383279cb-e171-4346-9536-2f8805d91337 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2521,7 +2510,7 @@ aama:ID3ccfa794-4e3f-41eb-bf9f-babdcb61854b a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID28ad12f6-d516-4fbf-9104-910818c21d9e a aamas:Term ;
+aama:ID629900e8-0520-4a38-9dcb-9a2e2eb8c87e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2535,7 +2524,7 @@ aama:ID28ad12f6-d516-4fbf-9104-910818c21d9e a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID295796b7-28c3-4bf8-8e6f-b5ef8000e224 a aamas:Term ;
+aama:ID5171ed7b-08fc-4d68-9b70-77de57077e6c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2549,7 +2538,7 @@ aama:ID295796b7-28c3-4bf8-8e6f-b5ef8000e224 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID79d167a5-1d4b-4970-87fa-33fe991d463d a aamas:Term ;
+aama:IDdf2cca8b-9278-4e54-9574-2b6e6b0c5d0d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2563,7 +2552,7 @@ aama:ID79d167a5-1d4b-4970-87fa-33fe991d463d a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID48386856-1bef-4fe9-bdab-87ad7fe80f49 a aamas:Term ;
+aama:IDfb5a52e9-9c67-44b7-beb9-747f93f09f87 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2577,7 +2566,7 @@ aama:ID48386856-1bef-4fe9-bdab-87ad7fe80f49 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:IDa21cec06-1998-4050-9963-56a524ca3455 a aamas:Term ;
+aama:ID5f278650-c406-41cf-9a00-27003c669280 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VNegImperfect-mass ;
 	had:vmorphClass had:Finite ;
@@ -2596,11 +2585,10 @@ aama:IDa21cec06-1998-4050-9963-56a524ca3455 a aamas:Term ;
 had:hadiyya-VAffPastProg-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffPastProg-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:IDda6e9a01-000e-4556-9419-7567dc3bc793 a aamas:Term ;
+aama:IDf5e77837-7366-4c33-86c7-67bc63db1a98 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2614,7 +2602,7 @@ aama:IDda6e9a01-000e-4556-9419-7567dc3bc793 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDddc9b8ad-7565-4e02-b905-51d62a260e85 a aamas:Term ;
+aama:IDfc36f9cb-e3ee-45af-bec3-dfe9fd7d1e8c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2628,7 +2616,7 @@ aama:IDddc9b8ad-7565-4e02-b905-51d62a260e85 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID103cee6b-1e7a-4fa4-85ac-1d389a9110fa a aamas:Term ;
+aama:IDbb84e7d5-7081-4743-8777-beb605d91f55 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2642,7 +2630,7 @@ aama:ID103cee6b-1e7a-4fa4-85ac-1d389a9110fa a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID55389f94-674a-4162-9c80-f9302cd05e5e a aamas:Term ;
+aama:ID30025657-efa5-49d8-9c61-5b794e61555d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2656,7 +2644,7 @@ aama:ID55389f94-674a-4162-9c80-f9302cd05e5e a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDa81a8b2c-4d04-4643-af9a-6a4dfc15be7a a aamas:Term ;
+aama:ID2cef9aad-cdf7-407b-93f6-5b822cda2f6f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2670,7 +2658,7 @@ aama:IDa81a8b2c-4d04-4643-af9a-6a4dfc15be7a a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:ID51dd2005-af27-4f43-b7d1-f58e9eadb352 a aamas:Term ;
+aama:ID83c80ffb-d4ed-4fbb-b498-1335724a77e7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2684,7 +2672,7 @@ aama:ID51dd2005-af27-4f43-b7d1-f58e9eadb352 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID95245def-9388-435c-80b7-7eaf3047453c a aamas:Term ;
+aama:ID1bd1efd2-0995-4858-a2f1-edd26e350228 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2698,7 +2686,7 @@ aama:ID95245def-9388-435c-80b7-7eaf3047453c a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID0b90e042-a171-4521-9185-2e8ed3dfa42a a aamas:Term ;
+aama:IDe787b8df-4eaa-494f-8163-a374ec8fd019 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2712,7 +2700,7 @@ aama:ID0b90e042-a171-4521-9185-2e8ed3dfa42a a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID4db16e59-9cae-450d-a14e-3eec5ab57035 a aamas:Term ;
+aama:IDc6ce49d1-493a-44c8-ada1-f50190ba1a16 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2726,7 +2714,7 @@ aama:ID4db16e59-9cae-450d-a14e-3eec5ab57035 a aamas:Term ;
 	had:number had:Plural ;
 	.
 
-aama:ID0a1c9267-53a2-4565-94c9-7ad181f04b84 a aamas:Term ;
+aama:IDb46f2c78-42c0-46b3-b6d3-ad8739d1f4ae a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffPastProg-mass ;
 	had:vmorphClass had:Finite ;
@@ -2745,11 +2733,10 @@ aama:ID0a1c9267-53a2-4565-94c9-7ad181f04b84 a aamas:Term ;
 had:hadiyya-VDervStem a aamas:Termcluster ;
 	rdfs:label "hadiyya-VDervStem" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 32-42. Note discussions of consonant assimilations for causative –s-
-            pp. 33-36%%for benefactive pp. 37-39." 
+	rdfs:comment "S85pp.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36%%for benefactive pp.37-39." 
 	.
 
-aama:IDa2949c2f-4c11-4b59-8edf-5e5281e474dc a aamas:Term ;
+aama:ID195ee80d-1b3b-42ed-b3d9-e0f7803b52ad a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2759,7 +2746,7 @@ aama:IDa2949c2f-4c11-4b59-8edf-5e5281e474dc a aamas:Term ;
 	had:derivedStem had:Benefactive ;
 	.
 
-aama:ID94c38777-27f5-4854-b239-848d24a9e76e a aamas:Term ;
+aama:IDa82ed007-7785-4809-9b10-0116b77dd456 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2769,7 +2756,7 @@ aama:ID94c38777-27f5-4854-b239-848d24a9e76e a aamas:Term ;
 	had:derivedStem had:BenefactiveCausative ;
 	.
 
-aama:ID791fa29e-20b6-41e1-9897-e4bc42c1b4ec a aamas:Term ;
+aama:ID6a2a360b-d912-4648-9975-ce6f8cc13e2f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2779,7 +2766,7 @@ aama:ID791fa29e-20b6-41e1-9897-e4bc42c1b4ec a aamas:Term ;
 	had:derivedStem had:BenefactivePassive ;
 	.
 
-aama:IDa5a3b46a-6542-411b-9827-08a2d0b7e879 a aamas:Term ;
+aama:IDdd3e374c-4fda-459f-b662-d592c970c7db a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2789,7 +2776,7 @@ aama:IDa5a3b46a-6542-411b-9827-08a2d0b7e879 a aamas:Term ;
 	had:derivedStem had:Causative1 ;
 	.
 
-aama:ID60149d6b-33f5-48ee-9378-de437d843176 a aamas:Term ;
+aama:ID828bb5e9-4ada-4ac7-9272-66f86151854e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2799,7 +2786,7 @@ aama:ID60149d6b-33f5-48ee-9378-de437d843176 a aamas:Term ;
 	had:derivedStem had:Causative2 ;
 	.
 
-aama:IDe006db17-5995-4505-a47f-c0087174850e a aamas:Term ;
+aama:ID14ed3f1a-521d-4429-87f5-dab68e4d566d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2809,7 +2796,7 @@ aama:IDe006db17-5995-4505-a47f-c0087174850e a aamas:Term ;
 	had:derivedStem had:Causative3 ;
 	.
 
-aama:ID54ff4f95-f469-4bc4-aae9-662297fa6cff a aamas:Term ;
+aama:ID00d6ba22-d776-406e-91df-4c503d16bd0b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2819,7 +2806,7 @@ aama:ID54ff4f95-f469-4bc4-aae9-662297fa6cff a aamas:Term ;
 	had:derivedStem had:CausativeBenefactive ;
 	.
 
-aama:ID5982b6fd-9fc3-4944-a9c5-7548795ce875 a aamas:Term ;
+aama:ID4e5bbfe3-38eb-4c40-b9da-4e3267ee0487 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2829,7 +2816,7 @@ aama:ID5982b6fd-9fc3-4944-a9c5-7548795ce875 a aamas:Term ;
 	had:derivedStem had:CausativeBenefactivePassive ;
 	.
 
-aama:ID0ae4fc0f-cd4b-48d9-8cdf-150ad7b5b9db a aamas:Term ;
+aama:ID7701e148-22e5-42c7-be5c-a4a3914e8a5e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2839,7 +2826,7 @@ aama:ID0ae4fc0f-cd4b-48d9-8cdf-150ad7b5b9db a aamas:Term ;
 	had:derivedStem had:CausativeDenominal ;
 	.
 
-aama:IDe3a12494-8c66-452d-b622-8c34b4182b97 a aamas:Term ;
+aama:ID9fb7fac0-8010-4e4b-ad43-e34f16030097 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2849,7 +2836,7 @@ aama:IDe3a12494-8c66-452d-b622-8c34b4182b97 a aamas:Term ;
 	had:derivedStem had:CausativePassive ;
 	.
 
-aama:ID8b9b7c06-ac6c-4c5f-8f48-107336beaff7 a aamas:Term ;
+aama:IDad4bd673-05a0-4b41-b0c8-b9843f2d3bc7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2859,7 +2846,7 @@ aama:ID8b9b7c06-ac6c-4c5f-8f48-107336beaff7 a aamas:Term ;
 	had:derivedStem had:Passive ;
 	.
 
-aama:IDd5ec2b47-1fa7-49ef-8dc1-4be055309090 a aamas:Term ;
+aama:ID92a5cb34-a27d-40d2-ac01-ba5d1de80c47 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2869,7 +2856,7 @@ aama:IDd5ec2b47-1fa7-49ef-8dc1-4be055309090 a aamas:Term ;
 	had:derivedStem had:PassiveBenefactive ;
 	.
 
-aama:IDb708bf93-e4d7-46f7-b705-48c7fe355511 a aamas:Term ;
+aama:IDfaa54e95-c822-475f-b249-fd7dc4384498 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VDervStem ;
 	had:pos had:Verb ;
@@ -2884,11 +2871,10 @@ aama:IDb708bf93-e4d7-46f7-b705-48c7fe355511 a aamas:Term ;
 had:hadiyya-VAffImprtv-mass a aamas:Termcluster ;
 	rdfs:label "hadiyya-VAffImprtv-mass" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "SimR1985 pp. 13-16. Extensive discussions of stem-desinence consonant
-            assimilations in section #4%%pp. 24-32." 
+	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4%%pp.24-32." 
 	.
 
-aama:ID55e843e5-99a7-436a-9926-a50d1aa1dc93 a aamas:Term ;
+aama:ID39b8103a-6221-4c64-bc4a-946ca63b320b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImprtv-mass ;
 	had:vmorphClass had:Finite ;
@@ -2902,7 +2888,7 @@ aama:ID55e843e5-99a7-436a-9926-a50d1aa1dc93 a aamas:Term ;
 	had:number had:Singular ;
 	.
 
-aama:IDd3afd8ff-dafb-4dd1-8bc2-f01f9c38e52f a aamas:Term ;
+aama:IDb8fcabd3-999e-4571-a5a2-8f0925cf20bd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:hadiyya-VAffImprtv-mass ;
 	had:vmorphClass had:Finite ;
