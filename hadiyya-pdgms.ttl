@@ -14,9 +14,9 @@
 
 aama:Hadiyya a aamas:Language.
 aama:Hadiyya rdfs:label "Hadiyya" .
-aama:Hadiyya aamas:subfamily "Highland East Cushitic" .
+aama:Hadiyya aamas:subfamily "cushitic east highland" .
 aama:Hadiyya aamas:lpref "had" .
-aama:Hadiyya aamas:dataSource "Sim, Ronald. 1985. 'The morphological structure of some main verb forms in Hadiyya'. Afrikanistische Arbeitspapieren 2, 10-43 ; Hudson, Grover. 1976. 'Highland East Cush'.  in The Non-Semitic Languages of Ethiopia, ed. Lionel Bender. East Lansing: African Studies Center, Michigan State University, Pp. 232–77 [S85, HG76]" .
+aama:Hadiyya aamas:dataSource "[(1) Sim, Ronald. 1985. 'The morphological structure of some main verb forms in Hadiyya'. Afrikanistische Arbeitspapieren 2, 10-43. [RS85].  (2) Hudson, Grover. 1976. 'Highland East Cush'.  in The Non-Semitic Languages of Ethiopia, ed. Lionel Bender. East Lansing: African Studies Center, Michigan State University, Pp. 232–77 [GH76]" .
 aama:Hadiyya aamas:geodemoURL "http://www.ethnologue.com/language/hdy" .
 aama:Hadiyya aamas:geodemoTxt "Varieties and subdialects of Hadiyya are spoken in the Southern Nations, Nationalities, and Peoples’ region: Gurage, Kambaata, and Hadiyya zones, between Omo and Billate rivers, Hosaina town area; Oromia region: east Shewa zone." .
 
@@ -29,9 +29,6 @@ had:case rdfs:label "case" .
 had:case rdfs:range had:CASE .
 had:CASE rdfs:subClassOf had:MuExponent .
 had:case rdfs:subPropertyOf had:muProperty .
-had:Accusative aamas:lang aama:Hadiyya .
-had:Accusative rdf:type aamas:CASE .
-had:Accusative rdfs:label "Accusative" .
 had:Nominative aamas:lang aama:Hadiyya .
 had:Nominative rdf:type aamas:CASE .
 had:Nominative rdfs:label "Nominative" .
@@ -322,10 +319,10 @@ had:lex-mass a aamas:Lexeme ;
 had:had-Pronoun a aamas:Termcluster ;
 	rdfs:label "had-Pronoun" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HG76p.259" 
+	rdfs:comment "GH76p.259n14" 
 	.
 
-aama:IDc4f97495-01e1-4e02-b1f9-66a38f72c005 a aamas:Term ;
+aama:ID1782a5f8-99d2-4572-bb64-a9e8d80586d9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Pronoun ;
 	had:pos had:Pronoun ;
@@ -334,7 +331,7 @@ aama:IDc4f97495-01e1-4e02-b1f9-66a38f72c005 a aamas:Term ;
 	had:token "hinka" ;
 	.
 
-aama:IDc19ca4ad-8e57-4759-a7b6-633bbb569d27 a aamas:Term ;
+aama:ID7c33f8de-54a1-4483-a52a-7e91c37d1fb1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Pronoun ;
 	had:pos had:Pronoun ;
@@ -343,7 +340,7 @@ aama:IDc19ca4ad-8e57-4759-a7b6-633bbb569d27 a aamas:Term ;
 	had:token "mei" ;
 	.
 
-aama:IDfa2e8b1d-83b1-46b0-a816-42a4d33f8963 a aamas:Term ;
+aama:ID597a4fcb-35c9-4b21-90ea-d6807a59b232 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Pronoun ;
 	had:pos had:Pronoun ;
@@ -352,7 +349,7 @@ aama:IDfa2e8b1d-83b1-46b0-a816-42a4d33f8963 a aamas:Term ;
 	had:token "maha" ;
 	.
 
-aama:ID16c8ad8d-5698-4cde-a2a2-57079b91eb34 a aamas:Term ;
+aama:ID302b2df3-d82e-4122-9531-848eef7245fe a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Pronoun ;
 	had:pos had:Pronoun ;
@@ -361,7 +358,7 @@ aama:ID16c8ad8d-5698-4cde-a2a2-57079b91eb34 a aamas:Term ;
 	had:token "hanno" ;
 	.
 
-aama:IDfd9cf373-b09d-44eb-a169-151ca8d780d7 a aamas:Term ;
+aama:IDd242a30d-0dda-43ef-a59c-194ffb23d03d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Pronoun ;
 	had:pos had:Pronoun ;
@@ -370,101 +367,17 @@ aama:IDfd9cf373-b09d-44eb-a169-151ca8d780d7 a aamas:Term ;
 	had:token "ayye" ;
 	.
 
-#TERMCLUSTER: had-Pronoun
+#TERMCLUSTER: had-PronounNominative
 
-had:had-Pronoun a aamas:Termcluster ;
-	rdfs:label "had-Pronoun" ;
+had:had-PronounNominative a aamas:Termcluster ;
+	rdfs:label "had-PronounNominative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.116,118." 
+	rdfs:comment "GH76pp.257n11 :: Cf. Korhonen-etal1986 p.116,118." 
 	.
 
-aama:ID9adf8e33-ab78-4b4c-9a9e-0a6e1b1e801c a aamas:Term ;
+aama:IDb3368052-dd57-4973-a272-081d6cc2847b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Singular ;
-	had:person had:Person1 ;
-	had:gender had:Common ;
-	had:token "e(e)s" ;
-	.
-
-aama:ID1a849a67-2393-4b43-a3ec-7676a2a450a1 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Singular ;
-	had:person had:Person2 ;
-	had:gender had:Common ;
-	had:token "ke(e)s" ;
-	.
-
-aama:IDdb9be4dc-cdd2-4f8c-a9a1-f95d73531f1f a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Singular ;
-	had:person had:Person3 ;
-	had:gender had:Masc ;
-	had:token "itti" ;
-	.
-
-aama:ID2b203448-1999-4bb1-88ef-ef32ae9433e9 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Singular ;
-	had:person had:Person3 ;
-	had:gender had:Fem ;
-	had:token "isi" ;
-	.
-
-aama:ID5e372f1b-d04b-4345-8314-285be5251ef4 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Plural ;
-	had:person had:Person1 ;
-	had:gender had:Common ;
-	had:token "ne(e)s" ;
-	.
-
-aama:ID9f1f8b22-9fcb-4828-a849-315b89bc8f38 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Plural ;
-	had:person had:Person2 ;
-	had:gender had:Common ;
-	had:token "kin" ;
-	.
-
-aama:ID522ec456-70a9-4e1e-9fcc-226a17e23708 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
-	had:pos had:Pronoun ;
-	had:proClass had:Independent ;
-	had:case had:Accusative ;
-	had:number had:Plural ;
-	had:person had:Person3 ;
-	had:gender had:Masc ;
-	had:token "ittu ~ iss" ;
-	.
-
-aama:ID64337cf8-47f6-4329-96f3-fdf86e823ad7 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -474,9 +387,9 @@ aama:ID64337cf8-47f6-4329-96f3-fdf86e823ad7 a aamas:Term ;
 	had:token "ani" ;
 	.
 
-aama:IDc0f77936-28e4-4d74-ac18-e72defa02639 a aamas:Term ;
+aama:ID64b64ed1-35bc-48f3-9215-5ccc216db8a0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -486,9 +399,9 @@ aama:IDc0f77936-28e4-4d74-ac18-e72defa02639 a aamas:Term ;
 	had:token "ati" ;
 	.
 
-aama:IDff39dee7-d88e-4041-b365-3e8363808c55 a aamas:Term ;
+aama:IDd77f5c01-68ce-4dca-85de-6ca1307cb24a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -498,9 +411,9 @@ aama:IDff39dee7-d88e-4041-b365-3e8363808c55 a aamas:Term ;
 	had:token "isse" ;
 	.
 
-aama:ID20c5842f-b4c1-41f7-a39f-5e526b964efa a aamas:Term ;
+aama:ID23205fb3-2621-4c9e-9e17-97860135bce5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -510,9 +423,9 @@ aama:ID20c5842f-b4c1-41f7-a39f-5e526b964efa a aamas:Term ;
 	had:token "itto" ;
 	.
 
-aama:ID9cf1acb6-a1d8-4b48-a46d-369bdba604c0 a aamas:Term ;
+aama:ID3e5877fb-e03b-45aa-854a-d083bff96332 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -522,9 +435,9 @@ aama:ID9cf1acb6-a1d8-4b48-a46d-369bdba604c0 a aamas:Term ;
 	had:token "isi" ;
 	.
 
-aama:IDeb747349-e672-40c3-8f77-113cd8b95416 a aamas:Term ;
+aama:IDdd79e828-5e1d-482c-b9df-b4b646e60a31 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -534,9 +447,9 @@ aama:IDeb747349-e672-40c3-8f77-113cd8b95416 a aamas:Term ;
 	had:token "neese" ;
 	.
 
-aama:ID242ae7c1-1d98-45c2-b936-2acec063c5a6 a aamas:Term ;
+aama:IDf898e1c2-0158-4bc3-8a8e-30c26602fdaf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -546,9 +459,9 @@ aama:ID242ae7c1-1d98-45c2-b936-2acec063c5a6 a aamas:Term ;
 	had:token "kine" ;
 	.
 
-aama:ID9994cd44-6ed8-491c-bcc1-a4ce6b8fe220 a aamas:Term ;
+aama:ID7e543a94-b002-4764-b307-c6f9ff02e3fd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounNominative ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Nominative ;
@@ -558,9 +471,129 @@ aama:ID9994cd44-6ed8-491c-bcc1-a4ce6b8fe220 a aamas:Term ;
 	had:token "ittu ~ issu" ;
 	.
 
-aama:IDde137684-ddf8-4dd6-ae68-dfd5d6ee0f8c a aamas:Term ;
+#TERMCLUSTER: had-PronounNominative
+
+had:had-PronounNominative a aamas:Termcluster ;
+	rdfs:label "had-PronounNominative" ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	rdfs:comment "GH76pp.259n9 :: Cf. Korhonen-etal1986 p.117." 
+	.
+
+aama:IDbd0444c4-af4a-4bf7-bad1-93aa1a4d2951 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Far ;
+	had:number had:Singular ;
+	had:gender had:Masc ;
+	had:token "o(k) " ;
+	.
+
+aama:ID4b6a275f-d1e7-4ef6-88aa-44ecbf12ce0f a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Far ;
+	had:number had:Singular ;
+	had:gender had:Fem ;
+	had:token "o(t) " ;
+	.
+
+aama:IDd40f4b4f-13f6-4380-99eb-c6a850358f61 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Far ;
+	had:number had:Plural ;
+	had:gender had:Masc ;
+	had:token "o(k) " ;
+	.
+
+aama:ID8caf28f1-4755-4e28-8ee3-cfacfc669de4 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Far ;
+	had:number had:Plural ;
+	had:gender had:Fem ;
+	had:token "o(k) " ;
+	.
+
+#TERMCLUSTER: had-PronounNominative
+
+had:had-PronounNominative a aamas:Termcluster ;
+	rdfs:label "had-PronounNominative" ;
+	aamas:lang aama:Hadiyya ;
+	rdfs:comment "GH76pp.255n9 :: Cf. Korhonen-etal1986 p.117." 
+	.
+
+aama:ID519dd139-d8ae-4151-aa8b-2f2678da4ecc a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Near ;
+	had:number had:Singular ;
+	had:gender had:Masc ;
+	had:token "ku(k) " ;
+	.
+
+aama:ID9006ba8d-2fa9-44a0-bea4-2c6aebc07407 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Near ;
+	had:number had:Singular ;
+	had:gender had:Fem ;
+	had:token "tu(t) " ;
+	.
+
+aama:ID064bd03a-796b-4008-9158-986935d76a3b a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Near ;
+	had:number had:Plural ;
+	had:gender had:Masc ;
+	had:token "ku(k) " ;
+	.
+
+aama:IDeb59b0d9-be86-453a-874b-21a5687cae10 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounNominative ;
+	had:case had:Nominative ;
+	had:pos had:Pronoun ;
+	had:proClass had:Demonstrative ;
+	had:deixis had:Near ;
+	had:number had:Plural ;
+	had:gender had:Fem ;
+	had:token "ku(k) " ;
+	.
+
+#TERMCLUSTER: had-PronounPossessive
+
+had:had-PronounPossessive a aamas:Termcluster ;
+	rdfs:label "had-PronounPossessive" ;
+	aamas:lang aama:Hadiyya ;
+	rdfs:comment "GH76pp.258n13 :: Cf. Korhonen-etal1986 p.116,118." 
+	.
+
+aama:ID43fd1031-bb03-44cc-9e0a-20308a647826 a aamas:Term ;
+	aamas:lang aama:Hadiyya ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -570,9 +603,9 @@ aama:IDde137684-ddf8-4dd6-ae68-dfd5d6ee0f8c a aamas:Term ;
 	had:token "i-" ;
 	.
 
-aama:IDe50825a4-e984-477d-a432-1d956ccf0e36 a aamas:Term ;
+aama:ID35a2f7da-f68f-4b56-a82b-85eab8a2e5b5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -582,9 +615,9 @@ aama:IDe50825a4-e984-477d-a432-1d956ccf0e36 a aamas:Term ;
 	had:token "ki-" ;
 	.
 
-aama:ID64091b35-51b0-4f94-aac9-9655307822f6 a aamas:Term ;
+aama:IDa909619d-0025-49c8-a8f1-ce91ab280bc6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -594,9 +627,9 @@ aama:ID64091b35-51b0-4f94-aac9-9655307822f6 a aamas:Term ;
 	had:token "iss-" ;
 	.
 
-aama:ID1856a906-68c5-423a-9a4f-3d97c9857cee a aamas:Term ;
+aama:ID129f8992-ff6c-462b-820a-bfb925c9708c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -606,9 +639,9 @@ aama:ID1856a906-68c5-423a-9a4f-3d97c9857cee a aamas:Term ;
 	had:token "it(t)-" ;
 	.
 
-aama:IDe5975aee-28e5-4cac-ba35-468933ae5d29 a aamas:Term ;
+aama:ID499e5395-4d38-443c-a958-98cff3d914e0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -618,9 +651,9 @@ aama:IDe5975aee-28e5-4cac-ba35-468933ae5d29 a aamas:Term ;
 	had:token "is-" ;
 	.
 
-aama:ID71ddefcc-b337-4822-936c-1e62a46f4363 a aamas:Term ;
+aama:ID117acf4b-278c-480a-aafa-eaeed10ae2cc a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -630,9 +663,9 @@ aama:ID71ddefcc-b337-4822-936c-1e62a46f4363 a aamas:Term ;
 	had:token "ni-" ;
 	.
 
-aama:IDf614e579-6756-402b-81df-be7f448fb304 a aamas:Term ;
+aama:ID1bdc53e5-079b-4990-8aea-737be1fc436f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -642,9 +675,9 @@ aama:IDf614e579-6756-402b-81df-be7f448fb304 a aamas:Term ;
 	had:token "kin-" ;
 	.
 
-aama:IDaa885f4d-be3f-4ad9-8ccd-a524b290fbf9 a aamas:Term ;
+aama:IDc9b3d223-9461-4acc-991a-ce95d4f24e2f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Pronoun ;
+	aamas:memberOf had:had-PronounPossessive ;
 	had:pos had:Pronoun ;
 	had:proClass had:Independent ;
 	had:case had:Possessive ;
@@ -654,167 +687,15 @@ aama:IDaa885f4d-be3f-4ad9-8ccd-a524b290fbf9 a aamas:Term ;
 	had:token "ittu ~ issu-" ;
 	.
 
-#TERMCLUSTER: had-PronounNominative
-
-had:had-PronounNominative a aamas:Termcluster ;
-	rdfs:label "had-PronounNominative" ;
-	aamas:lang aama:Hadiyya ;
-	rdfs:comment "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.117." 
-	.
-
-aama:ID2a4ecdf1-420a-4ff9-be0d-084ea9a3827c a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Singular ;
-	had:gender had:Masc ;
-	had:token " " ;
-	.
-
-aama:ID87112bc9-bfc0-4731-9e7c-1a6e2b14267e a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Singular ;
-	had:gender had:Masc ;
-	had:token " " ;
-	.
-
-aama:ID8834a906-38eb-4e5a-850f-516fe56d2f38 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Singular ;
-	had:gender had:Fem ;
-	had:token " " ;
-	.
-
-aama:IDb5d8717e-c1c6-4d3c-9610-68c6ed39da9d a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Singular ;
-	had:gender had:Fem ;
-	had:token " " ;
-	.
-
-aama:ID80424bef-d60b-462e-b0fe-9edd446daef2 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Plural ;
-	had:gender had:Common ;
-	had:token " " ;
-	.
-
-aama:ID21d6219a-d113-4ffc-8a1f-7e8554657db6 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Far ;
-	had:number had:Plural ;
-	had:gender had:Common ;
-	had:token " " ;
-	.
-
-aama:ID88d8aec7-f29a-4753-8da0-7feeb17b1099 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Singular ;
-	had:gender had:Masc ;
-	had:token " " ;
-	.
-
-aama:IDe68c9840-02e6-4da6-8728-8d1a723101a9 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Singular ;
-	had:gender had:Masc ;
-	had:token " " ;
-	.
-
-aama:IDf1e4e448-186d-4df5-9058-ab610daf29a4 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Singular ;
-	had:gender had:Fem ;
-	had:token " " ;
-	.
-
-aama:IDc2baf4ad-eccf-4fa3-a497-729688e3fd30 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Singular ;
-	had:gender had:Fem ;
-	had:token " " ;
-	.
-
-aama:ID62677fa0-8a84-40ff-9f54-f90dc3c9c7f7 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Plural ;
-	had:gender had:Common ;
-	had:token " " ;
-	.
-
-aama:ID1935aad9-d3d3-4a1c-8ce7-284401539d74 a aamas:Term ;
-	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-PronounNominative ;
-	had:case had:Nominative ;
-	had:pos had:Pronoun ;
-	had:proClass had:Demonstrative ;
-	had:deixis had:Near ;
-	had:number had:Plural ;
-	had:gender had:Common ;
-	had:token " " ;
-	.
-
 #TERMCLUSTER: had-Verb-mass-ImperativeAffirmative
 
 had:had-Verb-mass-ImperativeAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-ImperativeAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.15n17" 
 	.
 
-aama:ID671ef404-a042-41e0-835a-44a6239b371b a aamas:Term ;
+aama:ID55940bf1-a0b5-4a4c-b613-33363ffba432 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperativeAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -827,7 +708,7 @@ aama:ID671ef404-a042-41e0-835a-44a6239b371b a aamas:Term ;
 	had:token "másse" ;
 	.
 
-aama:IDebd143e4-efd1-425b-bdc8-b533f2bf39b0 a aamas:Term ;
+aama:ID32f738ba-e951-40f4-834c-fb59b7b3921f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperativeAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -845,10 +726,10 @@ aama:IDebd143e4-efd1-425b-bdc8-b533f2bf39b0 a aamas:Term ;
 had:had-Verb-mass-ImperativeNegative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-ImperativeNegative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.16n20" 
 	.
 
-aama:ID55c8f80b-9dc1-42b8-ac73-67fd562b8c04 a aamas:Term ;
+aama:ID4c9b566f-e9b1-4b96-8beb-95d994698b09 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperativeNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -861,7 +742,7 @@ aama:ID55c8f80b-9dc1-42b8-ac73-67fd562b8c04 a aamas:Term ;
 	had:token "massititte" ;
 	.
 
-aama:IDb998668b-ba8e-4e4c-aa52-b27e5d8f3376 a aamas:Term ;
+aama:ID2839b4d9-c9e6-414e-8059-ffde4b489610 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperativeNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -879,10 +760,10 @@ aama:IDb998668b-ba8e-4e4c-aa52-b27e5d8f3376 a aamas:Term ;
 had:had-Verb-mass-ImperfectAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-ImperfectAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.14n13" 
 	.
 
-aama:IDb1b5c4c7-66ed-4998-a03d-642113c6a3e8 a aamas:Term ;
+aama:ID25bcc74f-3391-403e-a65f-550fa20f438d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -895,7 +776,7 @@ aama:IDb1b5c4c7-66ed-4998-a03d-642113c6a3e8 a aamas:Term ;
 	had:token "massóommo" ;
 	.
 
-aama:ID207260e9-9914-4918-806d-4a961e764624 a aamas:Term ;
+aama:ID2a109df5-aebf-4306-bebe-d354e4518002 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -908,7 +789,7 @@ aama:ID207260e9-9914-4918-806d-4a961e764624 a aamas:Term ;
 	had:token "massitóotto" ;
 	.
 
-aama:ID2f9befbf-2eaf-4343-b25f-6401e1ca3c62 a aamas:Term ;
+aama:IDa3382e0d-78f3-49b6-bbf7-0ce8a3c7759a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -921,7 +802,7 @@ aama:ID2f9befbf-2eaf-4343-b25f-6401e1ca3c62 a aamas:Term ;
 	had:token "massákkamo" ;
 	.
 
-aama:IDaad6f75c-6481-4769-b8ac-2d150743d618 a aamas:Term ;
+aama:IDed112fdc-3d62-4fc1-b9f5-4b444e4f90ec a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -934,7 +815,7 @@ aama:IDaad6f75c-6481-4769-b8ac-2d150743d618 a aamas:Term ;
 	had:token "massóokko" ;
 	.
 
-aama:ID912cd171-f9ef-4dc2-80c2-e5e65c8eca10 a aamas:Term ;
+aama:ID86440739-0b06-4a3a-ad66-9a8e3bc1f10a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -947,7 +828,7 @@ aama:ID912cd171-f9ef-4dc2-80c2-e5e65c8eca10 a aamas:Term ;
 	had:token "massítamo" ;
 	.
 
-aama:ID21df358e-a7b5-4489-835e-17bd6a615306 a aamas:Term ;
+aama:ID7c5e2646-a897-4e19-bda6-1c4085c58fba a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -960,7 +841,7 @@ aama:ID21df358e-a7b5-4489-835e-17bd6a615306 a aamas:Term ;
 	had:token "massinóommo" ;
 	.
 
-aama:IDd30ba9c4-2765-4430-aac0-e32d3c3a0646 a aamas:Term ;
+aama:ID61bb906a-57fc-48fb-a3d5-6f7b1d0ea4e2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -973,7 +854,7 @@ aama:IDd30ba9c4-2765-4430-aac0-e32d3c3a0646 a aamas:Term ;
 	had:token "massitákkamo" ;
 	.
 
-aama:IDae2a21a3-d377-4b8d-a700-8ec991ba2a1a a aamas:Term ;
+aama:ID0543b5d3-018b-4baf-8e0b-392d081d751d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -986,7 +867,7 @@ aama:IDae2a21a3-d377-4b8d-a700-8ec991ba2a1a a aamas:Term ;
 	had:token "massántamo" ;
 	.
 
-aama:ID56e27dc9-88e0-433d-b879-ccfb76dfe72e a aamas:Term ;
+aama:IDdb638163-6c53-4e07-91ee-6c97a723acc3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -999,7 +880,7 @@ aama:ID56e27dc9-88e0-433d-b879-ccfb76dfe72e a aamas:Term ;
 	had:token "massamóokko" ;
 	.
 
-aama:ID6f3863cf-d1c1-4ec0-a369-f9ff9ed60176 a aamas:Term ;
+aama:ID6a2f6a46-32cb-4880-8d70-d320a7a05ba0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1017,10 +898,10 @@ aama:ID6f3863cf-d1c1-4ec0-a369-f9ff9ed60176 a aamas:Term ;
 had:had-Verb-mass-ImperfectNegative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-ImperfectNegative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.16n19" 
 	.
 
-aama:ID398a93ab-a24e-4276-88a9-1dc5be7b6b17 a aamas:Term ;
+aama:ID87ea115d-fdd5-4c94-a839-738c725fe10d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1033,7 +914,7 @@ aama:ID398a93ab-a24e-4276-88a9-1dc5be7b6b17 a aamas:Term ;
 	had:token "massoommoyyo" ;
 	.
 
-aama:ID25ee5921-59ea-4ea2-b721-f487d90347e1 a aamas:Term ;
+aama:ID0f0e5646-74ef-428e-84f0-ba07b74e3e8c a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1046,7 +927,7 @@ aama:ID25ee5921-59ea-4ea2-b721-f487d90347e1 a aamas:Term ;
 	had:token "massitooyo" ;
 	.
 
-aama:ID8e45a394-4ba4-479f-a226-42270e8cb345 a aamas:Term ;
+aama:ID077cee11-06e0-4343-bd6d-8b792b546ea0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1059,7 +940,7 @@ aama:ID8e45a394-4ba4-479f-a226-42270e8cb345 a aamas:Term ;
 	had:token "massakkamoyyo" ;
 	.
 
-aama:IDc0cdb997-4ebc-4e0d-8e4f-02ec4efb3ea0 a aamas:Term ;
+aama:ID90d99226-3438-4974-8b7a-fe3f4fd26144 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1072,7 +953,7 @@ aama:IDc0cdb997-4ebc-4e0d-8e4f-02ec4efb3ea0 a aamas:Term ;
 	had:token "massooyyo" ;
 	.
 
-aama:ID92755487-f7c5-4605-960c-013ef1218429 a aamas:Term ;
+aama:ID9f17ca5e-4dd6-42b0-b6fa-824386019fa5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1085,7 +966,7 @@ aama:ID92755487-f7c5-4605-960c-013ef1218429 a aamas:Term ;
 	had:token "massitamoyyo" ;
 	.
 
-aama:ID99564978-eddb-4da5-9c2b-0cdf007a2716 a aamas:Term ;
+aama:ID3b8c0a4a-5eb6-4635-9279-aa71a90c1360 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1098,7 +979,7 @@ aama:ID99564978-eddb-4da5-9c2b-0cdf007a2716 a aamas:Term ;
 	had:token "massinoommoyyo" ;
 	.
 
-aama:ID2c7d2aba-7082-4122-8916-0bab00394e50 a aamas:Term ;
+aama:IDc0147881-018d-46c9-825a-0857802a7a9b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1111,7 +992,7 @@ aama:ID2c7d2aba-7082-4122-8916-0bab00394e50 a aamas:Term ;
 	had:token "massitakkamoyyo" ;
 	.
 
-aama:ID454404b5-8d41-409e-a939-50b1766d7a9b a aamas:Term ;
+aama:ID40a72eb5-0bb1-47d5-9ee9-9934b5046d7a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1124,7 +1005,7 @@ aama:ID454404b5-8d41-409e-a939-50b1766d7a9b a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:ID969afb99-8c94-4024-a0b8-75c9f2818e69 a aamas:Term ;
+aama:ID7f4850ae-7f67-4677-8e06-f9eeab9d6431 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1137,7 +1018,7 @@ aama:ID969afb99-8c94-4024-a0b8-75c9f2818e69 a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:ID43c5b543-ebb0-4000-b9e6-ce866e820c63 a aamas:Term ;
+aama:ID96214f11-6055-45db-a40a-3a64f9223eb6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-ImperfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1155,10 +1036,10 @@ aama:ID43c5b543-ebb0-4000-b9e6-ce866e820c63 a aamas:Term ;
 had:had-Verb-mass-JussiveAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-JussiveAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.15n17" 
 	.
 
-aama:ID244a70d6-239a-41cc-b50b-ceb87beec0fa a aamas:Term ;
+aama:IDf1082b1a-4bf6-43c3-ba1b-385dfd014cc0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1171,7 +1052,7 @@ aama:ID244a70d6-239a-41cc-b50b-ceb87beec0fa a aamas:Term ;
 	had:token "an mássaona / massoníhe" ;
 	.
 
-aama:ID34e2a7ad-5ba4-4a45-adb1-3404023b0092 a aamas:Term ;
+aama:IDb733e1ba-59a7-4e01-b854-7b6c3732e18d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1184,7 +1065,7 @@ aama:ID34e2a7ad-5ba4-4a45-adb1-3404023b0092 a aamas:Term ;
 	had:token "massákkona" ;
 	.
 
-aama:ID9fd46cbc-6e66-4cc8-9b61-cc275608b490 a aamas:Term ;
+aama:ID6d0e3b82-6151-47b5-97b8-01a7231acd1d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1197,7 +1078,7 @@ aama:ID9fd46cbc-6e66-4cc8-9b61-cc275608b490 a aamas:Term ;
 	had:token "mássona" ;
 	.
 
-aama:ID024bf360-5c68-4520-8fe6-4a3b854cbf51 a aamas:Term ;
+aama:ID91e55dd4-d66a-4e3f-a796-fa12bd500401 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1210,7 +1091,7 @@ aama:ID024bf360-5c68-4520-8fe6-4a3b854cbf51 a aamas:Term ;
 	had:token "mássítona" ;
 	.
 
-aama:ID761d58d3-185a-40e0-bffb-4652923680da a aamas:Term ;
+aama:IDaf731ba0-98d2-4f74-8765-5900d9befa60 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1223,7 +1104,7 @@ aama:ID761d58d3-185a-40e0-bffb-4652923680da a aamas:Term ;
 	had:token "massínona" ;
 	.
 
-aama:ID46d53c07-ffb4-40dc-b248-bc02150c3801 a aamas:Term ;
+aama:IDa722464e-2429-4383-aad1-7478c7306ef3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1236,7 +1117,7 @@ aama:ID46d53c07-ffb4-40dc-b248-bc02150c3801 a aamas:Term ;
 	had:token "massántona" ;
 	.
 
-aama:ID2d82f53d-a906-4fab-88aa-3723f10e3aea a aamas:Term ;
+aama:ID9fea61d7-bd6f-4400-8fae-81eb810b4735 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1249,7 +1130,7 @@ aama:ID2d82f53d-a906-4fab-88aa-3723f10e3aea a aamas:Term ;
 	had:token "mássamona" ;
 	.
 
-aama:IDa785ff68-1d97-4a09-8ca6-96bcf91ecf7c a aamas:Term ;
+aama:ID082051d9-4280-4d98-b862-9f1e5205004d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1267,10 +1148,10 @@ aama:IDa785ff68-1d97-4a09-8ca6-96bcf91ecf7c a aamas:Term ;
 had:had-Verb-mass-JussiveNegative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-JussiveNegative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.16n20" 
 	.
 
-aama:IDaf946e5f-411c-44a7-9f45-51fec0883248 a aamas:Term ;
+aama:ID5f84cde2-50f5-47f4-a81b-72bb26c46efa a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1283,7 +1164,7 @@ aama:IDaf946e5f-411c-44a7-9f45-51fec0883248 a aamas:Term ;
 	had:token "---" ;
 	.
 
-aama:ID80a63f06-8c97-45fd-ac3b-d6fcb6f7db48 a aamas:Term ;
+aama:ID4390b048-e214-4d51-aca7-33023064d216 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1296,7 +1177,7 @@ aama:ID80a63f06-8c97-45fd-ac3b-d6fcb6f7db48 a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:ID4130b34e-38f3-4a42-9839-e05b73a3c3e5 a aamas:Term ;
+aama:IDb5d2b142-516c-4448-b684-dba292a038aa a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1309,7 +1190,7 @@ aama:ID4130b34e-38f3-4a42-9839-e05b73a3c3e5 a aamas:Term ;
 	had:token "massoone" ;
 	.
 
-aama:IDc8bdd350-ddc0-4897-aafd-3523e26ad642 a aamas:Term ;
+aama:ID12a43d07-4e83-4594-ae00-f75807836d68 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1322,7 +1203,7 @@ aama:IDc8bdd350-ddc0-4897-aafd-3523e26ad642 a aamas:Term ;
 	had:token "massitoone" ;
 	.
 
-aama:ID97c6f9ea-3543-46b8-9826-cbb51dbd999f a aamas:Term ;
+aama:ID25e9689d-7d88-4e57-90f7-9a4af6860e9f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1335,7 +1216,7 @@ aama:ID97c6f9ea-3543-46b8-9826-cbb51dbd999f a aamas:Term ;
 	had:token "massinoone" ;
 	.
 
-aama:ID8d751a7b-f89f-4870-b118-5d0a80a2a365 a aamas:Term ;
+aama:IDf18732b2-df16-4f3e-ab71-5648174fd703 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1348,7 +1229,7 @@ aama:ID8d751a7b-f89f-4870-b118-5d0a80a2a365 a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:ID13225562-e9dc-4ea5-93c1-3e5809039476 a aamas:Term ;
+aama:IDd7178397-2f3f-45c4-8f34-9f03ac3eb0a2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1361,7 +1242,7 @@ aama:ID13225562-e9dc-4ea5-93c1-3e5809039476 a aamas:Term ;
 	had:token "massamoone" ;
 	.
 
-aama:ID4066a594-3ae7-4ad0-823b-ffd7823f00c0 a aamas:Term ;
+aama:ID557366ae-7ad5-4bfe-bad5-ca240c20af67 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-JussiveNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -1379,10 +1260,10 @@ aama:ID4066a594-3ae7-4ad0-823b-ffd7823f00c0 a aamas:Term ;
 had:had-Verb-mass-PastPerfectAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-PastPerfectAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.15n15" 
 	.
 
-aama:ID6c11e420-6308-4aaf-8dc2-cc6d415c9a9d a aamas:Term ;
+aama:IDbed50e46-5aa9-464b-a6b4-b4b70affa19e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1395,7 +1276,7 @@ aama:ID6c11e420-6308-4aaf-8dc2-cc6d415c9a9d a aamas:Term ;
 	had:token "massa(mma) he’ummo" ;
 	.
 
-aama:ID079cc448-c59d-4ca2-8870-a9175ae2bcdb a aamas:Term ;
+aama:ID0a053b6e-f04d-4cf4-ba60-e685ea9d1d5d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1408,7 +1289,7 @@ aama:ID079cc448-c59d-4ca2-8870-a9175ae2bcdb a aamas:Term ;
 	had:token "massitaa he’litto" ;
 	.
 
-aama:ID802b93a2-97ef-4a62-b649-b19285ed44e3 a aamas:Term ;
+aama:ID13bcf030-4214-45aa-804d-c23cb6d3644a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1421,7 +1302,7 @@ aama:ID802b93a2-97ef-4a62-b649-b19285ed44e3 a aamas:Term ;
 	had:token "massakka’a he’akko’o" ;
 	.
 
-aama:ID1975a270-83cf-4530-b43d-91c455b0754c a aamas:Term ;
+aama:IDe7b04f64-e68a-47b7-9429-49d82f672c67 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1434,7 +1315,7 @@ aama:ID1975a270-83cf-4530-b43d-91c455b0754c a aamas:Term ;
 	had:token "massaa(kka) he’ukko" ;
 	.
 
-aama:ID62000137-07d1-4c7a-b39b-81902afef99f a aamas:Term ;
+aama:IDdf8e666b-d62f-4ca1-88d7-32f62dea4b61 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1447,7 +1328,7 @@ aama:ID62000137-07d1-4c7a-b39b-81902afef99f a aamas:Term ;
 	had:token "massita’a he’lo’o" ;
 	.
 
-aama:IDf1927f33-7ca7-4bdd-ae5c-98a2d783f359 a aamas:Term ;
+aama:ID4a9552c2-7a10-4719-a6dd-e2e67dc978a6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1460,7 +1341,7 @@ aama:IDf1927f33-7ca7-4bdd-ae5c-98a2d783f359 a aamas:Term ;
 	had:token "massinaa he’nummo" ;
 	.
 
-aama:IDab25f561-cc62-4d56-8316-fd7a84ed7f10 a aamas:Term ;
+aama:IDe1676c4c-cab2-4259-980a-b74d3706c45a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1473,7 +1354,7 @@ aama:IDab25f561-cc62-4d56-8316-fd7a84ed7f10 a aamas:Term ;
 	had:token "massitakka’a he’lakko’o" ;
 	.
 
-aama:IDccd674d4-eabd-4856-81fa-001d65aeefd5 a aamas:Term ;
+aama:IDa408b9a5-b9f7-4d1b-ab98-b4df4ef38d37 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1486,7 +1367,7 @@ aama:IDccd674d4-eabd-4856-81fa-001d65aeefd5 a aamas:Term ;
 	had:token "massita’a he’lo’o" ;
 	.
 
-aama:IDd01b9353-6f4f-49ca-9ee7-4f740a955c22 a aamas:Term ;
+aama:IDbe9f1001-0a59-41b6-8456-99e6e0606910 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1499,7 +1380,7 @@ aama:IDd01b9353-6f4f-49ca-9ee7-4f740a955c22 a aamas:Term ;
 	had:token "massamaa he’lo’o" ;
 	.
 
-aama:IDe9d000a2-b931-456c-926c-bcc307ff7e7b a aamas:Term ;
+aama:IDe9cff683-466c-40bf-b284-46438e0a4cea a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1517,10 +1398,10 @@ aama:IDe9d000a2-b931-456c-926c-bcc307ff7e7b a aamas:Term ;
 had:had-Verb-mass-PastProgressiveAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-PastProgressiveAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.15n16" 
 	.
 
-aama:IDcad7758d-49ee-4957-82e3-6fd99a9f6960 a aamas:Term ;
+aama:ID20eeaf7e-af68-4bc2-bea4-619d0f1d112f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1533,7 +1414,7 @@ aama:IDcad7758d-49ee-4957-82e3-6fd99a9f6960 a aamas:Term ;
 	had:token "massam he’ummo" ;
 	.
 
-aama:IDd1270315-f9b2-42af-a2fb-a0590ee56066 a aamas:Term ;
+aama:ID160b662d-13dd-4585-9930-d7b41832c0e7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1546,7 +1427,7 @@ aama:IDd1270315-f9b2-42af-a2fb-a0590ee56066 a aamas:Term ;
 	had:token "massitam he’litto" ;
 	.
 
-aama:ID94b384b3-6f81-4dc7-9f0c-ebd22abae7bd a aamas:Term ;
+aama:IDeee3f5b9-d0b6-4694-b6d2-5f9d612c1965 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1559,7 +1440,7 @@ aama:ID94b384b3-6f81-4dc7-9f0c-ebd22abae7bd a aamas:Term ;
 	had:token "massakkam he’akko’o" ;
 	.
 
-aama:ID0633aedc-4df8-4be5-82af-a807f13588e9 a aamas:Term ;
+aama:ID4e022875-5316-4157-ab58-b0cc5f586f88 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1572,7 +1453,7 @@ aama:ID0633aedc-4df8-4be5-82af-a807f13588e9 a aamas:Term ;
 	had:token "massam he’ukko" ;
 	.
 
-aama:ID041b2bd1-2f8c-493d-a037-8f11a454fbd7 a aamas:Term ;
+aama:ID0f41a2cd-d6ef-4cc4-969a-f13db9a8d2ce a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1585,7 +1466,7 @@ aama:ID041b2bd1-2f8c-493d-a037-8f11a454fbd7 a aamas:Term ;
 	had:token "massitam he’lo’o" ;
 	.
 
-aama:IDd84b78ed-6a92-4f17-b1fd-f105a568b2e3 a aamas:Term ;
+aama:ID7ef31226-bab6-42cc-bd12-8e8f539dfb54 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1598,7 +1479,7 @@ aama:IDd84b78ed-6a92-4f17-b1fd-f105a568b2e3 a aamas:Term ;
 	had:token "massinam he’nummo" ;
 	.
 
-aama:ID87754bdb-fc20-4572-95cb-90a3850cb839 a aamas:Term ;
+aama:ID17266527-512c-4b67-ad07-a39edfab4e82 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1611,7 +1492,7 @@ aama:ID87754bdb-fc20-4572-95cb-90a3850cb839 a aamas:Term ;
 	had:token "massitakkam he’lakko’o" ;
 	.
 
-aama:ID47f125a7-bb5b-4d9f-9228-a2e627c74286 a aamas:Term ;
+aama:ID4fe01c78-b9e8-4e5b-9385-738f2ecfdfaf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1624,7 +1505,7 @@ aama:ID47f125a7-bb5b-4d9f-9228-a2e627c74286 a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:ID2e484cba-e304-448b-8ae2-96d071c3e571 a aamas:Term ;
+aama:IDdf56e6ae-26fc-4dd8-bc8f-f6bd3dedb61d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1637,7 +1518,7 @@ aama:ID2e484cba-e304-448b-8ae2-96d071c3e571 a aamas:Term ;
 	had:token "masstiam he’lol’o" ;
 	.
 
-aama:IDc6a77a83-e6b7-4d9a-9905-c6f4930ec84f a aamas:Term ;
+aama:ID0de13847-5eec-448b-9d31-0ab4adf869c4 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PastProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1655,10 +1536,10 @@ aama:IDc6a77a83-e6b7-4d9a-9905-c6f4930ec84f a aamas:Term ;
 had:had-Verb-mass-PresenProgressiveAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-PresenProgressiveAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.14n14" 
 	.
 
-aama:IDc0641c8d-a1b7-47e5-934f-de38ebe9d5a5 a aamas:Term ;
+aama:IDa264020e-9b15-4814-8e74-1fb6f39f3d6b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1671,7 +1552,7 @@ aama:IDc0641c8d-a1b7-47e5-934f-de38ebe9d5a5 a aamas:Term ;
 	had:token "massóomulla" ;
 	.
 
-aama:ID571e0cd4-e6e8-4bc4-8253-7e5669accc25 a aamas:Term ;
+aama:ID600dc8c6-4550-44c7-ab80-6218f55e5366 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1684,7 +1565,7 @@ aama:ID571e0cd4-e6e8-4bc4-8253-7e5669accc25 a aamas:Term ;
 	had:token "masitóolla" ;
 	.
 
-aama:ID3cde203a-5e1f-4716-bffe-50bbbddd1ba1 a aamas:Term ;
+aama:IDb453f3f0-6e35-4652-8fd4-073c35a65bce a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1697,7 +1578,7 @@ aama:ID3cde203a-5e1f-4716-bffe-50bbbddd1ba1 a aamas:Term ;
 	had:token "massákkamulla" ;
 	.
 
-aama:IDbbbcdee9-3a02-4151-ad8d-cd67078af697 a aamas:Term ;
+aama:ID16143cd8-3e56-4e8f-9c6f-4b582e290e14 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1710,7 +1591,7 @@ aama:IDbbbcdee9-3a02-4151-ad8d-cd67078af697 a aamas:Term ;
 	had:token "massóolla" ;
 	.
 
-aama:ID85302d03-afc1-4bc4-9a6c-d99b436423aa a aamas:Term ;
+aama:ID0dc06c8d-1938-4c71-8cfa-722efa7aff0b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1723,7 +1604,7 @@ aama:ID85302d03-afc1-4bc4-9a6c-d99b436423aa a aamas:Term ;
 	had:token "massítamulla" ;
 	.
 
-aama:ID2f144170-8d04-4b6a-866b-4b26e5e41a45 a aamas:Term ;
+aama:ID42b0d4cf-1fd3-433d-94e8-974a28fe2541 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1736,7 +1617,7 @@ aama:ID2f144170-8d04-4b6a-866b-4b26e5e41a45 a aamas:Term ;
 	had:token "massinóomulla" ;
 	.
 
-aama:IDf5b28d58-7951-4a86-af68-14ce9fa03aef a aamas:Term ;
+aama:ID54949678-b151-4a36-8e62-e5c622247da6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1749,7 +1630,7 @@ aama:IDf5b28d58-7951-4a86-af68-14ce9fa03aef a aamas:Term ;
 	had:token "massitákkamulla" ;
 	.
 
-aama:IDbaec7552-81b8-435c-85e6-1258501eae25 a aamas:Term ;
+aama:IDd7c3ca6a-2a43-408d-a678-c6b3967e65ab a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1762,7 +1643,7 @@ aama:IDbaec7552-81b8-435c-85e6-1258501eae25 a aamas:Term ;
 	had:token "?" ;
 	.
 
-aama:IDbd2e7475-8a21-4363-9f99-99f615fcb3c0 a aamas:Term ;
+aama:ID6f15e819-bf0d-47fe-99e5-ca43945da68f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1775,7 +1656,7 @@ aama:IDbd2e7475-8a21-4363-9f99-99f615fcb3c0 a aamas:Term ;
 	had:token "massamóolla" ;
 	.
 
-aama:IDee8c1cd6-ac06-4592-9eed-d0385b1f207e a aamas:Term ;
+aama:ID16a0bc53-b65f-4cff-a372-ff06376fc1ee a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresenProgressiveAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1793,10 +1674,10 @@ aama:IDee8c1cd6-ac06-4592-9eed-d0385b1f207e a aamas:Term ;
 had:had-Verb-mass-PresentPerfectAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-PresentPerfectAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.14n12" 
 	.
 
-aama:ID2688b2b5-fc8d-4331-8e20-b7a60a47a84e a aamas:Term ;
+aama:ID0cfb3022-5a46-4e07-a00c-9f55be663643 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1809,7 +1690,7 @@ aama:ID2688b2b5-fc8d-4331-8e20-b7a60a47a84e a aamas:Term ;
 	had:token "massáammo" ;
 	.
 
-aama:ID38c2effe-1697-410c-947c-3713c5b33fff a aamas:Term ;
+aama:ID46c57d26-bd8d-4a1c-8078-a04e1189913b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1822,7 +1703,7 @@ aama:ID38c2effe-1697-410c-947c-3713c5b33fff a aamas:Term ;
 	had:token "massitáattto" ;
 	.
 
-aama:ID2589003c-31d6-4190-be0c-f95858763527 a aamas:Term ;
+aama:ID433a91b0-1102-4e02-a0f3-542bbe5d56ee a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1835,7 +1716,7 @@ aama:ID2589003c-31d6-4190-be0c-f95858763527 a aamas:Term ;
 	had:token "massakko’óokko" ;
 	.
 
-aama:IDfaa35316-d9e0-41de-84c6-1cdd1aaee709 a aamas:Term ;
+aama:IDb2855148-57f9-48d3-8d90-79341206575a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1848,7 +1729,7 @@ aama:IDfaa35316-d9e0-41de-84c6-1cdd1aaee709 a aamas:Term ;
 	had:token "massáakko" ;
 	.
 
-aama:ID7e7b2c5d-a561-4240-9b2d-f1ba51412ab1 a aamas:Term ;
+aama:ID957aea59-a5c0-4bbe-8741-3403478b5e08 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1861,7 +1742,7 @@ aama:ID7e7b2c5d-a561-4240-9b2d-f1ba51412ab1 a aamas:Term ;
 	had:token "massito’óokko" ;
 	.
 
-aama:IDbe7c79cf-e4ce-4ca8-b7d9-d80f6963075f a aamas:Term ;
+aama:IDe048c41a-c3f6-4c88-99f8-72d5503372bd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1874,7 +1755,7 @@ aama:IDbe7c79cf-e4ce-4ca8-b7d9-d80f6963075f a aamas:Term ;
 	had:token "massináammo" ;
 	.
 
-aama:ID48c38ce5-693e-4990-abd5-18f0606a1168 a aamas:Term ;
+aama:ID096377af-6e99-4ab1-9b50-e099718a72d3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1887,7 +1768,7 @@ aama:ID48c38ce5-693e-4990-abd5-18f0606a1168 a aamas:Term ;
 	had:token "massitakko’óokko" ;
 	.
 
-aama:IDa00175c4-9583-4da2-92a0-44667a9d824b a aamas:Term ;
+aama:IDc0853a89-ead3-4f6d-84e4-38882a181769 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1900,7 +1781,7 @@ aama:IDa00175c4-9583-4da2-92a0-44667a9d824b a aamas:Term ;
 	had:token "massanto’ókko" ;
 	.
 
-aama:ID9b313c9c-7219-42b8-a6a5-a1f3565d69df a aamas:Term ;
+aama:ID7c0632f1-e504-469d-87ce-59dd0e5c3caf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1913,7 +1794,7 @@ aama:ID9b313c9c-7219-42b8-a6a5-a1f3565d69df a aamas:Term ;
 	had:token "massamáakko" ;
 	.
 
-aama:ID782c94d6-5961-4d18-8744-aa4c97388adb a aamas:Term ;
+aama:ID0d392456-7064-472d-8981-81a8176037d8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -1931,10 +1812,10 @@ aama:ID782c94d6-5961-4d18-8744-aa4c97388adb a aamas:Term ;
 had:had-Verb-mass-PresentPerfectInterrogative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-PresentPerfectInterrogative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.16n21" 
 	.
 
-aama:IDd9347d7d-3ed2-45c1-824a-574ffedafd78 a aamas:Term ;
+aama:ID10fffd51-752e-4d41-a2f1-10bdd3fc3b40 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -1947,7 +1828,7 @@ aama:IDd9347d7d-3ed2-45c1-824a-574ffedafd78 a aamas:Term ;
 	had:token "---" ;
 	.
 
-aama:ID00bdcdc1-a54b-4a92-89d7-df66cb860a56 a aamas:Term ;
+aama:ID0809d26d-9c09-4fc9-85b8-7e1cd245a668 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -1960,7 +1841,7 @@ aama:ID00bdcdc1-a54b-4a92-89d7-df66cb860a56 a aamas:Term ;
 	had:token "massitaattohonnihe" ;
 	.
 
-aama:ID1f9bdff7-0d23-4d2c-8868-e338c98398ff a aamas:Term ;
+aama:ID1f94d91b-9492-453d-b183-ab939893e3b6 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -1973,7 +1854,7 @@ aama:ID1f9bdff7-0d23-4d2c-8868-e338c98398ff a aamas:Term ;
 	had:token "massakko’ohonnihe" ;
 	.
 
-aama:ID6fb22ed8-96c7-4163-84e5-8e6ba9ba3da5 a aamas:Term ;
+aama:ID8680b1ec-525b-4df1-871d-cadbf91d35ff a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -1986,7 +1867,7 @@ aama:ID6fb22ed8-96c7-4163-84e5-8e6ba9ba3da5 a aamas:Term ;
 	had:token "massaakkohonnihe" ;
 	.
 
-aama:IDd772dea9-6294-4c54-9330-c0d4a87d639a a aamas:Term ;
+aama:ID1e81af76-8b6d-4dfc-b689-4ad806c33575 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -1999,7 +1880,7 @@ aama:IDd772dea9-6294-4c54-9330-c0d4a87d639a a aamas:Term ;
 	had:token "massito’ohonnihe" ;
 	.
 
-aama:ID5c16cb73-2959-4ab3-951b-9203faadfce8 a aamas:Term ;
+aama:ID5d0feeaf-aa91-4b42-b280-790b82cdd2ec a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -2012,7 +1893,7 @@ aama:ID5c16cb73-2959-4ab3-951b-9203faadfce8 a aamas:Term ;
 	had:token "--" ;
 	.
 
-aama:ID1fe9a051-825b-4962-830f-6c654e38a3ab a aamas:Term ;
+aama:ID71c9c142-cb2a-417c-950e-9439e55512d8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -2025,7 +1906,7 @@ aama:ID1fe9a051-825b-4962-830f-6c654e38a3ab a aamas:Term ;
 	had:token "massitakko’ohonnihe" ;
 	.
 
-aama:IDb6c59a23-3311-473b-995a-7069722f99a5 a aamas:Term ;
+aama:ID89c4ebe7-6cef-4636-84c3-9073cec78483 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -2038,7 +1919,7 @@ aama:IDb6c59a23-3311-473b-995a-7069722f99a5 a aamas:Term ;
 	had:token "---" ;
 	.
 
-aama:ID5ec4d202-da89-464b-b96e-36231ec72571 a aamas:Term ;
+aama:ID4f971109-ef76-4286-b031-d100e3341ce3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -2051,7 +1932,7 @@ aama:ID5ec4d202-da89-464b-b96e-36231ec72571 a aamas:Term ;
 	had:token "massamaakkohonnihe" ;
 	.
 
-aama:ID321308d9-9306-4c8c-97ec-9f86311c4bf2 a aamas:Term ;
+aama:IDcc189b2b-677b-483a-bd56-9aa2f7831e6f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-PresentPerfectInterrogative ;
 	aamas:lexeme had:lex-mass ;
@@ -2069,10 +1950,10 @@ aama:ID321308d9-9306-4c8c-97ec-9f86311c4bf2 a aamas:Term ;
 had:had-Verb-mass-SimplePerfectAffirmative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-SimplePerfectAffirmative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.13n11" 
 	.
 
-aama:ID3c44843c-fb82-4bae-bac2-f6d3173b9c2b a aamas:Term ;
+aama:ID990df0b3-30ca-49eb-9966-9a48624e5db8 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2085,7 +1966,7 @@ aama:ID3c44843c-fb82-4bae-bac2-f6d3173b9c2b a aamas:Term ;
 	had:token "massúmmo" ;
 	.
 
-aama:IDcb59e58e-f529-4285-ab12-5f5de443f6ce a aamas:Term ;
+aama:ID64c12210-d684-4901-9d49-42df68b9f262 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2098,7 +1979,7 @@ aama:IDcb59e58e-f529-4285-ab12-5f5de443f6ce a aamas:Term ;
 	had:token "massit(it)to" ;
 	.
 
-aama:IDc2dd10aa-8a99-4d6a-a434-5979cdaf9c3e a aamas:Term ;
+aama:ID602b8251-d9cd-457f-b358-8dfcefac3b4a a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2111,7 +1992,7 @@ aama:IDc2dd10aa-8a99-4d6a-a434-5979cdaf9c3e a aamas:Term ;
 	had:token "massákko’o" ;
 	.
 
-aama:ID0ccf65a4-8223-449e-a870-112742dc289b a aamas:Term ;
+aama:ID8995b1cb-0311-45eb-a9d7-372855025872 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2124,7 +2005,7 @@ aama:ID0ccf65a4-8223-449e-a870-112742dc289b a aamas:Term ;
 	had:token "massúkko" ;
 	.
 
-aama:IDbafa2c67-3546-440a-b2f6-c34be6ebc03c a aamas:Term ;
+aama:ID3e45cb57-1232-4704-9719-592b87531b15 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2137,7 +2018,7 @@ aama:IDbafa2c67-3546-440a-b2f6-c34be6ebc03c a aamas:Term ;
 	had:token "massíto’o" ;
 	.
 
-aama:IDfdcf2c55-26c8-4c03-ba2a-56762608ba12 a aamas:Term ;
+aama:IDed1f7ca1-061e-4c89-a554-ace97973d28d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2150,7 +2031,7 @@ aama:IDfdcf2c55-26c8-4c03-ba2a-56762608ba12 a aamas:Term ;
 	had:token "massinummo" ;
 	.
 
-aama:IDef165195-29be-4f4e-8d53-0d6d85c59b50 a aamas:Term ;
+aama:IDfe69f863-dd75-4eae-a8e7-149fe7e3678f a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2163,7 +2044,7 @@ aama:IDef165195-29be-4f4e-8d53-0d6d85c59b50 a aamas:Term ;
 	had:token "massitákko’o" ;
 	.
 
-aama:ID68bdcf1e-9d11-4fa9-9ce7-e0f738092d48 a aamas:Term ;
+aama:ID2f238043-7c94-4017-a1b2-0c6620406a45 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2176,7 +2057,7 @@ aama:ID68bdcf1e-9d11-4fa9-9ce7-e0f738092d48 a aamas:Term ;
 	had:token "massánto’o" ;
 	.
 
-aama:ID4384b736-c618-469a-a7aa-baf06d286b58 a aamas:Term ;
+aama:ID8c7d04e0-016c-44f7-bd26-218164bb778d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2189,7 +2070,7 @@ aama:ID4384b736-c618-469a-a7aa-baf06d286b58 a aamas:Term ;
 	had:token "massamúkko" ;
 	.
 
-aama:ID6a9fb261-6e29-4e9b-9a52-81fddbd9fc2d a aamas:Term ;
+aama:ID3fb2abef-8948-4911-a232-321c3a00d1c2 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectAffirmative ;
 	aamas:lexeme had:lex-mass ;
@@ -2207,10 +2088,10 @@ aama:ID6a9fb261-6e29-4e9b-9a52-81fddbd9fc2d a aamas:Term ;
 had:had-Verb-mass-SimplePerfectNegative a aamas:Termcluster ;
 	rdfs:label "had-Verb-mass-SimplePerfectNegative" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32." 
+	rdfs:comment "RS85p.16n18" 
 	.
 
-aama:ID62399616-dcad-4302-a33d-c9f75fd417c8 a aamas:Term ;
+aama:IDcc12d48f-aa1b-4ade-9a8f-9046d6f1d8a0 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2223,7 +2104,7 @@ aama:ID62399616-dcad-4302-a33d-c9f75fd417c8 a aamas:Term ;
 	had:token "massumoyyo" ;
 	.
 
-aama:ID26a87a15-322e-4ae2-b3ef-9661f6242931 a aamas:Term ;
+aama:IDd38743e5-3e41-4b80-b7fd-f0560119fc28 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2236,7 +2117,7 @@ aama:ID26a87a15-322e-4ae2-b3ef-9661f6242931 a aamas:Term ;
 	had:token "massit(i)toyyo" ;
 	.
 
-aama:IDbecfbd01-7751-4c95-9537-432b6a3911f1 a aamas:Term ;
+aama:IDec506e80-5ccd-4a43-97f6-5c6438da2d47 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2249,7 +2130,7 @@ aama:IDbecfbd01-7751-4c95-9537-432b6a3911f1 a aamas:Term ;
 	had:token "massakk’oyyo" ;
 	.
 
-aama:ID66913dc1-19a9-41c6-b072-f1ed6012f184 a aamas:Term ;
+aama:IDa2d38873-81f6-48eb-a20c-dafdf909b272 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2262,7 +2143,7 @@ aama:ID66913dc1-19a9-41c6-b072-f1ed6012f184 a aamas:Term ;
 	had:token "massukkoyyo" ;
 	.
 
-aama:IDc946cd34-c077-42de-af93-f3b4ddc19912 a aamas:Term ;
+aama:ID20415fcb-b094-462b-a367-d2a6f2e1cf8e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2275,7 +2156,7 @@ aama:IDc946cd34-c077-42de-af93-f3b4ddc19912 a aamas:Term ;
 	had:token "massito’oyyo" ;
 	.
 
-aama:ID41886eac-3915-4715-8d96-0e2ed985b27b a aamas:Term ;
+aama:ID4352a3bf-52dd-44ef-9bc3-d9c90a933f3d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2288,7 +2169,7 @@ aama:ID41886eac-3915-4715-8d96-0e2ed985b27b a aamas:Term ;
 	had:token "massinumoyyo" ;
 	.
 
-aama:ID642af65e-7837-4631-be86-3f28c7fcac92 a aamas:Term ;
+aama:ID38ab2a05-3dcf-4b21-9abb-cd359b0c42be a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2301,7 +2182,7 @@ aama:ID642af65e-7837-4631-be86-3f28c7fcac92 a aamas:Term ;
 	had:token "massitakko’oyyo" ;
 	.
 
-aama:ID311976af-302e-481a-afa4-9d8f23dc5e38 a aamas:Term ;
+aama:IDbc23a1f2-0709-4abb-9a53-778d504a8cca a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2314,7 +2195,7 @@ aama:ID311976af-302e-481a-afa4-9d8f23dc5e38 a aamas:Term ;
 	had:token "massanto’oyyo" ;
 	.
 
-aama:IDc7860387-6320-4267-9996-7e94c967fa4f a aamas:Term ;
+aama:IDb2f6a8c7-34ee-4b48-b911-763ec7125ef1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2327,7 +2208,7 @@ aama:IDc7860387-6320-4267-9996-7e94c967fa4f a aamas:Term ;
 	had:token "massamukkoyyo" ;
 	.
 
-aama:ID326a360f-e8c1-4142-a319-7b14d9c7fe9b a aamas:Term ;
+aama:IDd1956645-01d0-4f01-8268-f325f526c2ed a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
 	aamas:memberOf had:had-Verb-mass-SimplePerfectNegative ;
 	aamas:lexeme had:lex-mass ;
@@ -2340,17 +2221,17 @@ aama:ID326a360f-e8c1-4142-a319-7b14d9c7fe9b a aamas:Term ;
 	had:token "massito’oyyo" ;
 	.
 
-#TERMCLUSTER: had-Verbmorph-DervStem-
+#TERMCLUSTER: had-morphVerb-DervStem
 
-had:had-Verbmorph-DervStem- a aamas:Termcluster ;
-	rdfs:label "had-Verbmorph-DervStem-" ;
+had:had-morphVerb-DervStem a aamas:Termcluster ;
+	rdfs:label "had-morphVerb-DervStem" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36,for benefactive pp.37-39." 
+	rdfs:comment "RS85p.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36,for benefactive pp.37-39." 
 	.
 
-aama:ID36237be6-0e89-431b-985a-8e539534d0fd a aamas:Term ;
+aama:ID7904708a-fb27-4638-aff2-bdbbc0400bb5 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:Benefactive ;
@@ -2358,9 +2239,9 @@ aama:ID36237be6-0e89-431b-985a-8e539534d0fd a aamas:Term ;
 	had:token-note "-akk-:root final CC" ;
 	.
 
-aama:ID5566512e-3615-4d7c-b767-8203ed41cba7 a aamas:Term ;
+aama:IDf608d9e0-5ccc-4e58-a631-0e16b93e90fb a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:BenefactiveCausative ;
@@ -2368,9 +2249,9 @@ aama:ID5566512e-3615-4d7c-b767-8203ed41cba7 a aamas:Term ;
 	had:token-note "e.g. amanisukko he caused to believe from aman--s-ukko" ;
 	.
 
-aama:IDd4dcac9c-c14d-43f3-8968-f63ce92e8dc2 a aamas:Term ;
+aama:ID3a051877-eeaa-497b-b251-217cae303442 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:BenefactivePassive ;
@@ -2378,9 +2259,9 @@ aama:IDd4dcac9c-c14d-43f3-8968-f63ce92e8dc2 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:IDea4e7632-5c86-4ae4-9faa-c91a02387551 a aamas:Term ;
+aama:IDa046a207-38cc-436e-964f-09e91d174473 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:Causative1 ;
@@ -2388,9 +2269,9 @@ aama:IDea4e7632-5c86-4ae4-9faa-c91a02387551 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:ID09eb5a68-5bbb-4ddb-8ba8-82f312a6863b a aamas:Term ;
+aama:ID9f31dcd5-77fe-4195-8bb3-ea32e369d002 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:Causative2 ;
@@ -2398,9 +2279,9 @@ aama:ID09eb5a68-5bbb-4ddb-8ba8-82f312a6863b a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:IDa5e3238b-74c3-4f84-8992-ecb19107b762 a aamas:Term ;
+aama:ID5fb5d6a1-d5b8-4371-96c3-16415c50cc39 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:Causative3 ;
@@ -2408,9 +2289,9 @@ aama:IDa5e3238b-74c3-4f84-8992-ecb19107b762 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:ID2240f1fe-1478-4279-be42-a792ca401eb4 a aamas:Term ;
+aama:IDeba38b6b-f7d7-497a-8174-5ff39f428ef1 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:CausativeBenefactive ;
@@ -2418,9 +2299,9 @@ aama:ID2240f1fe-1478-4279-be42-a792ca401eb4 a aamas:Term ;
 	had:token-note "-tt- from –s--" ;
 	.
 
-aama:ID7cdb551b-9a98-47eb-b1d1-75fbb41b9869 a aamas:Term ;
+aama:ID3d6639ec-9f07-42d3-b9b1-574b33f7fff9 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:CausativeBenefactivePassive ;
@@ -2428,9 +2309,9 @@ aama:ID7cdb551b-9a98-47eb-b1d1-75fbb41b9869 a aamas:Term ;
 	had:token-note "makkittamaammo I aimed something from makk-s--am-aammo" ;
 	.
 
-aama:ID65088134-d0d0-4e1e-98fc-91223a6f2c63 a aamas:Term ;
+aama:ID9f231f83-8048-4f2b-bf23-47be4e7bdcb7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:CausativeDenominal ;
@@ -2438,9 +2319,9 @@ aama:ID65088134-d0d0-4e1e-98fc-91223a6f2c63 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:IDbd72174b-bd78-436f-9ec2-a89819c01429 a aamas:Term ;
+aama:ID0c598f2f-dea1-4d69-9cb9-9e9c5448b7ee a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:CausativePassive ;
@@ -2448,9 +2329,9 @@ aama:IDbd72174b-bd78-436f-9ec2-a89819c01429 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:ID5513c778-9675-4847-8b70-b4b63ead3e06 a aamas:Term ;
+aama:ID02674306-7a0c-42a9-9857-2c1719ff6519 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:Passive ;
@@ -2458,9 +2339,9 @@ aama:ID5513c778-9675-4847-8b70-b4b63ead3e06 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:IDd9f873ed-34c7-4f14-9c95-1a46f9f5516c a aamas:Term ;
+aama:IDaa917010-a4c3-4a68-ba75-328c05b5a0b3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:PassiveBenefactive ;
@@ -2468,9 +2349,9 @@ aama:IDd9f873ed-34c7-4f14-9c95-1a46f9f5516c a aamas:Term ;
 	had:token-note "" ;
 	.
 
-aama:IDcd638194-aa34-4177-8249-8fe0a106fb98 a aamas:Term ;
+aama:ID0bdf0c17-dce3-41ca-af53-2677b33d3303 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-DervStem- ;
+	aamas:memberOf had:had-morphVerb-DervStem ;
 	had:pos had:Verb ;
 	had:morphClass had:DervStem ;
 	had:derivedStem had:PassiveCausative ;
@@ -2478,251 +2359,231 @@ aama:IDcd638194-aa34-4177-8249-8fe0a106fb98 a aamas:Term ;
 	had:token-note "" ;
 	.
 
-#TERMCLUSTER: had-Verbmorph-SubjMarkerTemplates-
+#TERMCLUSTER: had-morphVerb-SubjMarkerTemplates
 
-had:had-Verbmorph-SubjMarkerTemplates- a aamas:Termcluster ;
-	rdfs:label "had-Verbmorph-SubjMarkerTemplates-" ;
+had:had-morphVerb-SubjMarkerTemplates a aamas:Termcluster ;
+	rdfs:label "had-morphVerb-SubjMarkerTemplates" ;
 	aamas:lang aama:Hadiyya ;
-	rdfs:comment "S85pp.17-19 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19." 
+	rdfs:comment "RS85p.17n22 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19." 
 	.
 
-aama:IDb3efb9b4-1617-49ac-9566-0386e4b20905 a aamas:Term ;
+aama:ID729d734f-1e0d-4529-ac28-b8a6eac825e3 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person1 ;
 	had:gender had:Common ;
-	had:token "-V . . . -o . . . _NULL . . . -mm" ;
-	had:token-note-template "-V + -o + _NULL + -mm" ;
+	had:token "-V...-o..._NULL...-mm" ;
 	.
 
-aama:IDea76c381-1cfc-4467-b728-bf318a7570ee a aamas:Term ;
+aama:ID860cd024-e498-497b-ae6c-249d0e073fec a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person2 ;
 	had:gender had:Common ;
-	had:token "-V . . . -o . . . -t . . . -tt" ;
-	had:token-note-template "-V + -o + -t + -tt" ;
+	had:token "-V...-o...-t...-tt" ;
 	.
 
-aama:ID6ec28bb6-8c4e-4df1-bc99-aa04cefae597 a aamas:Term ;
+aama:ID4a27f0b2-140f-4452-9561-eacfa1a0eba7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "-akk . . . -o . . . _NULL . . . -o" ;
-	had:token-note-template "-akk + -o + _NULL + -o" ;
+	had:token "-akk...-o..._NULL...-o" ;
 	.
 
-aama:ID42b21f5d-9b43-415a-9c83-8231003ce41e a aamas:Term ;
+aama:IDbebf3737-6a28-4de5-b260-9f119aea44ad a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "-akk . . . -o . . . _NULL . . . -am" ;
-	had:token-note-template "-akk + -o + _NULL + -am" ;
+	had:token "-akk...-o..._NULL...-am" ;
 	.
 
-aama:IDc6360147-7837-4648-a11e-031148df611f a aamas:Term ;
+aama:ID4ae88c8a-bd8d-4c0d-8274-44ede7eb3b6d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "-akk . . . -o . . . _NULL . . . -ookk" ;
-	had:token-note-template "-akk + -o + _NULL + -ookk" ;
+	had:token "-akk...-o..._NULL...-ookk" ;
 	.
 
-aama:IDaf00f227-5fd0-436c-8a7c-eee7c524fc3c a aamas:Term ;
+aama:ID336b22d7-6367-46c4-810d-b2d4c56a3d36 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Masc ;
-	had:token "-V . . . -o . . . _NULL . . . -kk" ;
-	had:token-note-template "-V + -o + _NULL + -kk" ;
+	had:token "-V...-o..._NULL...-kk" ;
 	.
 
-aama:IDb857943a-b62a-4a00-b4ba-4c32dfde5711 a aamas:Term ;
+aama:ID16b5852c-e7ff-42ab-b825-1b80049f75cd a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -o" ;
-	had:token-note-template "_NULL + -o + -t + -o" ;
+	had:token "_NULL...-o...-t...-o" ;
 	.
 
-aama:ID29082cac-de03-4f36-9e31-e1a64bbeb9b4 a aamas:Term ;
+aama:ID426331b0-5a8d-4c6b-8fbb-a13c68288f3b a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -am" ;
-	had:token-note-template "_NULL + -o + -t + -am" ;
+	had:token "_NULL...-o...-t...-am" ;
 	.
 
-aama:IDed01965b-3fc9-4f2c-ba0d-2ff9f3231b25 a aamas:Term ;
+aama:ID32fb85ce-9e89-4f95-ae98-4af2f1dcc9bf a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Singular ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -ookk" ;
-	had:token-note-template "_NULL + -o + -t + -ookk" ;
+	had:token "_NULL...-o...-t...-ookk" ;
 	.
 
-aama:ID418fc324-8af5-4082-be20-973fcf772696 a aamas:Term ;
+aama:IDf10f3cd8-de4e-4b7c-9304-dc76ebd80000 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person1 ;
 	had:gender had:Common ;
-	had:token "V . . . -o . . . -n . . . -mm" ;
-	had:token-note-template "V + -o + -n + -mm" ;
+	had:token "V...-o...-n...-mm" ;
 	.
 
-aama:ID26a84303-6b82-4276-b5af-18b782786c17 a aamas:Term ;
+aama:ID75846e70-8b10-4ff3-99a7-434011aca75d a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person2 ;
 	had:gender had:Common ;
-	had:token "-akk . . . -o . . . -t . . . -o" ;
-	had:token-note-template "-akk + -o + -t + -o" ;
+	had:token "-akk...-o...-t...-o" ;
 	.
 
-aama:IDc49101f7-250f-4a6e-94da-32b0ec33fc02 a aamas:Term ;
+aama:ID0312fadc-0585-4089-b981-7ae1174af079 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person2 ;
 	had:gender had:Common ;
-	had:token "-akk . . . -o . . . -t . . . -am" ;
-	had:token-note-template "-akk + -o + -t + -am" ;
+	had:token "-akk...-o...-t...-am" ;
 	.
 
-aama:IDee083ba0-4dd1-441e-abf1-d50c041ec684 a aamas:Term ;
+aama:IDe325e1fe-9de0-41c5-93f6-363fc7c7e307 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person2 ;
 	had:gender had:Common ;
-	had:token "-akk . . . -o . . . -t . . . -ookk" ;
-	had:token-note-template "-akk + -o + -t + -ookk" ;
+	had:token "-akk...-o...-t...-ookk" ;
 	.
 
-aama:IDa2d32a4a-4237-4db8-9d12-1ac8405744be a aamas:Term ;
+aama:IDc0084c82-2697-49ac-b78b-c62dc98b59d7 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "_NULL . . . -o . . . -am-t &gt; -an-t . . . -o" ;
-	had:token-note-template "_NULL + -o + -am-t &gt; -an-t + -o" ;
+	had:token "_NULL...-o...-am-t &gt; -an-t...-o" ;
 	.
 
-aama:ID6b79dc81-c6bd-4cfd-b1bb-98270891340b a aamas:Term ;
+aama:ID014af75d-e999-45ed-9886-24fa34278333 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "_NULL . . . -o . . . -am-t &gt; -an-t . . . -am" ;
-	had:token-note-template "_NULL + -o + -am-t &gt; -an-t + -am" ;
+	had:token "_NULL...-o...-am-t &gt; -an-t...-am" ;
 	.
 
-aama:ID2126e951-d1b9-4fca-ad3c-63817bc85cf7 a aamas:Term ;
+aama:ID3a3d5a3b-4c37-4dd6-9a7e-01b29c98b890 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Polite ;
-	had:token "_NULL . . . -o . . . -am-t &gt; -an-t . . . -ookk" ;
-	had:token-note-template "_NULL + -o + -am-t &gt; -an-t + -ookk" ;
+	had:token "_NULL...-o...-am-t &gt; -an-t...-ookk" ;
 	.
 
-aama:ID2ea22c1c-2c43-47c7-8b28-85aec6027ae1 a aamas:Term ;
+aama:ID180e212b-c4b0-41b7-936a-49f2cb2f2788 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Masc ;
-	had:token "-V . . . -o . . . -t . . . -kk" ;
-	had:token-note-template "-V + -o + -t + -kk" ;
+	had:token "-V...-o...-t...-kk" ;
 	.
 
-aama:ID1a1382ba-a850-4e0e-9489-6f6c373462bb a aamas:Term ;
+aama:ID4e5b7e8c-8cfc-4be5-94bc-ace79529390e a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -o" ;
-	had:token-note-template "_NULL + -o + -t + -o" ;
+	had:token "_NULL...-o...-t...-o" ;
 	.
 
-aama:IDb0339163-874d-4abb-8383-1668652721a4 a aamas:Term ;
+aama:ID12cce488-c799-4e2a-aa5a-4a5c2746b720 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -am" ;
-	had:token-note-template "_NULL + -o + -t + -am" ;
+	had:token "_NULL...-o...-t...-am" ;
 	.
 
-aama:ID29f2fe62-7a52-4e66-8e7f-41a7ca6eb6e8 a aamas:Term ;
+aama:ID0dfd2d15-2803-4ead-bdea-00d08e390e30 a aamas:Term ;
 	aamas:lang aama:Hadiyya ;
-	aamas:memberOf had:had-Verbmorph-SubjMarkerTemplates- ;
+	aamas:memberOf had:had-morphVerb-SubjMarkerTemplates ;
 	had:pos had:Verb ;
 	had:morphClass had:SubjMarkerTemplates ;
 	had:number had:Plural ;
 	had:person had:Person3 ;
 	had:gender had:Fem ;
-	had:token "_NULL . . . -o . . . -t . . . -ookk" ;
-	had:token-note-template "_NULL + -o + -t + -ookk" ;
+	had:token "_NULL...-o...-t...-ookk" ;
 	.
 
