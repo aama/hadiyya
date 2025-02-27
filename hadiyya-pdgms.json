@@ -1,14 +1,25 @@
 {
   "lang": "hadiyya",
-  "subfamily": "Highland East Cushitic",
+  "subfamily": "cushitic east highland",
   "lgpref": "had",
-  "datasource": "Sim, Ronald. 1985. 'The morphological structure of some main verb forms in Hadiyya'. Afrikanistische Arbeitspapieren 2, 10-43 ; Hudson, Grover. 1976. 'Highland East Cush'.  in The Non-Semitic Languages of Ethiopia, ed. Lionel Bender. East Lansing: African Studies Center, Michigan State University, Pp. 232–77 [S85, HG76]",
-  "datasourceNotes": "",
+  "datasource": "[(1) Sim, Ronald. 1985. 'The morphological structure of some main verb forms in Hadiyya'. Afrikanistische Arbeitspapieren 2, 10-43. [RS85].  (2) Hudson, Grover. 1976. 'Highland East Cush'.  in The Non-Semitic Languages of Ethiopia, ed. Lionel Bender. East Lansing: African Studies Center, Michigan State University, Pp. 232–77 [GH76]",
+  "datasourceNotes": "Note xtensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu"},
+    "Prosody": {
+      "Type": "(not discueeed in text by Sims)",
+      "Accent": "'v́(v)' accented; 'v(v)' unaccented"}},  
   "geodemoURL": "http://www.ethnologue.com/language/hdy",
   "geodemoTXT": "Varieties and subdialects of Hadiyya are spoken in the Southern Nations, Nationalities, and Peoples’ region: Gurage, Kambaata, and Hadiyya zones, between Omo and Billate rivers, Hosaina town area; Oromia region: east Shewa zone.",
   "schemata": {
   "case": [
-    "Accusative",
     "Nominative",
     "Possessive"
   ],
@@ -96,7 +107,7 @@
   "termclusters": [
   {
     "label": "had-Pronoun",
-    "note": "HG76p.259",
+    "note": "GH76p.259n14",
     "common": {
       "pos": "Pronoun",
       "proClass": "Interr"
@@ -111,66 +122,82 @@
     ]
   },
   {
-    "label": "had-Pronoun",
-    "note": "HG76pp.256-259 :: Cf. Korhonen-etal1986 p.116,118.",
+    "label": "had-PronounNominative",
+    "note": "GH76pp.257n11 :: Cf. Korhonen-etal1986 p.116,118.",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "case": "Nominative"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Accusative" ,"Singular" ,"Person1" ,"Common" ,"e(e)s"],
-      ["Accusative" ,"Singular" ,"Person2" ,"Common" ,"ke(e)s"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Masc" ,"itti"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Fem" ,"isi"],
-      ["Accusative" ,"Plural" ,"Person1" ,"Common" ,"ne(e)s"],
-      ["Accusative" ,"Plural" ,"Person2" ,"Common" ,"kin"],
-      ["Accusative" ,"Plural" ,"Person3" ,"Masc" ,"ittu ~ iss"],
-      ["Nominative" ,"Singular" ,"Person1" ,"Common" ,"ani"],
-      ["Nominative" ,"Singular" ,"Person2" ,"Common" ,"ati"],
-      ["Nominative" ,"Singular" ,"Person3" ,"Polite" ,"isse"],
-      ["Nominative" ,"Singular" ,"Person3" ,"Masc" ,"itto"],
-      ["Nominative" ,"Singular" ,"Person3" ,"Fem" ,"isi"],
-      ["Nominative" ,"Plural" ,"Person1" ,"Common" ,"neese"],
-      ["Nominative" ,"Plural" ,"Person2" ,"Common" ,"kine"],
-      ["Nominative" ,"Plural" ,"Person3" ,"Masc" ,"ittu ~ issu"],
-      ["Possessive" ,"Singular" ,"Person1" ,"Common" ,"i-"],
-      ["Possessive" ,"Singular" ,"Person2" ,"Common" ,"ki-"],
-      ["Possessive" ,"Singular" ,"Person3" ,"Polite" ,"iss-"],
-      ["Possessive" ,"Singular" ,"Person3" ,"Masc" ,"it(t)-"],
-      ["Possessive" ,"Singular" ,"Person3" ,"Fem" ,"is-"],
-      ["Possessive" ,"Plural" ,"Person1" ,"Common" ,"ni-"],
-      ["Possessive" ,"Plural" ,"Person2" ,"Common" ,"kin-"],
-      ["Possessive" ,"Plural" ,"Person3" ,"Masc" ,"ittu ~ issu-"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ani"],
+      ["Singular" ,"Person2" ,"Common" ,"ati"],
+      ["Singular" ,"Person3" ,"Polite" ,"isse"],
+      ["Singular" ,"Person3" ,"Masc" ,"itto"],
+      ["Singular" ,"Person3" ,"Fem" ,"isi"],
+      ["Plural" ,"Person1" ,"Common" ,"neese"],
+      ["Plural" ,"Person2" ,"Common" ,"kine"],
+      ["Plural" ,"Person3" ,"Masc" ,"ittu ~ issu"]
     ]
   },
   {
     "label": "had-PronounNominative",
-    "note": "HG76pp.255-256 :: Cf. Korhonen-etal1986 p.117.",
+    "note": "GH76pp.259n9 :: Cf. Korhonen-etal1986 p.117.",
     "common": {
       "case": "Nominative",
       "pos": "Pronoun",
-      "proClass": "Demonstrative"
+      "proClass": "Demonstrative",
+      "deixis": "Far"
     },
     "terms": [
-      ["deixis" ,"number" ,"gender" ,"token"],
-      ["Far" ,"Singular" ,"Masc" ," "],
-      ["Far" ,"Singular" ,"Masc" ," "],
-      ["Far" ,"Singular" ,"Fem" ," "],
-      ["Far" ,"Singular" ,"Fem" ," "],
-      ["Far" ,"Plural" ,"Common" ," "],
-      ["Far" ,"Plural" ,"Common" ," "],
-      ["Near" ,"Singular" ,"Masc" ," "],
-      ["Near" ,"Singular" ,"Masc" ," "],
-      ["Near" ,"Singular" ,"Fem" ," "],
-      ["Near" ,"Singular" ,"Fem" ," "],
-      ["Near" ,"Plural" ,"Common" ," "],
-      ["Near" ,"Plural" ,"Common" ," "]
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Masc" ,"o(k) "],
+      ["Singular" ,"Fem" ,"o(t) "],
+      ["Plural" ,"Masc" ,"o(k) "],
+      ["Plural" ,"Fem" ,"o(k) "]
+    ]
+  },
+  {
+    "label": "had-PronounNominative",
+    "note": "GH76pp.255n9 :: Cf. Korhonen-etal1986 p.117.",
+    "common": {
+      "case": "Nominative",
+      "pos": "Pronoun",
+      "proClass": "Demonstrative",
+      "deixis": "Near"
+    },
+    "terms": [
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Masc" ,"ku(k) "],
+      ["Singular" ,"Fem" ,"tu(t) "],
+      ["Plural" ,"Masc" ,"ku(k) "],
+      ["Plural" ,"Fem" ,"ku(k) "]
+    ]
+  },
+  {
+    "label": "had-PronounPossessive",
+    "note": "GH76pp.258n13 :: Cf. Korhonen-etal1986 p.116,118.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "case": "Possessive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"i-"],
+      ["Singular" ,"Person2" ,"Common" ,"ki-"],
+      ["Singular" ,"Person3" ,"Polite" ,"iss-"],
+      ["Singular" ,"Person3" ,"Masc" ,"it(t)-"],
+      ["Singular" ,"Person3" ,"Fem" ,"is-"],
+      ["Plural" ,"Person1" ,"Common" ,"ni-"],
+      ["Plural" ,"Person2" ,"Common" ,"kin-"],
+      ["Plural" ,"Person3" ,"Masc" ,"ittu ~ issu-"]
     ]
   },
   {
     "label": "had-Verb-mass-ImperativeAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.15n17",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -185,7 +212,7 @@
   },
   {
     "label": "had-Verb-mass-ImperativeNegative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.16n20",
     "common": {
       "lexeme": "mass",
       "polarity": "Negative",
@@ -200,7 +227,7 @@
   },
   {
     "label": "had-Verb-mass-ImperfectAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.14n13",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -223,7 +250,7 @@
   },
   {
     "label": "had-Verb-mass-ImperfectNegative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.16n19",
     "common": {
       "lexeme": "mass",
       "polarity": "Negative",
@@ -246,7 +273,7 @@
   },
   {
     "label": "had-Verb-mass-JussiveAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.15n17",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -267,7 +294,7 @@
   },
   {
     "label": "had-Verb-mass-JussiveNegative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.16n20",
     "common": {
       "lexeme": "mass",
       "polarity": "Negative",
@@ -288,7 +315,7 @@
   },
   {
     "label": "had-Verb-mass-PastPerfectAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.15n15",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -311,7 +338,7 @@
   },
   {
     "label": "had-Verb-mass-PastProgressiveAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.15n16",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -334,7 +361,7 @@
   },
   {
     "label": "had-Verb-mass-PresenProgressiveAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.14n14",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -357,7 +384,7 @@
   },
   {
     "label": "had-Verb-mass-PresentPerfectAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.14n12",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -380,7 +407,7 @@
   },
   {
     "label": "had-Verb-mass-PresentPerfectInterrogative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.16n21",
     "common": {
       "lexeme": "mass",
       "polarity": "Interrogative",
@@ -403,7 +430,7 @@
   },
   {
     "label": "had-Verb-mass-SimplePerfectAffirmative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.13n11",
     "common": {
       "lexeme": "mass",
       "polarity": "Affirmative",
@@ -426,7 +453,7 @@
   },
   {
     "label": "had-Verb-mass-SimplePerfectNegative",
-    "note": "S85pp.13-16 :: Extensive discussions of stem-desinence consonant assimilations in section #4,pp.24-32.",
+    "note": "RS85p.16n18",
     "common": {
       "lexeme": "mass",
       "polarity": "Negative",
@@ -448,8 +475,8 @@
     ]
   },
   {
-    "label": "had-Verbmorph-DervStem-",
-    "note": "S85pp.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36,for benefactive pp.37-39.",
+    "label": "had-morphVerb-DervStem",
+    "note": "RS85p.32-42 ::  Note discussions of consonant assimilations for causative –s- pp.33-36,for benefactive pp.37-39.",
     "common": {
       "pos": "Verb",
       "morphClass": "DervStem"
@@ -472,34 +499,34 @@
     ]
   },
   {
-    "label": "had-Verbmorph-SubjMarkerTemplates-",
-    "note": "S85pp.17-19 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19.",
+    "label": "had-morphVerb-SubjMarkerTemplates",
+    "note": "RS85p.17n22 :: The following template (MedialVowel + Final + Person1 + Person2) applies to the simple perfect and the imperfect tenses. The medial vowel –V is:–u simplePerf,-aa- presPerf,-oo- imperfect. Note that 3rd fem pl and 3rd pol pl are modeled on 3rd fem sg. This template is put into relation with progressive forms on p.19.",
     "common": {
       "pos": "Verb",
       "morphClass": "SubjMarkerTemplates"
     },
     "terms": [
-      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
-      ["Singular" ,"Person1" ,"Common" ,"-V . . . -o . . . _NULL . . . -mm" ,"-V + -o + _NULL + -mm"],
-      ["Singular" ,"Person2" ,"Common" ,"-V . . . -o . . . -t . . . -tt" ,"-V + -o + -t + -tt"],
-      ["Singular" ,"Person3" ,"Polite" ,"-akk . . . -o . . . _NULL . . . -o" ,"-akk + -o + _NULL + -o"],
-      ["Singular" ,"Person3" ,"Polite" ,"-akk . . . -o . . . _NULL . . . -am" ,"-akk + -o + _NULL + -am"],
-      ["Singular" ,"Person3" ,"Polite" ,"-akk . . . -o . . . _NULL . . . -ookk" ,"-akk + -o + _NULL + -ookk"],
-      ["Singular" ,"Person3" ,"Masc" ,"-V . . . -o . . . _NULL . . . -kk" ,"-V + -o + _NULL + -kk"],
-      ["Singular" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -o" ,"_NULL + -o + -t + -o"],
-      ["Singular" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -am" ,"_NULL + -o + -t + -am"],
-      ["Singular" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -ookk" ,"_NULL + -o + -t + -ookk"],
-      ["Plural" ,"Person1" ,"Common" ,"V . . . -o . . . -n . . . -mm" ,"V + -o + -n + -mm"],
-      ["Plural" ,"Person2" ,"Common" ,"-akk . . . -o . . . -t . . . -o" ,"-akk + -o + -t + -o"],
-      ["Plural" ,"Person2" ,"Common" ,"-akk . . . -o . . . -t . . . -am" ,"-akk + -o + -t + -am"],
-      ["Plural" ,"Person2" ,"Common" ,"-akk . . . -o . . . -t . . . -ookk" ,"-akk + -o + -t + -ookk"],
-      ["Plural" ,"Person3" ,"Polite" ,"_NULL . . . -o . . . -am-t &gt; -an-t . . . -o" ,"_NULL + -o + -am-t &gt; -an-t + -o"],
-      ["Plural" ,"Person3" ,"Polite" ,"_NULL . . . -o . . . -am-t &gt; -an-t . . . -am" ,"_NULL + -o + -am-t &gt; -an-t + -am"],
-      ["Plural" ,"Person3" ,"Polite" ,"_NULL . . . -o . . . -am-t &gt; -an-t . . . -ookk" ,"_NULL + -o + -am-t &gt; -an-t + -ookk"],
-      ["Plural" ,"Person3" ,"Masc" ,"-V . . . -o . . . -t . . . -kk" ,"-V + -o + -t + -kk"],
-      ["Plural" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -o" ,"_NULL + -o + -t + -o"],
-      ["Plural" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -am" ,"_NULL + -o + -t + -am"],
-      ["Plural" ,"Person3" ,"Fem" ,"_NULL . . . -o . . . -t . . . -ookk" ,"_NULL + -o + -t + -ookk"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-V...-o..._NULL...-mm"],
+      ["Singular" ,"Person2" ,"Common" ,"-V...-o...-t...-tt"],
+      ["Singular" ,"Person3" ,"Polite" ,"-akk...-o..._NULL...-o"],
+      ["Singular" ,"Person3" ,"Polite" ,"-akk...-o..._NULL...-am"],
+      ["Singular" ,"Person3" ,"Polite" ,"-akk...-o..._NULL...-ookk"],
+      ["Singular" ,"Person3" ,"Masc" ,"-V...-o..._NULL...-kk"],
+      ["Singular" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-am"],
+      ["Singular" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-ookk"],
+      ["Plural" ,"Person1" ,"Common" ,"V...-o...-n...-mm"],
+      ["Plural" ,"Person2" ,"Common" ,"-akk...-o...-t...-o"],
+      ["Plural" ,"Person2" ,"Common" ,"-akk...-o...-t...-am"],
+      ["Plural" ,"Person2" ,"Common" ,"-akk...-o...-t...-ookk"],
+      ["Plural" ,"Person3" ,"Polite" ,"_NULL...-o...-am-t &gt; -an-t...-o"],
+      ["Plural" ,"Person3" ,"Polite" ,"_NULL...-o...-am-t &gt; -an-t...-am"],
+      ["Plural" ,"Person3" ,"Polite" ,"_NULL...-o...-am-t &gt; -an-t...-ookk"],
+      ["Plural" ,"Person3" ,"Masc" ,"-V...-o...-t...-kk"],
+      ["Plural" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-o"],
+      ["Plural" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-am"],
+      ["Plural" ,"Person3" ,"Fem" ,"_NULL...-o...-t...-ookk"]
     ]
   }
 ]}
